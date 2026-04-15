@@ -454,6 +454,57 @@
     .btn-dl-small:hover { background: rgba(124,58,237,0.35); }
     .btn-dl-small svg { width: 11px; height: 11px; stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 
+    /* Botão "Abrir no App" — deep link */
+    .btn-open-app {
+      flex: 1;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      background: rgba(61,158,114,0.15);
+      border: 1px solid rgba(61,158,114,0.3);
+      color: #3D9E72;
+      font-family: 'Syne', sans-serif;
+      font-size: 10.5px;
+      font-weight: 500;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      padding: 7px 0;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+
+    .btn-open-app:hover { background: rgba(61,158,114,0.28); }
+    .btn-open-app svg { width: 11px; height: 11px; stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+    /* Toast de feedback do deep link */
+    .deeplink-toast {
+      position: fixed;
+      bottom: 2rem;
+      left: 50%;
+      transform: translateX(-50%) translateY(20px);
+      background: #1e1e2e;
+      border: 1px solid rgba(167,139,250,0.25);
+      color: var(--white);
+      font-family: 'Syne', sans-serif;
+      font-size: 12px;
+      letter-spacing: 0.04em;
+      padding: 12px 22px;
+      border-radius: 999px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.25s, transform 0.25s;
+      z-index: 200;
+      white-space: nowrap;
+    }
+
+    .deeplink-toast.show {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+
     /* empty state */
     .empty-state {
       text-align: center;
@@ -810,6 +861,9 @@
     </div>
   </div>
 
+  <!-- Toast deep link -->
+  <div class="deeplink-toast" id="deeplink-toast"></div>
+
   <script>
 
     const CONFIG = {
@@ -919,6 +973,9 @@
           ? new Date(p.uploadedAt).toLocaleDateString('pt-BR', { day:'2-digit', month:'short', year:'numeric' })
           : '';
 
+        // Deep link para o app importar o perfil automaticamente
+        const deepLink = `finatobase://import?url=${encodeURIComponent(p.downloadUrl)}&nome=${encodeURIComponent(p.author)}`;
+
         const card = document.createElement('div');
         card.className = 'profile-card';
         card.dataset.search = `${p.author} ${p.description} ${(p.materias||[]).join(' ')}`.toLowerCase();
@@ -937,12 +994,44 @@
               <svg viewBox="0 0 24 24"><path d="M12 15V3"/><path d="M7 10l5 5 5-5"/><path d="M20 21H4"/></svg>
               Baixar
             </a>
+            <a class="btn-open-app" href="${deepLink}" onclick="handleOpenInApp(event, '${deepLink}')">
+              <svg viewBox="0 0 24 24"><path d="M12 18h.01"/><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/></svg>
+              Abrir no App
+            </a>
           </div>`;
         grid.appendChild(card);
       });
 
       container.innerHTML = '';
       container.appendChild(grid);
+    }
+
+    // Tenta abrir o deep link; se o app não estiver instalado, mostra instrução
+    function handleOpenInApp(e, deepLink) {
+      e.preventDefault();
+
+      // Tenta redirecionar para o deep link
+      window.location.href = deepLink;
+
+      // Após 1,4 s, se ainda estiver na página, assume que o app não abriu
+      const t = setTimeout(() => {
+        showToast('📲 Abra o FinatoBase e use "Importar → Na central" caso o app não tenha aberto automaticamente.');
+      }, 1400);
+
+      // Se a página ficar oculta (app abriu), cancela o toast
+      document.addEventListener('visibilitychange', function once() {
+        if (document.hidden) {
+          clearTimeout(t);
+          document.removeEventListener('visibilitychange', once);
+        }
+      });
+    }
+
+    function showToast(msg) {
+      const el = document.getElementById('deeplink-toast');
+      el.textContent = msg;
+      el.classList.add('show');
+      setTimeout(() => el.classList.remove('show'), 4500);
     }
 
     function filterProfiles() {
