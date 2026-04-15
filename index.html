@@ -800,7 +800,7 @@
 
       <div class="modal-actions">
         <button class="btn-cancel" onclick="closeModal()">Cancelar</button>
-        <button class="btn-send" id="btn-send" onclick="enviar()">
+        <button class="btn-send" id="btn-send" onclick="submitProfile()">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap: round; stroke-linejoin: round>
             <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/>
           </svg>
@@ -811,47 +811,20 @@
   </div>
 
   <script>
-    // ═══════════════════════════════════════════════
-    // ⚙️  CONFIGURAÇÃO — edite antes de publicar
-    // ═══════════════════════════════════════════════
+
     const CONFIG = {
-      // Seu usuário e repositório no GitHub
       owner: 'VictorFinatoSoares',
       repo:  'FinatoBase',
 
-      // Pasta onde os .json ficam no repositório
       profilesPath: 'perfis',
 
-      // Personal Access Token (repo scope)
-      // ⚠️  Nunca exponha tokens em produção!
-      // Use um proxy/backend ou GitHub Actions para receber uploads.
-      // Para testar localmente, cole aqui. Para produção, use um worker.
-      ghToken: 'AA',
+
+      ghToken: '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',
     };
     // ═══════════════════════════════════════════════
 
 
-
-  async function enviar() {
-    await fetch("https://api.github.com/repos/VictorFinatoSoares/FinatoBase/dispatches", {
-      method: "POST",
-      headers: {
-        Authorization: "Bearer SEU_TOKEN_AQUI"
-      },
-      body: JSON.stringify({
-        event_type: "upload-json",
-        client_payload: {
-          filename: "teste.json",
-          content: JSON.stringify({ nome: "Victor", score: 100 })
-        }
-      })
-    });
-
-    alert("foi");
-  }
-
-
-
+    
     let allProfiles = [];
     let selectedFile = null;
     let selectedFileContent = null;
