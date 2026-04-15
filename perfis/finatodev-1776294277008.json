@@ -1,0 +1,24 @@
+{
+  "id": "profile_1776212095214",
+  "nome": "IFSul ",
+  "arquivo": "ifsul_.json",
+  "materias": [],
+  "topicos": [],
+  "anotacoes": [],
+  "tarefas": [],
+  "notasRapidas": [],
+  "streak": {
+    "lastDate": "2026-04-15",
+    "count": 1
+  },
+  "conquistas": [],
+  "nextId": 1,
+  "anotacoesMinimizadas": {},
+  "arquivosMateria": {},
+  "_meta": {
+    "author": "@FinatoDev",
+    "description": "IFSul",
+    "uploadedAt": "2026-04-15T23:04:37.007Z",
+    "materias": []
+  }
+}
