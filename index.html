@@ -32,8 +32,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      overflow: hidden;
+      overflow-x: hidden;
       position: relative;
     }
 
@@ -61,16 +60,74 @@
       z-index: 0;
     }
 
-    .wrapper {
+    /* ── NAV TABS ── */
+    .nav-tabs {
+      position: relative;
+      z-index: 10;
+      display: flex;
+      gap: 4px;
+      margin: 2rem auto 0;
+      background: rgba(167,139,250,0.06);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 4px;
+      animation: fadeUp 0.6s cubic-bezier(0.22,1,0.36,1) both;
+    }
+
+    .nav-tab {
+      background: none;
+      border: none;
+      color: var(--muted);
+      font-family: 'Syne', sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 8px 20px;
+      border-radius: 7px;
+      cursor: pointer;
+      transition: background 0.18s, color 0.18s;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
+
+    .nav-tab.active {
+      background: rgba(167,139,250,0.15);
+      color: var(--purple-bright);
+    }
+
+    .nav-tab:hover:not(.active) {
+      color: var(--white);
+      background: rgba(167,139,250,0.07);
+    }
+
+    .nav-tab svg {
+      width: 13px; height: 13px;
+      stroke: currentColor; fill: none;
+      stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round;
+      flex-shrink: 0;
+    }
+
+    /* ── PAGES ── */
+    .page {
+      display: none;
       position: relative;
       z-index: 1;
+      width: 100%;
+      max-width: 700px;
+      padding: 0 2rem 5rem;
+    }
+
+    .page.active { display: block; }
+
+    /* ── HOME PAGE ── */
+    .wrapper {
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
-      padding: 2rem;
-      max-width: 700px;
-      width: 100%;
+      padding-top: 2.2rem;
       animation: fadeUp 0.85s cubic-bezier(0.22,1,0.36,1) both;
     }
 
@@ -92,7 +149,6 @@
       text-transform: uppercase;
       color: var(--purple);
       margin-bottom: 2.2rem;
-      animation: fadeUp 0.85s 0.1s cubic-bezier(0.22,1,0.36,1) both;
     }
 
     .badge-dot {
@@ -115,7 +171,6 @@
       letter-spacing: -0.02em;
       color: var(--white);
       margin-bottom: 0.35rem;
-      animation: fadeUp 0.85s 0.15s cubic-bezier(0.22,1,0.36,1) both;
     }
 
     .logo em {
@@ -130,17 +185,14 @@
       letter-spacing: 0.1em;
       text-transform: uppercase;
       margin-bottom: 3rem;
-      animation: fadeUp 0.85s 0.2s cubic-bezier(0.22,1,0.36,1) both;
     }
 
-    /* Feature cards */
     .features-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 12px;
       width: 100%;
       margin-bottom: 3rem;
-      animation: fadeUp 0.85s 0.27s cubic-bezier(0.22,1,0.36,1) both;
     }
 
     .feat {
@@ -169,23 +221,10 @@
 
     .feat-icon svg { width: 15px; height: 15px; stroke: var(--purple-bright); fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 
-    .feat-title {
-      font-size: 12.5px;
-      font-weight: 500;
-      color: var(--white);
-      letter-spacing: 0.02em;
-    }
+    .feat-title { font-size: 12.5px; font-weight: 500; color: var(--white); letter-spacing: 0.02em; }
+    .feat-desc { font-size: 11px; color: var(--muted); line-height: 1.55; font-weight: 300; }
 
-    .feat-desc {
-      font-size: 11px;
-      color: var(--muted);
-      line-height: 1.55;
-      font-weight: 300;
-    }
-
-    /* Download button */
     .btn-wrap {
-      animation: fadeUp 0.85s 0.35s cubic-bezier(0.22,1,0.36,1) both;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -228,17 +267,382 @@
       background: #8b5cf6;
     }
 
-    .btn-download:active {
-      transform: translateY(0) scale(0.985);
+    .btn-download:active { transform: translateY(0) scale(0.985); }
+    .btn-sub { font-size: 11px; color: var(--muted); letter-spacing: 0.06em; }
+
+    /* ── CENTRAL PAGE ── */
+    .central-header {
+      padding-top: 2.5rem;
+      margin-bottom: 2rem;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
     }
 
-    .btn-sub {
+    .central-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.6rem, 5vw, 2.4rem);
+      font-weight: 700;
+      line-height: 1.1;
+      color: var(--white);
+    }
+
+    .central-title em {
+      color: var(--purple-bright);
+      font-style: italic;
+      font-weight: 400;
+    }
+
+    .central-sub {
       font-size: 11px;
       color: var(--muted);
       letter-spacing: 0.06em;
+      margin-top: 4px;
     }
 
-    /* Corners */
+    .btn-upload {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(167,139,250,0.12);
+      border: 1px solid rgba(167,139,250,0.28);
+      color: var(--purple-bright);
+      font-family: 'Syne', sans-serif;
+      font-size: 11.5px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 10px 20px;
+      border-radius: 7px;
+      cursor: pointer;
+      transition: background 0.18s, border-color 0.18s;
+      white-space: nowrap;
+    }
+
+    .btn-upload:hover {
+      background: rgba(167,139,250,0.2);
+      border-color: rgba(167,139,250,0.45);
+    }
+
+    .btn-upload svg { width: 13px; height: 13px; stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+
+    /* search bar */
+    .search-bar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(167,139,250,0.05);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0 14px;
+      margin-bottom: 1.5rem;
+    }
+
+    .search-bar svg { width: 14px; height: 14px; stroke: var(--muted); fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; }
+
+    .search-bar input {
+      flex: 1;
+      background: none;
+      border: none;
+      outline: none;
+      color: var(--white);
+      font-family: 'Syne', sans-serif;
+      font-size: 12.5px;
+      padding: 12px 0;
+    }
+
+    .search-bar input::placeholder { color: var(--muted); }
+
+    /* profile cards grid */
+    .profiles-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 14px;
+    }
+
+    .profile-card {
+      background: rgba(167,139,250,0.05);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      transition: border-color 0.2s, background 0.2s, transform 0.18s;
+      cursor: default;
+    }
+
+    .profile-card:hover {
+      border-color: rgba(167,139,250,0.3);
+      background: rgba(167,139,250,0.09);
+      transform: translateY(-2px);
+    }
+
+    .profile-avatar {
+      width: 36px; height: 36px;
+      border-radius: 9px;
+      background: rgba(167,139,250,0.15);
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 15px;
+      color: var(--purple-bright);
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    .profile-name {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--white);
+      line-height: 1.3;
+      word-break: break-word;
+    }
+
+    .profile-meta {
+      font-size: 10.5px;
+      color: var(--muted);
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+
+    .profile-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+
+    .profile-tag {
+      background: rgba(167,139,250,0.1);
+      border: 1px solid rgba(167,139,250,0.18);
+      color: var(--purple);
+      font-size: 10px;
+      letter-spacing: 0.05em;
+      padding: 2px 8px;
+      border-radius: 999px;
+    }
+
+    .profile-actions {
+      display: flex;
+      gap: 8px;
+      margin-top: 2px;
+    }
+
+    .btn-dl-small {
+      flex: 1;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      background: rgba(124,58,237,0.2);
+      border: 1px solid rgba(167,139,250,0.25);
+      color: var(--purple-bright);
+      font-family: 'Syne', sans-serif;
+      font-size: 10.5px;
+      font-weight: 500;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      padding: 7px 0;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+
+    .btn-dl-small:hover { background: rgba(124,58,237,0.35); }
+    .btn-dl-small svg { width: 11px; height: 11px; stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+    /* empty state */
+    .empty-state {
+      text-align: center;
+      padding: 4rem 0;
+      color: var(--muted);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .empty-state svg { width: 40px; height: 40px; stroke: var(--muted); fill: none; stroke-width: 1.3; stroke-linecap: round; stroke-linejoin: round; opacity: 0.4; }
+    .empty-state p { font-size: 12px; letter-spacing: 0.05em; line-height: 1.6; }
+
+    /* loading state */
+    .loading-state {
+      text-align: center;
+      padding: 3rem 0;
+      color: var(--muted);
+      font-size: 12px;
+      letter-spacing: 0.05em;
+    }
+
+    .spinner {
+      width: 20px; height: 20px;
+      border: 2px solid rgba(167,139,250,0.15);
+      border-top-color: var(--purple);
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+      margin: 0 auto 12px;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── UPLOAD MODAL ── */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(10,8,18,0.82);
+      z-index: 100;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+      backdrop-filter: blur(4px);
+    }
+
+    .modal-overlay.open { display: flex; }
+
+    .modal {
+      background: #110e1f;
+      border: 1px solid rgba(167,139,250,0.2);
+      border-radius: 14px;
+      padding: 2rem;
+      width: 100%;
+      max-width: 440px;
+      animation: fadeUp 0.35s cubic-bezier(0.22,1,0.36,1) both;
+    }
+
+    .modal-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 0.3rem;
+    }
+
+    .modal-title em { color: var(--purple-bright); font-style: italic; font-weight: 400; }
+    .modal-sub { font-size: 11px; color: var(--muted); letter-spacing: 0.05em; margin-bottom: 1.8rem; }
+
+    .form-group { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.1rem; }
+    .form-label { font-size: 11px; color: var(--muted); letter-spacing: 0.08em; text-transform: uppercase; }
+
+    .form-input {
+      background: rgba(167,139,250,0.06);
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      color: var(--white);
+      font-family: 'Syne', sans-serif;
+      font-size: 13px;
+      padding: 10px 14px;
+      outline: none;
+      transition: border-color 0.18s;
+      width: 100%;
+    }
+
+    .form-input:focus { border-color: rgba(167,139,250,0.4); }
+    .form-input::placeholder { color: var(--muted); }
+
+    .drop-zone {
+      border: 1.5px dashed rgba(167,139,250,0.25);
+      border-radius: 10px;
+      padding: 2rem 1rem;
+      text-align: center;
+      cursor: pointer;
+      transition: border-color 0.2s, background 0.2s;
+      margin-bottom: 1.2rem;
+      position: relative;
+    }
+
+    .drop-zone:hover, .drop-zone.drag-over {
+      border-color: rgba(167,139,250,0.5);
+      background: rgba(167,139,250,0.06);
+    }
+
+    .drop-zone input[type="file"] {
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      cursor: pointer;
+      width: 100%;
+      height: 100%;
+    }
+
+    .drop-zone-icon { font-size: 28px; margin-bottom: 8px; }
+    .drop-zone-text { font-size: 12px; color: var(--muted); line-height: 1.5; }
+    .drop-zone-text strong { color: var(--purple); font-weight: 500; }
+    .drop-file-name { font-size: 11.5px; color: var(--purple-bright); margin-top: 8px; font-weight: 500; }
+
+    .modal-actions { display: flex; gap: 10px; margin-top: 0.5rem; }
+
+    .btn-cancel {
+      flex: 1;
+      background: none;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-family: 'Syne', sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      padding: 11px;
+      border-radius: 7px;
+      cursor: pointer;
+      transition: border-color 0.18s, color 0.18s;
+    }
+
+    .btn-cancel:hover { border-color: rgba(167,139,250,0.3); color: var(--white); }
+
+    .btn-send {
+      flex: 2;
+      background: var(--purple-mid);
+      border: none;
+      color: #fff;
+      font-family: 'Syne', sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      padding: 11px;
+      border-radius: 7px;
+      cursor: pointer;
+      transition: background 0.18s, transform 0.15s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .btn-send:hover { background: #8b5cf6; transform: translateY(-1px); }
+    .btn-send:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+
+    .status-msg {
+      font-size: 11.5px;
+      letter-spacing: 0.04em;
+      padding: 10px 14px;
+      border-radius: 7px;
+      margin-bottom: 1rem;
+      display: none;
+    }
+
+    .status-msg.error { background: rgba(220,38,38,0.12); border: 1px solid rgba(220,38,38,0.25); color: #fca5a5; display: block; }
+    .status-msg.success { background: rgba(52,211,153,0.1); border: 1px solid rgba(52,211,153,0.22); color: #6ee7b7; display: block; }
+
+    /* info box */
+    .info-box {
+      background: rgba(167,139,250,0.06);
+      border: 1px solid rgba(167,139,250,0.15);
+      border-radius: 8px;
+      padding: 12px 14px;
+      font-size: 11px;
+      color: var(--muted);
+      line-height: 1.65;
+      margin-bottom: 1.2rem;
+    }
+
+    .info-box a { color: var(--purple); text-decoration: underline; text-underline-offset: 2px; }
+
+    /* ── CORNERS ── */
     .corner {
       position: fixed;
       width: 44px; height: 44px;
@@ -250,22 +654,11 @@
     .corner--bl { bottom: 1.4rem; left: 1.4rem; border-bottom: 1px solid var(--purple); border-left: 1px solid var(--purple); }
     .corner--br { bottom: 1.4rem; right: 1.4rem; border-bottom: 1px solid var(--purple); border-right: 1px solid var(--purple); }
 
-    .footer {
-      position: fixed;
-      bottom: 1.4rem;
-      left: 0; right: 0;
-      text-align: center;
-      font-size: 10.5px;
-      color: var(--muted);
-      letter-spacing: 0.08em;
-      z-index: 2;
-    }
-
-    .footer span { color: var(--purple); }
-
     @media (max-width: 520px) {
       .features-grid { grid-template-columns: 1fr 1fr; }
       .btn-download { padding: 15px 30px; font-size: 12.5px; }
+      .profiles-grid { grid-template-columns: 1fr; }
+      .central-header { flex-direction: column; align-items: flex-start; }
     }
   </style>
 </head>
@@ -276,82 +669,455 @@
   <div class="corner corner--bl"></div>
   <div class="corner corner--br"></div>
 
-  <main class="wrapper">
+  <!-- NAV TABS -->
+  <nav class="nav-tabs">
+    <button class="nav-tab active" onclick="switchTab('home')">
+      <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      Início
+    </button>
+    <button class="nav-tab" onclick="switchTab('central')">
+      <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+      Central de Perfis
+    </button>
+  </nav>
 
-    <div class="badge">
-      <span class="badge-dot"></span>
-      Disponível para Android
+  <!-- HOME PAGE -->
+  <div id="page-home" class="page active">
+    <div class="wrapper">
+
+      <div class="badge">
+        <span class="badge-dot"></span>
+        Disponível para Android
+      </div>
+
+      <h1 class="logo">Finato <em>Base</em></h1>
+      <p class="tagline">Estrutura perfeita para seus estudos</p>
+
+      <div class="features-grid">
+        <div class="feat">
+          <div class="feat-icon"><svg viewBox="0 0 24 24"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></div>
+          <span class="feat-title">Anotações</span>
+          <span class="feat-desc">Registre tópicos, matérias e conteúdos de forma organizada.</span>
+        </div>
+        <div class="feat">
+          <div class="feat-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <span class="feat-title">Tarefas</span>
+          <span class="feat-desc">Gerencie o que estudar e acompanhe seu progresso diário.</span>
+        </div>
+        <div class="feat">
+          <div class="feat-icon"><svg viewBox="0 0 24 24"><path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9M13.73 21a2 2 0 01-3.46 0"/></svg></div>
+          <span class="feat-title">Notificações</span>
+          <span class="feat-desc">Alertas automáticos quando uma avaliação estiver se aproximando.</span>
+        </div>
+        <div class="feat">
+          <div class="feat-icon"><svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
+          <span class="feat-title">Matérias</span>
+          <span class="feat-desc">Organize por disciplinas, séries ou qualquer estrutura sua.</span>
+        </div>
+        <div class="feat">
+          <div class="feat-icon"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div>
+          <span class="feat-title">Resumo por IA</span>
+          <span class="feat-desc">Peça para a IA resumir qualquer conteúdo anotado na hora.</span>
+        </div>
+        <div class="feat">
+          <div class="feat-icon"><svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+          <span class="feat-title">Perfis</span>
+          <span class="feat-desc">Importe e exporte perfis .json. Seus dados ficam com você.</span>
+        </div>
+      </div>
+
+      <div class="btn-wrap">
+        <a class="btn-download" href="finato-base.apk" download>
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 15V3"/><path d="M7 10l5 5 5-5"/><path d="M20 21H4"/>
+          </svg>
+          Baixe Agora
+        </a>
+        <span class="btn-sub">Android · Gratuito · Projeto Solo</span>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- CENTRAL DE PERFIS PAGE -->
+  <div id="page-central" class="page">
+
+    <div class="central-header">
+      <div>
+        <h2 class="central-title">Central de <em>Perfis</em></h2>
+        <p class="central-sub">Perfis compartilhados pela comunidade · baixe e importe no app</p>
+      </div>
+      <button class="btn-upload" onclick="openModal()">
+        <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+        Enviar Perfil
+      </button>
     </div>
 
-    <h1 class="logo">Finato <em>Base</em></h1>
-    <p class="tagline">Estrutura perfeita para seus estudos</p>
-
-    <div class="features-grid">
-
-      <div class="feat">
-        <div class="feat-icon">
-          <svg viewBox="0 0 24 24"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
-        </div>
-        <span class="feat-title">Anotações</span>
-        <span class="feat-desc">Registre tópicos, matérias e conteúdos de forma organizada.</span>
-      </div>
-
-      <div class="feat">
-        <div class="feat-icon">
-          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg>
-        </div>
-        <span class="feat-title">Tarefas</span>
-        <span class="feat-desc">Gerencie o que estudar e acompanhe seu progresso diário.</span>
-      </div>
-
-      <div class="feat">
-        <div class="feat-icon">
-          <svg viewBox="0 0 24 24"><path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9M13.73 21a2 2 0 01-3.46 0"/></svg>
-        </div>
-        <span class="feat-title">Notificações</span>
-        <span class="feat-desc">Alertas automáticos quando uma avaliação estiver se aproximando.</span>
-      </div>
-
-      <div class="feat">
-        <div class="feat-icon">
-          <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-        </div>
-        <span class="feat-title">Matérias</span>
-        <span class="feat-desc">Organize por disciplinas, séries ou qualquer estrutura sua.</span>
-      </div>
-
-      <div class="feat">
-        <div class="feat-icon">
-          <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
-        </div>
-        <span class="feat-title">Resumo por IA</span>
-        <span class="feat-desc">Peça para a IA resumir qualquer conteúdo anotado na hora.</span>
-      </div>
-
-      <div class="feat">
-        <div class="feat-icon">
-          <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
-        </div>
-        <span class="feat-title">Perfis</span>
-        <span class="feat-desc">Importe e exporte perfis .json. Seus dados ficam com você.</span>
-      </div>
-
+    <div class="search-bar">
+      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+      <input type="text" id="search-input" placeholder="Buscar por nome ou matéria…" oninput="filterProfiles()" />
     </div>
 
-    <div class="btn-wrap">
-      <a class="btn-download" href="finato-base.apk" download>
-        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M12 15V3"/><path d="M7 10l5 5 5-5"/><path d="M20 21H4"/>
-        </svg>
-        Baixe Agora
-      </a>
-      <span class="btn-sub">Android · Gratuito · Projeto Solo</span>
+    <div id="profiles-container">
+      <div class="loading-state">
+        <div class="spinner"></div>
+        Carregando perfis…
+      </div>
     </div>
 
-  </main>
+  </div>
 
-  <footer class="footer">
-  </footer>
+  <!-- UPLOAD MODAL -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal">
+      <h3 class="modal-title">Enviar <em>Perfil</em></h3>
+      <p class="modal-sub">Compartilhe suas anotações com a comunidade</p>
+
+      <div class="info-box">
+        O arquivo será enviado para o repositório via GitHub API e ficará disponível para download na central.
+        Certifique-se que o arquivo foi exportado diretamente pelo <strong>Finato Base</strong>.
+      </div>
+
+      <div id="status-msg" class="status-msg"></div>
+
+      <div class="form-group">
+        <label class="form-label">Seu nome / apelido</label>
+        <input type="text" class="form-input" id="input-author" placeholder="Ex: Lucas, @ludev…" maxlength="40" />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Descrição breve (opcional)</label>
+        <input type="text" class="form-input" id="input-desc" placeholder="Ex: Notas de Ensino Médio — Exatas" maxlength="80" />
+      </div>
+
+      <label class="form-label" style="margin-bottom: 8px; display: block;">Arquivo .json</label>
+      <div class="drop-zone" id="drop-zone">
+        <input type="file" id="file-input" accept=".json" onchange="handleFile(event)" />
+        <div class="drop-zone-icon">📂</div>
+        <div class="drop-zone-text"><strong>Clique</strong> para selecionar ou arraste aqui</div>
+        <div class="drop-file-name" id="file-name-display"></div>
+      </div>
+
+      <div class="modal-actions">
+        <button class="btn-cancel" onclick="closeModal()">Cancelar</button>
+        <button class="btn-send" id="btn-send" onclick="enviar()">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap: round; stroke-linejoin: round>
+            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/>
+          </svg>
+          Enviar
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // ═══════════════════════════════════════════════
+    // ⚙️  CONFIGURAÇÃO — edite antes de publicar
+    // ═══════════════════════════════════════════════
+    const CONFIG = {
+      // Seu usuário e repositório no GitHub
+      owner: 'VictorFinatoSoares',
+      repo:  'FinatoBase',
+
+      // Pasta onde os .json ficam no repositório
+      profilesPath: 'perfis',
+
+      // Personal Access Token (repo scope)
+      // ⚠️  Nunca exponha tokens em produção!
+      // Use um proxy/backend ou GitHub Actions para receber uploads.
+      // Para testar localmente, cole aqui. Para produção, use um worker.
+      ghToken: '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',
+    };
+    // ═══════════════════════════════════════════════
+
+
+
+  async function enviar() {
+    await fetch("https://api.github.com/repos/VictorFinatoSoares/FinatoBase/dispatches", {
+      method: "POST",
+      headers: {
+        Authorization: "Bearer SEU_TOKEN_AQUI"
+      },
+      body: JSON.stringify({
+        event_type: "upload-json",
+        client_payload: {
+          filename: "teste.json",
+          content: JSON.stringify({ nome: "Victor", score: 100 })
+        }
+      })
+    });
+
+    alert("foi");
+  }
+
+
+
+    let allProfiles = [];
+    let selectedFile = null;
+    let selectedFileContent = null;
+
+    // ── Tab switching ──
+    function switchTab(tab) {
+      document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+      document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+      document.getElementById('page-' + tab).classList.add('active');
+      event.currentTarget.classList.add('active');
+      if (tab === 'central') loadProfiles();
+    }
+
+    // ── Load profiles from GitHub API ──
+    async function loadProfiles() {
+      const container = document.getElementById('profiles-container');
+      container.innerHTML = '<div class="loading-state"><div class="spinner"></div>Carregando perfis…</div>';
+
+      try {
+        const url = `https://api.github.com/repos/${CONFIG.owner}/${CONFIG.repo}/contents/${CONFIG.profilesPath}`;
+        const res = await fetch(url, {
+          headers: {
+            'Accept': 'application/vnd.github+json',
+            ...(CONFIG.ghToken && CONFIG.ghToken !== 'ghp_COLOQUE_SEU_TOKEN_AQUI'
+              ? { 'Authorization': `Bearer ${CONFIG.ghToken}` }
+              : {})
+          }
+        });
+
+        if (!res.ok) {
+          if (res.status === 404) {
+            allProfiles = [];
+            renderProfiles([]);
+            return;
+          }
+          throw new Error(`GitHub API: ${res.status}`);
+        }
+
+        const files = await res.json();
+        const jsonFiles = files.filter(f => f.name.endsWith('.json'));
+
+        // Fetch each file to get metadata
+        const promises = jsonFiles.map(async f => {
+          try {
+            const r = await fetch(f.download_url);
+            const data = await r.json();
+            return {
+              name: f.name,
+              downloadUrl: f.download_url,
+              htmlUrl: f.html_url,
+              size: f.size,
+              author: data._meta?.author || data.author || f.name.replace('.json',''),
+              description: data._meta?.description || data.description || '',
+              materias: data._meta?.materias || data.materias || [],
+              uploadedAt: data._meta?.uploadedAt || null,
+            };
+          } catch {
+            return {
+              name: f.name,
+              downloadUrl: f.download_url,
+              htmlUrl: f.html_url,
+              size: f.size,
+              author: f.name.replace('.json',''),
+              description: '',
+              materias: [],
+              uploadedAt: null,
+            };
+          }
+        });
+
+        allProfiles = await Promise.all(promises);
+        renderProfiles(allProfiles);
+
+      } catch (err) {
+        container.innerHTML = `
+          <div class="empty-state">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+            <p>Não foi possível carregar os perfis.<br><span style="font-size:10px;opacity:.6">${err.message}</span></p>
+          </div>`;
+      }
+    }
+
+    function renderProfiles(profiles) {
+      const container = document.getElementById('profiles-container');
+      if (!profiles.length) {
+        container.innerHTML = `
+          <div class="empty-state">
+            <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+            <p>Nenhum perfil compartilhado ainda.<br>Seja o primeiro a enviar o seu!</p>
+          </div>`;
+        return;
+      }
+
+      const grid = document.createElement('div');
+      grid.className = 'profiles-grid';
+
+      profiles.forEach(p => {
+        const initials = (p.author || '?').slice(0, 2).toUpperCase();
+        const tagsHtml = (p.materias || []).slice(0, 3).map(m =>
+          `<span class="profile-tag">${m}</span>`
+        ).join('');
+        const sizeKb = (p.size / 1024).toFixed(1);
+        const date = p.uploadedAt
+          ? new Date(p.uploadedAt).toLocaleDateString('pt-BR', { day:'2-digit', month:'short', year:'numeric' })
+          : '';
+
+        const card = document.createElement('div');
+        card.className = 'profile-card';
+        card.dataset.search = `${p.author} ${p.description} ${(p.materias||[]).join(' ')}`.toLowerCase();
+        card.innerHTML = `
+          <div style="display:flex;align-items:center;gap:10px;">
+            <div class="profile-avatar">${initials}</div>
+            <div class="profile-name">${escHtml(p.author)}</div>
+          </div>
+          ${p.description ? `<div style="font-size:11px;color:var(--muted);line-height:1.5;">${escHtml(p.description)}</div>` : ''}
+          ${tagsHtml ? `<div class="profile-tags">${tagsHtml}</div>` : ''}
+          <div class="profile-meta">
+            <span>${sizeKb} KB${date ? ' · ' + date : ''}</span>
+          </div>
+          <div class="profile-actions">
+            <a class="btn-dl-small" href="${p.downloadUrl}" download="${p.name}">
+              <svg viewBox="0 0 24 24"><path d="M12 15V3"/><path d="M7 10l5 5 5-5"/><path d="M20 21H4"/></svg>
+              Baixar
+            </a>
+          </div>`;
+        grid.appendChild(card);
+      });
+
+      container.innerHTML = '';
+      container.appendChild(grid);
+    }
+
+    function filterProfiles() {
+      const q = document.getElementById('search-input').value.toLowerCase();
+      const cards = document.querySelectorAll('.profile-card');
+      let visible = 0;
+      cards.forEach(c => {
+        const match = c.dataset.search.includes(q);
+        c.style.display = match ? '' : 'none';
+        if (match) visible++;
+      });
+    }
+
+    function escHtml(s) {
+      return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+
+    // ── Modal ──
+    function openModal() {
+      document.getElementById('modal-overlay').classList.add('open');
+      document.getElementById('status-msg').className = 'status-msg';
+      document.getElementById('status-msg').textContent = '';
+    }
+
+    function closeModal() {
+      document.getElementById('modal-overlay').classList.remove('open');
+      selectedFile = null;
+      selectedFileContent = null;
+      document.getElementById('file-name-display').textContent = '';
+      document.getElementById('file-input').value = '';
+      document.getElementById('input-author').value = '';
+      document.getElementById('input-desc').value = '';
+    }
+
+    // ── File handling ──
+    function handleFile(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+      if (!file.name.endsWith('.json')) {
+        showStatus('error', 'Selecione um arquivo .json válido.');
+        return;
+      }
+      selectedFile = file;
+      document.getElementById('file-name-display').textContent = file.name;
+      const reader = new FileReader();
+      reader.onload = ev => { selectedFileContent = ev.target.result; };
+      reader.readAsText(file);
+    }
+
+    // Drag & drop
+    const dz = document.getElementById('drop-zone');
+    dz.addEventListener('dragover', e => { e.preventDefault(); dz.classList.add('drag-over'); });
+    dz.addEventListener('dragleave', () => dz.classList.remove('drag-over'));
+    dz.addEventListener('drop', e => {
+      e.preventDefault();
+      dz.classList.remove('drag-over');
+      const file = e.dataTransfer.files[0];
+      if (file) {
+        const fakeEvt = { target: { files: [file] } };
+        handleFile(fakeEvt);
+      }
+    });
+
+    // ── Submit profile to GitHub ──
+    async function submitProfile() {
+      const author = document.getElementById('input-author').value.trim();
+      const desc   = document.getElementById('input-desc').value.trim();
+
+      if (!author) { showStatus('error', 'Preencha seu nome ou apelido.'); return; }
+      if (!selectedFile || !selectedFileContent) { showStatus('error', 'Selecione um arquivo .json.'); return; }
+
+      // Inject metadata into json
+      let parsed;
+      try { parsed = JSON.parse(selectedFileContent); }
+      catch { showStatus('error', 'Arquivo JSON inválido ou corrompido.'); return; }
+
+      parsed._meta = {
+        author,
+        description: desc,
+        uploadedAt: new Date().toISOString(),
+        materias: parsed._meta?.materias || parsed.materias || [],
+      };
+
+      const content = btoa(unescape(encodeURIComponent(JSON.stringify(parsed, null, 2))));
+      const filename = `${slugify(author)}-${Date.now()}.json`;
+      const path = `${CONFIG.profilesPath}/${filename}`;
+      const apiUrl = `https://api.github.com/repos/${CONFIG.owner}/${CONFIG.repo}/contents/${path}`;
+
+      const btn = document.getElementById('btn-send');
+      btn.disabled = true;
+      btn.textContent = 'Enviando…';
+
+      try {
+        const res = await fetch(apiUrl, {
+          method: 'PUT',
+          headers: {
+            'Accept': 'application/vnd.github+json',
+            'Authorization': `Bearer ${CONFIG.ghToken}`,
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            message: `feat: perfil de ${author}`,
+            content,
+          }),
+        });
+
+        if (res.status === 201) {
+          showStatus('success', '✓ Perfil enviado com sucesso! Ele aparecerá na central em instantes.');
+          setTimeout(() => { closeModal(); loadProfiles(); }, 2200);
+        } else {
+          const err = await res.json();
+          throw new Error(err.message || `Status ${res.status}`);
+        }
+      } catch (e) {
+        showStatus('error', `Erro ao enviar: ${e.message}`);
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg> Enviar`;
+      }
+    }
+
+    function showStatus(type, msg) {
+      const el = document.getElementById('status-msg');
+      el.className = 'status-msg ' + type;
+      el.textContent = msg;
+    }
+
+    function slugify(s) {
+      return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+    }
+
+    // Close modal on overlay click
+    document.getElementById('modal-overlay').addEventListener('click', e => {
+      if (e.target === document.getElementById('modal-overlay')) closeModal();
+    });
+  </script>
 
 </body>
 </html>

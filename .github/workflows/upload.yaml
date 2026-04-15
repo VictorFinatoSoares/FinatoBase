@@ -1,0 +1,28 @@
+name: Upload JSON
+
+on:
+  repository_dispatch:
+    types: [upload-json]
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v3
+
+      - name: Criar arquivo JSON
+        run: |
+          mkdir -p perfis
+          echo '${{ github.event.client_payload.content }}' > perfis/${{ github.event.client_payload.filename }}
+
+      - name: Commit e push
+        env:
+          TOKEN: ${{ secrets.APIKEY }}
+        run: |
+          git config user.name "bot"
+          git config user.email "bot@example.com"
+          git add .
+          git commit -m "novo json" || echo "nada pra commitar"
+          git push https://x-access-token:${TOKEN}@github.com/VictorFinatoSoares/FinatoBase.git
