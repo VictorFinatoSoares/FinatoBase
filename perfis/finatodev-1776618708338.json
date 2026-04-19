@@ -1,0 +1,396 @@
+{
+  "id": "profile_1776358419584",
+  "nome": "IFSul | Instituto Federal Sul-Rio-Grandense",
+  "arquivo": "ifsul__instituto_federal_sulriograndense.json",
+  "materias": [
+    {
+      "id": "1776358374886",
+      "nome": "Algoritmos e Lógica de Programação",
+      "cor": "#5B6EF5"
+    },
+    {
+      "id": "1776358374887",
+      "nome": "Física",
+      "cor": "#D4613A"
+    },
+    {
+      "id": "1776358374888",
+      "nome": "Português",
+      "cor": "#7A6E5F"
+    },
+    {
+      "id": "1776358374889",
+      "nome": "Artes",
+      "cor": "#C0487A"
+    },
+    {
+      "id": "1776358605776",
+      "nome": "Química",
+      "cor": "#1E8FA8"
+    },
+    {
+      "id": "1776358605777",
+      "nome": "Iniciação Acadêmica",
+      "cor": "#3D8C5E"
+    },
+    {
+      "id": "1776358605778",
+      "nome": "Educação Física",
+      "cor": "#3D5A8A"
+    },
+    {
+      "id": "1776358605779",
+      "nome": "Língua Inglesa",
+      "cor": "#5B6EF5"
+    },
+    {
+      "id": "1776358605780",
+      "nome": "Matemática",
+      "cor": "#7A6E5F"
+    },
+    {
+      "id": "1776358605781",
+      "nome": "Filosofia",
+      "cor": "#C0487A"
+    },
+    {
+      "id": "1776358605782",
+      "nome": "História",
+      "cor": "#D4613A"
+    },
+    {
+      "id": "1776358605783",
+      "nome": "Espanhol",
+      "cor": "#8B4CA8"
+    }
+  ],
+  "topicos": [
+    {
+      "id": "1776358605784",
+      "materiaId": "1776358374886",
+      "nome": "Conceitos Básicos",
+      "cor": "#5B6EF5",
+      "destacado": false
+    },
+    {
+      "id": "1776358605785",
+      "materiaId": "1776358374886",
+      "nome": "Algoritmos",
+      "cor": "#5B6EF5",
+      "destacado": false
+    },
+    {
+      "id": "1776358605786",
+      "materiaId": "1776358374886",
+      "nome": "Programação Java",
+      "cor": "#5B6EF5",
+      "destacado": false
+    },
+    {
+      "id": "1776358605803",
+      "materiaId": "1776358374886",
+      "nome": "Exercícios",
+      "cor": "#5B6EF5",
+      "destacado": false
+    },
+    {
+      "id": "1776358605805",
+      "materiaId": "1776358374887",
+      "nome": "Aceleração",
+      "cor": "#D4613A",
+      "destacado": false
+    },
+    {
+      "id": "1776358605807",
+      "materiaId": "1776358374887",
+      "nome": "Distância Média",
+      "cor": "#D4613A",
+      "destacado": false
+    },
+    {
+      "id": "1776358605809",
+      "materiaId": "1776358374887",
+      "nome": "Tipos de Movimento",
+      "cor": "#D4613A",
+      "destacado": false
+    },
+    {
+      "id": "1776361386098",
+      "materiaId": "1776358374888",
+      "nome": "Crônica",
+      "cor": "#7A6E5F",
+      "destacado": false
+    },
+    {
+      "id": "1776361386100",
+      "materiaId": "1776358374888",
+      "nome": "Carta Pessoal",
+      "cor": "#7A6E5F",
+      "destacado": false
+    },
+    {
+      "id": "1776361386102",
+      "materiaId": "1776358374888",
+      "nome": "Gêneros Textuais",
+      "cor": "#7A6E5F",
+      "destacado": false
+    },
+    {
+      "id": "1776361386103",
+      "materiaId": "1776358605780",
+      "nome": "Conjuntos Numéricos",
+      "cor": "#7A6E5F",
+      "destacado": false
+    },
+    {
+      "id": "1776361386105",
+      "materiaId": "1776358605780",
+      "nome": "Funções",
+      "cor": "#7A6E5F",
+      "destacado": false
+    },
+    {
+      "id": "1776361386106",
+      "materiaId": "1776358605780",
+      "nome": "Produto Cartesiano",
+      "cor": "#7A6E5F",
+      "destacado": false
+    },
+    {
+      "id": "1776430992919",
+      "materiaId": "1776358374889",
+      "nome": "Cubismo",
+      "cor": "#C0487A",
+      "destacado": false
+    },
+    {
+      "id": "1776438477894",
+      "materiaId": "1776358605780",
+      "nome": "Lógica",
+      "cor": "#7A6E5F",
+      "destacado": false
+    }
+  ],
+  "anotacoes": [
+    {
+      "id": "1776358605787",
+      "topicoId": "1776358605784",
+      "titulo": "Arquitetura de Von Neumann",
+      "texto": "",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605788",
+      "topicoId": "1776358605784",
+      "titulo": "Instruções",
+      "texto": "",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605789",
+      "topicoId": "1776358605784",
+      "titulo": "Linguagem de Alto Nível x Linguagem de Máquina",
+      "texto": "",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605790",
+      "topicoId": "1776358605784",
+      "titulo": "Processo de Tradução (Interpretação e Compilação)",
+      "texto": "",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605791",
+      "topicoId": "1776358605784",
+      "titulo": "Linguagem Java",
+      "texto": "",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605792",
+      "topicoId": "1776358605785",
+      "titulo": "O que são?",
+      "texto": "",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605793",
+      "topicoId": "1776358605785",
+      "titulo": "Formas de Representação",
+      "texto": "",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605794",
+      "topicoId": "1776358605785",
+      "titulo": "Narração",
+      "texto": "",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605795",
+      "topicoId": "1776358605785",
+      "titulo": "Fluxograma",
+      "texto": "",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605796",
+      "topicoId": "1776358605785",
+      "titulo": "Pseudocódigo",
+      "texto": "",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605797",
+      "topicoId": "1776358605786",
+      "titulo": "Começo",
+      "texto": "",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605798",
+      "topicoId": "1776358605786",
+      "titulo": "Variáveis e Constantes",
+      "texto": "",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605799",
+      "topicoId": "1776358605786",
+      "titulo": "Leitura do Teclado",
+      "texto": "",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605800",
+      "topicoId": "1776358605786",
+      "titulo": "If/Else",
+      "texto": "",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605801",
+      "topicoId": "1776358605786",
+      "titulo": "For",
+      "texto": "",
+      "arquivos": []
+    }
+  ],
+  "tarefas": [
+    {
+      "id": "1776419134796",
+      "texto": "Prova Prática",
+      "prazoCompleto": "2026-04-27T07:30:00",
+      "materiaId": "1776358374886",
+      "prioridade": "alta",
+      "feita": false
+    },
+    {
+      "id": "1776430992916",
+      "texto": "Tema de Física",
+      "prazoCompleto": "2026-04-27T07:30:00",
+      "materiaId": "1776358374887",
+      "prioridade": "alta",
+      "feita": false
+    },
+    {
+      "id": "1776430992917",
+      "texto": "Prova OBA",
+      "prazoCompleto": "2026-05-15T15:00:00",
+      "materiaId": "1776358374887",
+      "prioridade": "media",
+      "feita": false
+    },
+    {
+      "id": "1776430992918",
+      "texto": "Prova",
+      "prazoCompleto": "2026-05-26T10:45:00",
+      "materiaId": "1776358605776",
+      "prioridade": "alta",
+      "feita": false
+    }
+  ],
+  "notasRapidas": [],
+  "streak": {
+    "lastDate": "2026-04-19",
+    "count": 1
+  },
+  "conquistas": [
+    "primeiro_topico",
+    "cinco_topicos"
+  ],
+  "nextId": 1,
+  "anotacoesMinimizadas": {
+    "1776358605802": true
+  },
+  "arquivosMateria": {},
+  "_meta": {
+    "author": "@FinatoDev",
+    "description": "IFSUL",
+    "uploadedAt": "2026-04-19T17:11:48.329Z",
+    "materias": [
+      {
+        "id": "1776358374886",
+        "nome": "Algoritmos e Lógica de Programação",
+        "cor": "#5B6EF5"
+      },
+      {
+        "id": "1776358374887",
+        "nome": "Física",
+        "cor": "#D4613A"
+      },
+      {
+        "id": "1776358374888",
+        "nome": "Português",
+        "cor": "#7A6E5F"
+      },
+      {
+        "id": "1776358374889",
+        "nome": "Artes",
+        "cor": "#C0487A"
+      },
+      {
+        "id": "1776358605776",
+        "nome": "Química",
+        "cor": "#1E8FA8"
+      },
+      {
+        "id": "1776358605777",
+        "nome": "Iniciação Acadêmica",
+        "cor": "#3D8C5E"
+      },
+      {
+        "id": "1776358605778",
+        "nome": "Educação Física",
+        "cor": "#3D5A8A"
+      },
+      {
+        "id": "1776358605779",
+        "nome": "Língua Inglesa",
+        "cor": "#5B6EF5"
+      },
+      {
+        "id": "1776358605780",
+        "nome": "Matemática",
+        "cor": "#7A6E5F"
+      },
+      {
+        "id": "1776358605781",
+        "nome": "Filosofia",
+        "cor": "#C0487A"
+      },
+      {
+        "id": "1776358605782",
+        "nome": "História",
+        "cor": "#D4613A"
+      },
+      {
+        "id": "1776358605783",
+        "nome": "Espanhol",
+        "cor": "#8B4CA8"
+      }
+    ]
+  }
+}
