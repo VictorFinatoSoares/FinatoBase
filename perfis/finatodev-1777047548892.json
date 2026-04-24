@@ -1,0 +1,443 @@
+{
+  "id": "profile_1776358419584",
+  "nome": "IFSul | Instituto Federal Sul-Rio-Grandense",
+  "arquivo": "ifsul__instituto_federal_sulriograndense.json",
+  "materias": [
+    {
+      "id": "1776358374886",
+      "nome": "Algoritmos e Lógica de Programação",
+      "cor": "#5B6EF5"
+    },
+    {
+      "id": "1776358374887",
+      "nome": "Física",
+      "cor": "#D4613A"
+    },
+    {
+      "id": "1776358374888",
+      "nome": "Português",
+      "cor": "#7A6E5F"
+    },
+    {
+      "id": "1776358374889",
+      "nome": "Artes",
+      "cor": "#C0487A"
+    },
+    {
+      "id": "1776358605776",
+      "nome": "Química",
+      "cor": "#1E8FA8"
+    },
+    {
+      "id": "1776358605777",
+      "nome": "Iniciação Acadêmica",
+      "cor": "#3D8C5E"
+    },
+    {
+      "id": "1776358605778",
+      "nome": "Educação Física",
+      "cor": "#3D5A8A"
+    },
+    {
+      "id": "1776358605779",
+      "nome": "Língua Inglesa",
+      "cor": "#5B6EF5"
+    },
+    {
+      "id": "1776358605780",
+      "nome": "Matemática",
+      "cor": "#7A6E5F"
+    },
+    {
+      "id": "1776358605781",
+      "nome": "Filosofia",
+      "cor": "#C0487A"
+    },
+    {
+      "id": "1776358605782",
+      "nome": "História",
+      "cor": "#D4613A"
+    },
+    {
+      "id": "1776358605783",
+      "nome": "Espanhol",
+      "cor": "#8B4CA8"
+    }
+  ],
+  "topicos": [
+    {
+      "id": "1776358605784",
+      "materiaId": "1776358374886",
+      "nome": "Conceitos Básicos",
+      "cor": "#5B6EF5",
+      "destacado": false
+    },
+    {
+      "id": "1776358605785",
+      "materiaId": "1776358374886",
+      "nome": "Algoritmos",
+      "cor": "#5B6EF5",
+      "destacado": false
+    },
+    {
+      "id": "1776358605786",
+      "materiaId": "1776358374886",
+      "nome": "Programação Java",
+      "cor": "#5B6EF5",
+      "destacado": false
+    },
+    {
+      "id": "1776358605805",
+      "materiaId": "1776358374887",
+      "nome": "Aceleração",
+      "cor": "#D4613A",
+      "destacado": false
+    },
+    {
+      "id": "1776358605807",
+      "materiaId": "1776358374887",
+      "nome": "Distância Média",
+      "cor": "#D4613A",
+      "destacado": false
+    },
+    {
+      "id": "1776358605809",
+      "materiaId": "1776358374887",
+      "nome": "Tipos de Movimento",
+      "cor": "#D4613A",
+      "destacado": false
+    },
+    {
+      "id": "1776361386098",
+      "materiaId": "1776358374888",
+      "nome": "Crônica",
+      "cor": "#7A6E5F",
+      "destacado": false
+    },
+    {
+      "id": "1776361386100",
+      "materiaId": "1776358374888",
+      "nome": "Carta Pessoal",
+      "cor": "#7A6E5F",
+      "destacado": false
+    },
+    {
+      "id": "1776361386102",
+      "materiaId": "1776358374888",
+      "nome": "Gêneros Textuais",
+      "cor": "#7A6E5F",
+      "destacado": false
+    },
+    {
+      "id": "1776361386103",
+      "materiaId": "1776358605780",
+      "nome": "Conjuntos Numéricos",
+      "cor": "#7A6E5F",
+      "destacado": false
+    },
+    {
+      "id": "1776361386105",
+      "materiaId": "1776358605780",
+      "nome": "Funções",
+      "cor": "#7A6E5F",
+      "destacado": false
+    },
+    {
+      "id": "1776361386106",
+      "materiaId": "1776358605780",
+      "nome": "Produto Cartesiano",
+      "cor": "#7A6E5F",
+      "destacado": false
+    },
+    {
+      "id": "1776430992919",
+      "materiaId": "1776358374889",
+      "nome": "Cubismo",
+      "cor": "#C0487A",
+      "destacado": false
+    },
+    {
+      "id": "1776438477894",
+      "materiaId": "1776358605780",
+      "nome": "Lógica",
+      "cor": "#7A6E5F",
+      "destacado": false
+    },
+    {
+      "id": "1776731210811",
+      "materiaId": "1776358374886",
+      "nome": "IDE",
+      "cor": "#5B6EF5",
+      "destacado": false
+    },
+    {
+      "id": "1776731210812",
+      "materiaId": "1776358374886",
+      "nome": "Exercícios",
+      "cor": "#5B6EF5",
+      "destacado": false
+    }
+  ],
+  "anotacoes": [
+    {
+      "id": "1776358605787",
+      "topicoId": "1776358605784",
+      "titulo": "Arquitetura de Von Neumann",
+      "texto": "Muitos computadores ainda usam a arquitetura de Von Neumann.\n\nEla foi proposta na década de 40.\n\nComposta basicamente por 3 subsistemas: CPU, RAM e Unidades de Entrada/Saída.\n\nA arquitetura recebe a entrada  que é processada pela CPU (Unidade de Controle e Unidade Lógica/Aritmética) que troca informações com a memória (RAM) até ir para o dispositivo de saída.\n\nUnidade de Controle: Identifica e decodifica instruções acionando a unidade responsável por sua execução.\n\nUnidade Lógica e Aritmética: Executa operações lógicas  e aritméticas.\n\nMemória Principal (RAM - Random Acess Memory): Armazena o programa e seus respectivos dados. O programa e os dados devem estar na RAM durante sua execução.\n\nUnidade de Entrada:  Transfere informações externas à máquina para a RAM.  Ex: Mouse, Teclado, Webcam etc.\n\nUnidade de Saída:  Exibe informações guardadas na RAM através de um meio que seja legível por seres humanos. (Monitor de vídeo, caixa de som, impressora etc).\n\n\n\n\n\n",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605788",
+      "topicoId": "1776358605784",
+      "titulo": "Instruções",
+      "texto": "O que são instruções?\n\nInstruções  ou comandos é uma regra que indica ao computador quais dados a serem operados e qual operação será realizada. Ex: 7-5=\n\nA CPU então realiza alguns passos para que a instrução seja corretamente efetuada.\n\nEtapas de processamento:\n\nA Unidade de Controle busca a instrução na memória\n\nA Unidade de Controle decodifica a instrução, definindo as posições de memória necessárias para sua execução\n\nA Unidade de Controle transfere os dados para a Unidade Aritmética e Lógica\n\nA Unidade Aritmética e Lógica executa as operações sobre os dados e o resultado é armazenado na memória\n",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605789",
+      "topicoId": "1776358605784",
+      "titulo": "Linguagem de Alto Nível x Linguagem de Máquina",
+      "texto": "Podemos, então, passar para a máquina o conjunto de instruções que desejamos que sejam executadas\nPorém, a máquina não entende a nossa linguagem\nEntão, como passamos estas instruções para a máquina?\n\nLinguagem de Máquina (Baixo Nível): É o tipo mais primitivo de linguagem, é o que a máquina entende (0 e 1)\n\nLinguagem de Programação (Alto Nível): Tipo de linguagem criada para facilitar a comunicação com a máquina. Deve ser traduzida em linguagem de máquina.\n\n",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605790",
+      "topicoId": "1776358605784",
+      "titulo": "Processo de Tradução (Interpretação e Compilação)",
+      "texto": "Processo de Tradução: Existem diversas linguagens de programação de alto nível. Por exemplo: C, C++, Java, Pascal, Delphi, etc.\nOs programas de computador são, então, escritos utilizando uma linguagem de programação de alto nível (na qual um código ou programa fonte é criado) e são traduzidos para a linguagem de máquina\nOs 2 principais processos que traduzem programas escritos em uma linguagem de alto nível para a linguagem de máquina são interpretação e compilação\n\nInterpretação: Um interpretador é um programa que recebe como entrada um arquivo contendo um programa fonte\n\nO interpretador lê linha a linha este arquivo de entrada, e executa uma a uma as instruções que estão nele programadas\n\nUm programa pode ser executado em qualquer máquina, desde que haja o interpretador disponível para utilização\nPorém, pode-se perceber que a execução de um programa que utiliza um interpretador é relativamente lenta, pois a cada nova linha lida no programa fonte, esta deve ser decodificada antes de ser executada\nSe houver algum erro de no código (que vá contra as definições da linguagem), o programa será interrompido abruptamente com um erro\n\nCompilação: Um compilador é um programa (ou um conjunto de programas) que recebe como entrada um programa fonte e cria um novo arquivo como saída\n\nO arquivo de entrada é o código fonte escrito pelo programador\n\nO arquivo que o compilador produz, é normalmente identificado como código objeto\n\nEste código objeto contém instruções de baixo nível, traduzidas para a linguagem de máquina\n\nO código produzido não é compatível para qualquer arquitetura.\n\nDiferentes compiladores são feitos para diferentes arquiteturas de processadores (diferentes famílias de processadores possuem diferentes conjuntos de instruções)\n\nO compilador somente gera o código objeto caso não tenha encontrado erro de compilação.",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605791",
+      "topicoId": "1776358605784",
+      "titulo": "Linguagem Java",
+      "texto": "Java é uma linguagem compilada\nO compilador Java, entretanto, não gera código para um processador específico, mas sim para uma máquina virtual Java (a JVM - Java Virtual Machine)\n\nOs programas escritos em Java são, portanto, portáveis sobre todos os computadores para os quais existir uma implementação da JVM\n\nDesta forma, Java possui tanto beneficios característicos das linguagens compiladas uma vez que o programa não corre de ser abortado durante a execução por um erro de sintaxe.\n\nQuando das linguagens interpretadas: uma vez que  executa sobre uma máquina virtual (JVM) que tem comportamento semelhante a um interpretador.",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605792",
+      "topicoId": "1776358605785",
+      "titulo": "O que são?",
+      "texto": "Um algoritmo é uma sequência finita de passos lógicos e ordenados que descrevem como resolver um problema ou executar uma tarefa. Pense nele como uma receita: você segue as instruções na ordem certa e, ao final, obtém o resultado esperado. Todo algoritmo precisa ter um início e um fim definidos, e cada passo deve ser claro o suficiente para ser executado sem ambiguidade. Eles estão presentes no nosso dia a dia — desde seguir um roteiro para trocar um pneu até os sistemas que recomendam músicas no seu celular.",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605793",
+      "topicoId": "1776358605785",
+      "titulo": "Formas de Representação",
+      "texto": "Existem 3 formas principais para representar um algoritmo.",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605794",
+      "topicoId": "1776358605785",
+      "titulo": "Narração",
+      "texto": "Narração (Descrição em Linguagem Natural)\nÉ a forma mais simples: o algoritmo é escrito em linguagem cotidiana, como um texto explicativo. A vantagem é que qualquer pessoa consegue entender, sem precisar de conhecimento técnico. A desvantagem é que a linguagem natural pode gerar ambiguidades — uma mesma frase pode ser interpretada de formas diferentes. Por isso, essa forma é usada mais para esboços iniciais ou explicações informais.\nExemplo: \"Pergunte ao usuário dois números. Some os dois. Mostre o resultado.\"",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605795",
+      "topicoId": "1776358605785",
+      "titulo": "Fluxograma",
+      "texto": "Pseudocódigo\nO pseudocódigo é uma representação intermediária entre a linguagem natural e uma linguagem de programação real. Ele usa uma estrutura mais rígida e padronizada, com comandos como se, enquanto, leia e escreva, mas sem seguir a sintaxe exata de nenhuma linguagem específica. É muito usado no aprendizado de lógica de programação porque facilita a transição para o código real.\nExemplo:O fluxograma é uma representação visual do algoritmo, usando figuras geométricas conectadas por setas para indicar o fluxo de execução. Cada forma tem um significado: o oval indica início ou fim, o retângulo representa um processo ou ação, o losango representa uma decisão (sim/não), e o paralelogramo indica entrada ou saída de dados. É ótimo para visualizar a lógica, especialmente em algoritmos com muitas condições e desvios.\n\nINÍCIO\n  LEIA numero1\n  LEIA numero2\n  soma ← numero1 + numero2\n  ESCREVA soma\nFIM",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605796",
+      "topicoId": "1776358605785",
+      "titulo": "Pseudocódigo",
+      "texto": "",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605797",
+      "topicoId": "1776358605786",
+      "titulo": "Começo",
+      "texto": "ESTRUTURA INICIAL\n\nTodo programa Java segue essa estrutura:\n\npackage meuprojeto;\n\npublic class MeuPrograma {\n    public static void main(String[] args) {\n        System.out.println(\"Olá, Mundo!\");\n    }\n}\n\n🔹 package → organiza suas classes em \"pastas\". Sempre na primeira linha. Escrito em minúsculas.\n\n🔹 public class → todo código vive dentro de uma classe. O nome da classe DEVE ser igual ao nome do arquivo .java.\n\n🔹 public static void main(String[] args) → ponto de entrada do programa.\n   • public = JVM consegue acessar\n   • static = chamado sem criar objeto\n   • void = não retorna valor\n   • main = nome obrigatório\n\n🔹 Ponto e vírgula ( ; ) → toda instrução termina com ;. Blocos (if, for, while) NÃO usam ; depois das chaves.\n\n🔹 Chaves { } → delimitam blocos. Sempre em pares. Use indentação para organizar.\n\n🔹 Comentários:\n// Uma linha\n/* Múltiplas linhas */\n/** Javadoc */\n",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605798",
+      "topicoId": "1776358605786",
+      "titulo": "Variáveis e Constantes",
+      "texto": "VARIÁVEIS E CONSTANTES\n\nSintaxe: tipo nomeDaVariavel = valor;\n\nint idade = 20;\ndouble salario = 3500.50;\nString nome = \"Maria\";\nboolean aprovado = true;\n\n🔹 TIPOS PRIMITIVOS:\n• int      → número inteiro        ex: 42\n• double   → número decimal        ex: 3.14\n• float    → decimal menor         ex: 3.14f  (precisa do f!)\n• long     → inteiro grande        ex: 9999L  (precisa do L!)\n• boolean  → true ou false\n• char     → um caractere          ex: 'A'\n• byte     → inteiro −128 a 127\n• short    → inteiro médio\n\n🔹 String → classe (não primitivo), texto entre aspas duplas.\nString cidade = \"São Paulo\";\nString frase = \"Olá, \" + cidade; // concatenação com +\n\n🔹 camelCase → padrão de nomenclatura Java:\nnomeCompleto ✅   nome_completo ❌   NomeCompleto ❌ (isso é PascalCase, pra classes)\n\nRegras:\n• Não começa com número\n• Sem espaços ou acentos\n• Não use palavras reservadas (int, class, for...)\n\n🔹 CONSTANTES → use final + MAIÚSCULAS:\nfinal double PI = 3.14159;\nfinal int MAX_TENTATIVAS = 3;\n\n🔹 SAÍDA NO CONSOLE:\nSystem.out.println() → imprime e pula linha\nSystem.out.print()   → imprime na mesma linha\nSystem.out.printf(\"Nome: %s, Idade: %d%n\", nome, idade)\n   %s=String  %d=inteiro  %f=decimal  %n=nova linha  %.2f=2 casas\n\n🔹 CASTING:\nint i = 10;\ndouble d = i;       // implícito (widening) ✅\ndouble d2 = 9.99;\nint i2 = (int) d2;  // explícito (narrowing) → vira 9, parte decimal é CORTADA\n",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605799",
+      "topicoId": "1776358605786",
+      "titulo": "Leitura do Teclado",
+      "texto": "LEITURA DO TECLADO — SCANNER\n\nImport obrigatório (antes da classe):\nimport java.util.Scanner;\n\nCriar o Scanner:\nScanner sc = new Scanner(System.in);\n\nMÉTODOS:\n• sc.nextInt()      → lê inteiro\n• sc.nextDouble()   → lê decimal\n• sc.nextLong()     → lê inteiro grande\n• sc.next()         → lê uma palavra\n• sc.nextLine()     → lê linha inteira (com espaços)\n• sc.nextBoolean()  → lê true/false\n\nEXEMPLO COMPLETO:\nScanner sc = new Scanner(System.in);\nSystem.out.print(\"Seu nome: \");\nString nome = sc.nextLine();\nSystem.out.print(\"Sua idade: \");\nint idade = sc.nextInt();\nSystem.out.printf(\"Olá, %s! Você tem %d anos.%n\", nome, idade);\nsc.close(); // boa prática fechar ao final\n\n⚠ PROBLEMA CLÁSSICO: nextLine() após nextInt()\nDepois de nextInt() ou nextDouble(), o Enter fica no buffer.\nSolução: adicione sc.nextLine(); extra entre eles:\n\nint idade = sc.nextInt();\nsc.nextLine(); // limpa o buffer\nString nome = sc.nextLine(); // agora funciona!\n",
+      "arquivos": []
+    },
+    {
+      "id": "1776725697835",
+      "topicoId": "1776358605786",
+      "titulo": "Estruturas Condicionais",
+      "texto": "CONDIÇÕES\n\n🔹 if simples:\nif (nota >= 60) {\n    System.out.println(\"Aprovado!\");\n}\n\n🔹 if / else:\nif (nota >= 60) {\n    System.out.println(\"Aprovado!\");\n} else {\n    System.out.println(\"Reprovado!\");\n}\n\n🔹 if / else if / else:\nif (nota >= 90) {\n    System.out.println(\"Excelente!\");\n} else if (nota >= 70) {\n    System.out.println(\"Bom!\");\n} else if (nota >= 60) {\n    System.out.println(\"Aprovado!\");\n} else {\n    System.out.println(\"Reprovado!\");\n}\n\n🔹 OPERADORES DE COMPARAÇÃO:\n==   igual a\n!=   diferente de\n>    maior que\n<    menor que\n>=   maior ou igual\n<=   menor ou igual\n\n⚠ Para Strings, use .equals():\nif (nome.equals(\"Java\")) { ... } ✅\nif (nome == \"Java\") { ... }      ❌\n\n🔹 OPERADORES LÓGICOS:\n&&  → E (ambas verdadeiras)   ex: idade >= 18 && temCNH\n||  → OU (uma verdadeira)     ex: nota >= 60 || faltas <= 25\n!   → NÃO (inverte)          ex: !aprovado\n\n🔹 OPERADOR TERNÁRIO:\nString resultado = (nota >= 60) ? \"Aprovado\" : \"Reprovado\";\n\n🔹 SWITCH / CASE:\nswitch (dia) {\n    case 1:\n        System.out.println(\"Segunda\");\n        break; // obrigatório! sem break ocorre fall-through\n    case 2:\n        System.out.println(\"Terça\");\n        break;\n    default:\n        System.out.println(\"Outro dia\");\n}\n",
+      "arquivos": []
+    },
+    {
+      "id": "1776731210810",
+      "topicoId": "1776358605786",
+      "titulo": "Estruturas de Repetição",
+      "texto": "LOOPS\n\n🔹 FOR — quando você sabe quantas vezes repetir:\nfor (int i = 0; i < 5; i++) {\n    System.out.println(i); // 0,1,2,3,4\n}\n\nANATOMIA:\n• int i = 0   → inicialização (roda 1x)\n• i < 5       → condição (verificada antes de cada rodada)\n• i++         → incremento (roda após cada rodada)\n\nVariações:\nfor (int i = 10; i >= 1; i--)    // contagem regressiva\nfor (int i = 0; i <= 10; i += 2) // de 2 em 2\n\n🔹 FOR-EACH — percorrer arrays:\nint[] numeros = {10, 20, 30, 40};\nfor (int num : numeros) {\n    System.out.println(num);\n}\n\n🔹 WHILE — quando não sabe quantas vezes repetir:\nint i = 1;\nwhile (i <= 5) {\n    System.out.println(i);\n    i++; // ESSENCIAL: sem isso = loop infinito!\n}\n\n🔹 DO-WHILE — executa pelo menos uma vez:\nint numero;\ndo {\n    System.out.print(\"Digite número positivo: \");\n    numero = sc.nextInt();\n} while (numero <= 0); // ← ponto e vírgula aqui!\n\n🔹 BREAK e CONTINUE:\nbreak    → para o loop completamente\ncontinue → pula a iteração atual e vai para a próxima\n\nExemplo continue (só ímpares):\nfor (int i = 1; i <= 10; i++) {\n    if (i % 2 == 0) continue;\n    System.out.print(i + \" \"); // 1 3 5 7 9\n}\n\n🔹 FOR vs WHILE:\nUse FOR   → quando sabe quantas repetições / tem contador\nUse WHILE → quando depende de input ou evento externo",
+      "arquivos": []
+    },
+    {
+      "id": "1776851405005",
+      "topicoId": "1776731210811",
+      "titulo": "Eclipse",
+      "texto": "",
+      "arquivos": []
+    },
+    {
+      "id": "1776851405006",
+      "topicoId": "1776731210811",
+      "titulo": "VSCode",
+      "texto": "",
+      "arquivos": []
+    },
+    {
+      "id": "1776851405007",
+      "topicoId": "1776731210811",
+      "titulo": "Intellj IDEA",
+      "texto": "",
+      "arquivos": []
+    },
+    {
+      "id": "1776851405008",
+      "topicoId": "1776731210811",
+      "titulo": "Pycharm",
+      "texto": "",
+      "arquivos": []
+    }
+  ],
+  "tarefas": [
+    {
+      "id": "1776419134796",
+      "texto": "Prova Prática",
+      "prazoCompleto": "2026-04-27T07:30:00",
+      "materiaId": "1776358374886",
+      "prioridade": "alta",
+      "feita": false
+    },
+    {
+      "id": "1776430992916",
+      "texto": "Tema de Física",
+      "prazoCompleto": "2026-04-27T07:30:00",
+      "materiaId": "1776358374887",
+      "prioridade": "alta",
+      "feita": false
+    },
+    {
+      "id": "1776430992917",
+      "texto": "Prova OBA",
+      "prazoCompleto": "2026-05-15T15:00:00",
+      "materiaId": "1776358374887",
+      "prioridade": "media",
+      "feita": false
+    },
+    {
+      "id": "1776430992918",
+      "texto": "Prova",
+      "prazoCompleto": "2026-05-26T10:45:00",
+      "materiaId": "1776358605776",
+      "prioridade": "alta",
+      "feita": false
+    }
+  ],
+  "notasRapidas": [],
+  "streak": {
+    "lastDate": "2026-04-24",
+    "count": 6
+  },
+  "conquistas": [
+    "primeiro_topico",
+    "cinco_topicos",
+    "streak_3"
+  ],
+  "nextId": 1,
+  "anotacoesMinimizadas": {
+    "1776358605802": true,
+    "1776358605787": true,
+    "1776358605789": false,
+    "1776358605788": true,
+    "1776358605790": true,
+    "1776358605791": false,
+    "1776358605800": false,
+    "1776725697835": true,
+    "1776358605799": true,
+    "1776358605797": true,
+    "1776358605798": true,
+    "1776731210810": false
+  },
+  "arquivosMateria": {},
+  "_meta": {
+    "author": "@FinatoDev",
+    "description": "IFSul",
+    "uploadedAt": "2026-04-24T16:19:08.884Z",
+    "materias": [
+      {
+        "id": "1776358374886",
+        "nome": "Algoritmos e Lógica de Programação",
+        "cor": "#5B6EF5"
+      },
+      {
+        "id": "1776358374887",
+        "nome": "Física",
+        "cor": "#D4613A"
+      },
+      {
+        "id": "1776358374888",
+        "nome": "Português",
+        "cor": "#7A6E5F"
+      },
+      {
+        "id": "1776358374889",
+        "nome": "Artes",
+        "cor": "#C0487A"
+      },
+      {
+        "id": "1776358605776",
+        "nome": "Química",
+        "cor": "#1E8FA8"
+      },
+      {
+        "id": "1776358605777",
+        "nome": "Iniciação Acadêmica",
+        "cor": "#3D8C5E"
+      },
+      {
+        "id": "1776358605778",
+        "nome": "Educação Física",
+        "cor": "#3D5A8A"
+      },
+      {
+        "id": "1776358605779",
+        "nome": "Língua Inglesa",
+        "cor": "#5B6EF5"
+      },
+      {
+        "id": "1776358605780",
+        "nome": "Matemática",
+        "cor": "#7A6E5F"
+      },
+      {
+        "id": "1776358605781",
+        "nome": "Filosofia",
+        "cor": "#C0487A"
+      },
+      {
+        "id": "1776358605782",
+        "nome": "História",
+        "cor": "#D4613A"
+      },
+      {
+        "id": "1776358605783",
+        "nome": "Espanhol",
+        "cor": "#8B4CA8"
+      }
+    ]
+  }
+}
