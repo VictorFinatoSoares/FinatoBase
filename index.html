@@ -447,11 +447,12 @@
       padding: 7px 0;
       border-radius: 6px;
       cursor: pointer;
-      text-decoration: none;
-      transition: background 0.15s;
+      border: 1px solid rgba(167,139,250,0.25);
+      transition: background 0.15s, opacity 0.15s;
     }
 
     .btn-dl-small:hover { background: rgba(124,58,237,0.35); }
+    .btn-dl-small:disabled { opacity: 0.5; cursor: not-allowed; }
     .btn-dl-small svg { width: 11px; height: 11px; stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 
     /* Botão "Abrir no App" — deep link */
@@ -479,7 +480,7 @@
     .btn-open-app:hover { background: rgba(61,158,114,0.28); }
     .btn-open-app svg { width: 11px; height: 11px; stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 
-    /* Toast de feedback do deep link */
+    /* Toast de feedback */
     .deeplink-toast {
       position: fixed;
       bottom: 2rem;
@@ -722,11 +723,11 @@
 
   <!-- NAV TABS -->
   <nav class="nav-tabs">
-    <button class="nav-tab active" onclick="switchTab('home')">
+    <button class="nav-tab active" onclick="switchTab('home', this)">
       <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
       Início
     </button>
-    <button class="nav-tab" onclick="switchTab('central')">
+    <button class="nav-tab" onclick="switchTab('central', this)">
       <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
       Central de Perfis
     </button>
@@ -852,7 +853,7 @@
       <div class="modal-actions">
         <button class="btn-cancel" onclick="closeModal()">Cancelar</button>
         <button class="btn-send" id="btn-send" onclick="submitProfile()">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap: round; stroke-linejoin: round>
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/>
           </svg>
           Enviar
@@ -867,27 +868,23 @@
   <script>
 
     const CONFIG = {
-      // URL do seu Cloudflare Worker (ajuste após fazer o deploy)
       workerUrl: 'https://finatobase.victor-finattosoares.workers.dev',
     };
-    // ═══════════════════════════════════════════════
 
-
-    
     let allProfiles = [];
     let selectedFile = null;
     let selectedFileContent = null;
 
     // ── Tab switching ──
-    function switchTab(tab) {
+    function switchTab(tab, btn) {
       document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
       document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
       document.getElementById('page-' + tab).classList.add('active');
-      event.currentTarget.classList.add('active');
+      btn.classList.add('active');
       if (tab === 'central') loadProfiles();
     }
 
-    // ── Load profiles from GitHub API ──
+    // ── Load profiles from Worker ──
     async function loadProfiles() {
       const container = document.getElementById('profiles-container');
       container.innerHTML = '<div class="loading-state"><div class="spinner"></div>Carregando perfis…</div>';
@@ -908,7 +905,6 @@
         const files = await res.json();
         const jsonFiles = files.filter(f => f.name.endsWith('.json'));
 
-        // Fetch each file to get metadata
         const promises = jsonFiles.map(async f => {
           try {
             const r = await fetch(f.download_url);
@@ -966,14 +962,13 @@
       profiles.forEach(p => {
         const initials = (p.author || '?').slice(0, 2).toUpperCase();
         const tagsHtml = (p.materias || []).slice(0, 3).map(m =>
-          `<span class="profile-tag">${m}</span>`
+          `<span class="profile-tag">${escHtml(m)}</span>`
         ).join('');
         const sizeKb = (p.size / 1024).toFixed(1);
         const date = p.uploadedAt
           ? new Date(p.uploadedAt).toLocaleDateString('pt-BR', { day:'2-digit', month:'short', year:'numeric' })
           : '';
 
-        // Deep link para o app importar o perfil automaticamente
         const deepLink = `finatobase://import?url=${encodeURIComponent(p.downloadUrl)}&nome=${encodeURIComponent(p.author)}`;
 
         const card = document.createElement('div');
@@ -990,10 +985,13 @@
             <span>${sizeKb} KB${date ? ' · ' + date : ''}</span>
           </div>
           <div class="profile-actions">
-            <a class="btn-dl-small" href="${p.downloadUrl}" download="${p.name}">
+            <button
+              class="btn-dl-small"
+              onclick="downloadProfile(this, '${escAttr(p.downloadUrl)}', '${escAttr(p.name)}')"
+            >
               <svg viewBox="0 0 24 24"><path d="M12 15V3"/><path d="M7 10l5 5 5-5"/><path d="M20 21H4"/></svg>
               Baixar
-            </a>
+            </button>
             <a class="btn-open-app" href="${deepLink}" onclick="handleOpenInApp(event, '${deepLink}')">
               <svg viewBox="0 0 24 24"><path d="M12 18h.01"/><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/></svg>
               Abrir no App
@@ -1006,19 +1004,52 @@
       container.appendChild(grid);
     }
 
-    // Tenta abrir o deep link; se o app não estiver instalado, mostra instrução
+    // ─────────────────────────────────────────────────────────────
+    // CORREÇÃO PRINCIPAL: download via Blob para evitar o problema
+    // de origem cruzada que faz o browser exibir o JSON ao invés
+    // de baixá-lo quando o atributo `download` é usado em links
+    // cross-origin.
+    // ─────────────────────────────────────────────────────────────
+    async function downloadProfile(btn, url, filename) {
+      const originalHtml = btn.innerHTML;
+      btn.disabled = true;
+      btn.innerHTML = `<span style="font-size:10px;letter-spacing:.05em;">Baixando…</span>`;
+
+      try {
+        const res = await fetch(url);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+        const blob = await res.blob();
+        const blobUrl = URL.createObjectURL(blob);
+
+        const a = document.createElement('a');
+        a.href = blobUrl;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+
+        // Libera a URL temporária após um instante
+        setTimeout(() => URL.revokeObjectURL(blobUrl), 1000);
+
+        showToast('✓ Download iniciado!');
+      } catch (err) {
+        showToast('Erro ao baixar: ' + err.message);
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = originalHtml;
+      }
+    }
+
+    // Tenta abrir o deep link; mostra instrução se o app não abrir
     function handleOpenInApp(e, deepLink) {
       e.preventDefault();
-
-      // Tenta redirecionar para o deep link
       window.location.href = deepLink;
 
-      // Após 1,4 s, se ainda estiver na página, assume que o app não abriu
       const t = setTimeout(() => {
         showToast('📲 Abra o FinatoBase e use "Importar → Na central" caso o app não tenha aberto automaticamente.');
       }, 1400);
 
-      // Se a página ficar oculta (app abriu), cancela o toast
       document.addEventListener('visibilitychange', function once() {
         if (document.hidden) {
           clearTimeout(t);
@@ -1037,16 +1068,22 @@
     function filterProfiles() {
       const q = document.getElementById('search-input').value.toLowerCase();
       const cards = document.querySelectorAll('.profile-card');
-      let visible = 0;
       cards.forEach(c => {
-        const match = c.dataset.search.includes(q);
-        c.style.display = match ? '' : 'none';
-        if (match) visible++;
+        c.style.display = c.dataset.search.includes(q) ? '' : 'none';
       });
     }
 
     function escHtml(s) {
-      return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+      return String(s)
+        .replace(/&/g,'&amp;')
+        .replace(/</g,'&lt;')
+        .replace(/>/g,'&gt;')
+        .replace(/"/g,'&quot;');
+    }
+
+    // Escapa aspas simples para uso seguro em atributos onclick
+    function escAttr(s) {
+      return String(s).replace(/'/g, "\\'");
     }
 
     // ── Modal ──
@@ -1089,13 +1126,10 @@
       e.preventDefault();
       dz.classList.remove('drag-over');
       const file = e.dataTransfer.files[0];
-      if (file) {
-        const fakeEvt = { target: { files: [file] } };
-        handleFile(fakeEvt);
-      }
+      if (file) handleFile({ target: { files: [file] } });
     });
 
-    // ── Submit profile to GitHub ──
+    // ── Submit profile ──
     async function submitProfile() {
       const author = document.getElementById('input-author').value.trim();
       const desc   = document.getElementById('input-desc').value.trim();
@@ -1103,7 +1137,6 @@
       if (!author) { showStatus('error', 'Preencha seu nome ou apelido.'); return; }
       if (!selectedFile || !selectedFileContent) { showStatus('error', 'Selecione um arquivo .json.'); return; }
 
-      // Inject metadata into json
       let parsed;
       try { parsed = JSON.parse(selectedFileContent); }
       catch { showStatus('error', 'Arquivo JSON inválido ou corrompido.'); return; }
@@ -1158,7 +1191,6 @@
       return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
     }
 
-    // Close modal on overlay click
     document.getElementById('modal-overlay').addEventListener('click', e => {
       if (e.target === document.getElementById('modal-overlay')) closeModal();
     });
