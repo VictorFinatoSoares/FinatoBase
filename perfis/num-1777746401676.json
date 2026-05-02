@@ -1,0 +1,81 @@
+{
+  "id": "profile_1776825734118",
+  "nome": "FinatoDev | The Prodigy ",
+  "arquivo": "finatodev__the_prodigy_.json",
+  "materias": [
+    {
+      "id": "1776825718048",
+      "nome": "Godot Helpers",
+      "cor": "#5B6EF5"
+    },
+    {
+      "id": "1776825718051",
+      "nome": "Informações",
+      "cor": "#5B6EF5"
+    }
+  ],
+  "topicos": [
+    {
+      "id": "1776825718049",
+      "materiaId": "1776825718048",
+      "nome": "Lembrar para Sempre",
+      "cor": "#5B6EF5",
+      "destacado": false
+    },
+    {
+      "id": "1777398133622",
+      "materiaId": "1776825718051",
+      "nome": "Utilitários",
+      "cor": "#5B6EF5",
+      "destacado": false
+    }
+  ],
+  "anotacoes": [
+    {
+      "id": "1776825718050",
+      "topicoId": "1776825718049",
+      "titulo": "Godot",
+      "texto": "1. A ordem das variáveis no globals.save() e globals.load_data() tem que ser iguais\n\n2. Se o player atravessa a plataforma do tilemap horizontalmente por causa do one way collision, defina o one way collision margin para 100\n\n3. Se uma parte do tilemap não é selecionável ou desenhavel, aumente de 1 em 1 o valor de *tamanho sa região \" nas configurações do tileset\n\n4. O characterbody2d tem uma propriedade chamada moving platform que pode definir se ao pular de uma plataforma móvel, o jogador pode ou não acumular força de pulo",
+      "arquivos": []
+    },
+    {
+      "id": "1777398133623",
+      "topicoId": "1777398133622",
+      "titulo": "Lista de Compras",
+      "texto": "",
+      "arquivos": []
+    }
+  ],
+  "tarefas": [],
+  "notasRapidas": [],
+  "streak": {
+    "lastDate": "2026-05-02",
+    "count": 1
+  },
+  "conquistas": [
+    "primeiro_topico",
+    "streak_3"
+  ],
+  "nextId": 1,
+  "anotacoesMinimizadas": {
+    "1777048157723": true
+  },
+  "arquivosMateria": {},
+  "_meta": {
+    "author": "@num",
+    "description": "",
+    "uploadedAt": "2026-05-02T18:26:41.676Z",
+    "materias": [
+      {
+        "id": "1776825718048",
+        "nome": "Godot Helpers",
+        "cor": "#5B6EF5"
+      },
+      {
+        "id": "1776825718051",
+        "nome": "Informações",
+        "cor": "#5B6EF5"
+      }
+    ]
+  }
+}
