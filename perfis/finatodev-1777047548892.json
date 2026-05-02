@@ -347,7 +347,13 @@
       "feita": false
     }
   ],
-  "notasRapidas": [],
+  "notasRapidas": [
+    {
+      "id": "1777746639693",
+      "texto": "eu editei isso usando adm",
+      "data": "2026-05-02"
+    }
+  ],
   "streak": {
     "lastDate": "2026-04-24",
     "count": 6
