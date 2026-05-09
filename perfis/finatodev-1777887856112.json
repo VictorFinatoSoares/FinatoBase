@@ -331,23 +331,55 @@
       "feita": false
     },
     {
-      "id": "1777298588932",
-      "texto": "Trabalho avaliativo",
-      "prazoCompleto": "2026-05-04T10:45:00",
-      "materiaId": "1776358374887",
-      "prioridade": "alta",
-      "feita": false
-    },
-    {
       "id": "1777562209099",
       "texto": "Avaliação",
       "prazoCompleto": "2026-05-14T07:30:00",
       "materiaId": "1776358605779",
       "prioridade": "alta",
       "feita": false
+    },
+    {
+      "id": "1778341457092",
+      "texto": "Projeto no Scratch (HAHAHAH)",
+      "feita": false,
+      "prazoCompleto": "2026-05-18T10:45:00",
+      "prioridade": "alta",
+      "materiaId": "1776358374887"
+    },
+    {
+      "id": "1778341457093",
+      "texto": "Apresentar Desenvolvimento do Portfólio",
+      "feita": false,
+      "prazoCompleto": "2026-05-12T08:15:00",
+      "prioridade": "alta",
+      "materiaId": "1776358605777"
+    },
+    {
+      "id": "1778341457094",
+      "texto": "Tarefa Avaliativa (Entregar)",
+      "feita": false,
+      "prazoCompleto": "2026-05-15T10:45:00",
+      "prioridade": "alta",
+      "materiaId": "1776358605783"
     }
   ],
-  "notasRapidas": [],
+  "notasRapidas": [
+    {
+      "id": "1778341457098",
+      "texto": "Reforçar Inglês e Português",
+      "data": "2026-05-09"
+    },
+    {
+      "id": "1778341457097",
+      "texto": "Estudar conteúdos de química",
+      "data": "2026-05-09"
+    },
+    {
+      "id": "1778341457095",
+      "texto": "Estudar conteúdos de matemática",
+      "data": "2026-05-09"
+    }
+  ],
   "streak": {
     "lastDate": "2026-05-04",
     "count": 3
@@ -373,6 +405,48 @@
     "1776731210810": false
   },
   "arquivosMateria": {},
+  "_log": [
+    {
+      "msg": "Salvo pelo administrador",
+      "ts": "2026-05-09T23:28:00.891Z",
+      "color": "var(--green)"
+    },
+    {
+      "msg": "Nota rápida adicionada",
+      "ts": "2026-05-09T23:27:57.698Z",
+      "color": "var(--text2)"
+    },
+    {
+      "msg": "Nota rápida adicionada",
+      "ts": "2026-05-09T23:27:48.435Z",
+      "color": "var(--text2)"
+    },
+    {
+      "msg": "Nota rápida adicionada",
+      "ts": "2026-05-09T23:27:34.344Z",
+      "color": "var(--text2)"
+    },
+    {
+      "msg": "Nota rápida adicionada",
+      "ts": "2026-05-09T23:27:28.109Z",
+      "color": "var(--text2)"
+    },
+    {
+      "msg": "Tarefa \"Tarefa Avaliativa (Entregar)\" adicionada",
+      "ts": "2026-05-09T23:25:48.198Z",
+      "color": "var(--green)"
+    },
+    {
+      "msg": "Tarefa \"Apresentar Desenvolvimento do Portfólio\" adicionada",
+      "ts": "2026-05-09T23:12:17.300Z",
+      "color": "var(--green)"
+    },
+    {
+      "msg": "Tarefa \"Projeto no Scratch (HAHAHAH)\" adicionada",
+      "ts": "2026-05-09T23:09:14.891Z",
+      "color": "var(--green)"
+    }
+  ],
   "_meta": {
     "author": "@FinatoDev",
     "description": "IFSul",
