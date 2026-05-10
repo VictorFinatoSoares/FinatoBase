@@ -1006,6 +1006,11 @@
   "_log": [
     {
       "msg": "Salvo pelo administrador",
+      "ts": "2026-05-10T03:57:57.547Z",
+      "color": "var(--green)"
+    },
+    {
+      "msg": "Salvo pelo administrador",
       "ts": "2026-05-10T03:50:52.336Z",
       "color": "var(--green)"
     },
@@ -1247,11 +1252,6 @@
     {
       "msg": "Nota rápida adicionada",
       "ts": "2026-05-09T23:27:34.344Z",
-      "color": "var(--text2)"
-    },
-    {
-      "msg": "Nota rápida adicionada",
-      "ts": "2026-05-09T23:27:28.109Z",
       "color": "var(--text2)"
     }
   ],
