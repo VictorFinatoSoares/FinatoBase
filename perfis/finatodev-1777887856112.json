@@ -176,6 +176,12 @@
       "nome": "Exercícios",
       "cor": "#5B6EF5",
       "destacado": false
+    },
+    {
+      "id": "1778372431424",
+      "nome": "Coesão e Coerência",
+      "materiaId": "1776358374888",
+      "destacado": false
     }
   ],
   "anotacoes": [
@@ -408,6 +414,54 @@
       "texto": "Movimento circular com aceleração angular constante — a velocidade angular aumenta ou diminui uniformemente. É o análogo rotacional do MRUV.\nFórmulas (espelho exato do MRUV, mas com grandezas angulares):\nMRUV linear    →    MCUV angular\n\nv = v₀ + a·t        ω = ω₀ + α·t\ns = s₀+v₀t+½at²     θ = θ₀ + ω₀·t + ½·α·t²\nv² = v₀²+2a∆s       ω² = ω₀² + 2·α·∆θ\n\nα (alfa) → aceleração angular (rad/s²)\nθ (theta) → posição angular (rad)\n∆θ → deslocamento angular\n\nRelação com grandezas lineares:\na(tangencial) = α · r    → aceleração que muda o módulo da velocidade\na(centrípeta) = v² / r   → aceleração que muda a direção\n\na(resultante) = √(a²tang + a²cent)   → aceleração total no MCUV\nExemplo:\nRoda parte do repouso com α = 2 rad/s².\nVelocidade angular após 5s:\n  ω = 0 + 2 · 5 = 10 rad/s\n\nÂngulo percorrido:\n  θ = 0 + 0·5 + ½·2·25 = 25 rad\n\nSe o raio for 0,5m:\n  v = 10 · 0,5 = 5 m/s\n  a(tang) = 2 · 0,5 = 1 m/s²",
       "arquivos": [],
       "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431425",
+      "topicoId": "1776361386098",
+      "titulo": "O que é",
+      "texto": "Crônica é um texto literário curto, publicado geralmente em jornais e revistas, que parte de um fato cotidiano, corriqueiro, para fazer uma reflexão — às vezes lírica, às vezes humorística, às vezes crítica. É o gênero que transforma o banal em literatura.\nA palavra vem do grego chronos (tempo) — originalmente era um relato de fatos em ordem cronológica. Com o tempo, evoluiu para o que é hoje: um texto subjetivo, de linguagem leve, sobre o dia a dia.",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431426",
+      "topicoId": "1776361386098",
+      "titulo": "Características Principais",
+      "texto": "Texto curto — feito para caber em uma página de jornal\nTema cotidiano — um engarrafamento, uma cena na padaria, um pensamento no ônibus\nSubjetividade — o cronista coloca sua visão, opinião, sentimento\nLinguagem acessível — próxima da fala, sem rebuscamento excessivo\nHibridismo — mistura jornalismo com literatura, podendo ter narração, descrição, diálogo, poesia, humor\nEfemeridade — nasce atrelada ao momento, mas as boas crônicas transcendem o tempo",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431427",
+      "topicoId": "1776361386098",
+      "titulo": "Tipos de Crônicas",
+      "texto": "Crônica narrativa — conta uma história com personagens, enredo e desfecho. É a mais próxima do conto.\nCrônica lírica — tom poético, sentimental. Reflete sobre sentimentos, memórias, beleza do cotidiano.\nCrônica argumentativa — defende um ponto de vista, comenta um fato social ou político. Mais próxima do artigo de opinião.\nCrônica humorística — usa ironia, sarcasmo e humor para tratar de temas sérios ou absurdos do dia a dia.\nCrônica poema em prosa — texto escrito em prosa mas com estrutura e musicalidade poética.\nNa prática, uma crônica pode misturar dois ou mais tipos.",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431428",
+      "topicoId": "1776361386098",
+      "titulo": "Estrutura",
+      "texto": "Estrutura\nNão tem estrutura rígida, mas geralmente segue:\n\nAbertura — apresenta o fato ou situação cotidiana que motivou o texto\nDesenvolvimento — reflexão, narrativa ou argumentação a partir desse fato\nDesfecho — pode ser uma conclusão, uma virada, uma frase de efeito ou simplesmente um corte abrupto\n\nO desfecho costuma ser o ponto mais forte da crônica — é onde o cronista revela o que quer dizer de verdade.",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431429",
+      "topicoId": "1776361386098",
+      "titulo": "Linguagem",
+      "texto": "Informal ou semiformal — depende do autor e do veículo\nUso frequente de ironia e humor\nFrases curtas e diretas\nPrimeira pessoa é muito comum (o cronista fala de si, do que viu, do que sentiu)\nPode usar gírias, expressões populares, diálogos naturais\nInterlocução com o leitor — o cronista frequentemente \"conversa\" com quem lê",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431430",
+      "topicoId": "1776361386098",
+      "titulo": "Cronistas",
+      "texto": "Machado de Assis — um dos pioneiros no Brasil, publicou centenas de crônicas no século XIX com ironia refinada.\nCarlos Drummond de Andrade — transitava entre poesia e prônica (prosa + crônica) com maestria lírica.\nRubem Braga — considerado o maior cronista brasileiro. Linguagem poética, contemplativa, sensível ao detalhe mínimo.\nLuís Fernando Veríssimo — humor inteligente, ironia social, personagens recorrentes (o analista de Bagé). O mais popular hoje.\nClarice Lispector — crônicas introspectivas, filosóficas, existenciais. Diferente de tudo.\nFernando Sabino — narrativas do cotidiano carioca, leveza e humor.\nRachel de Queiroz — visão nordestina, social e política.",
+      "arquivos": [],
+      "data": "2026-05-10"
     }
   ],
   "tarefas": [
@@ -503,6 +557,16 @@
   },
   "arquivosMateria": {},
   "_log": [
+    {
+      "msg": "Salvo pelo administrador",
+      "ts": "2026-05-10T01:00:04.899Z",
+      "color": "var(--green)"
+    },
+    {
+      "msg": "Tópico \"Coesão e Coerência\" criado",
+      "ts": "2026-05-10T00:57:08.226Z",
+      "color": "var(--accent)"
+    },
     {
       "msg": "Salvo pelo administrador",
       "ts": "2026-05-10T00:56:22.647Z",
