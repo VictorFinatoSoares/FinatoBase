@@ -780,7 +780,15 @@
       "id": "1778382339270",
       "topicoId": "1778372431473",
       "titulo": "Função Par",
-      "texto": "",
+      "texto": "f(-x) = f(x) para todo x.\n\nO gráfico é simétrico em relação ao eixo Y.\n\nExemplos: f(x)=x², f(x)=cos(x), f(x)=|x|, f(x)=x⁴",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778382339271",
+      "topicoId": "1778372431473",
+      "titulo": "Função ímpar",
+      "texto": "f(-x) = -f(x) para todo x\n\nO gráfico é simétrico em relação à origem (0,0).\n\nExemplos: f(x) = x³, f(x)=sen(x), f(x)=x\n\nPasso a passo para determinar paridade:\n\n1 Verifique se o domínio é simétrico em relação à origem (ex.: ℝ ou [−a, a]). Se não for, a função não é par nem ímpar.\n\n2 Calcule f(−x) substituindo cada x por (−x) na fórmula.\n\n3 Compare: f(−x) = f(x)? → par. f(−x) = −f(x)? → ímpar. Nenhum dos dois? → nem par, nem ímpar.\n\n⚠️ f(x) = x² + x não é par nem ímpar: f(−x) = x²−x, que é diferente de f(x) e de −f(x).\n💡 Dica de prova: funções com apenas potências pares são par. Apenas potências ímpares são ímpar. Mistura → nem par nem ímpar (salvo exceções).",
       "arquivos": [],
       "data": "2026-05-10"
     }
@@ -884,6 +892,11 @@
   },
   "arquivosMateria": {},
   "_log": [
+    {
+      "msg": "Salvo pelo administrador",
+      "ts": "2026-05-10T03:31:13.303Z",
+      "color": "var(--green)"
+    },
     {
       "msg": "Salvo pelo administrador",
       "ts": "2026-05-10T03:27:58.973Z",
