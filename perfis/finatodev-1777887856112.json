@@ -1,7 +1,7 @@
 {
-  "id": "profile_1777750993089",
+  "id": "finatodeveloper",
   "nome": "IFSul | Instituto Federal Sul-Rio-Grandense",
-  "arquivo": "ifsul__instituto_federal_sulriograndense.json",
+  "arquivo": "IFSul.json",
   "materias": [
     {
       "id": "1776358374886",
@@ -239,14 +239,14 @@
       "id": "1776358605795",
       "topicoId": "1776358605785",
       "titulo": "Fluxograma",
-      "texto": "Pseudocódigo\nO pseudocódigo é uma representação intermediária entre a linguagem natural e uma linguagem de programação real. Ele usa uma estrutura mais rígida e padronizada, com comandos como se, enquanto, leia e escreva, mas sem seguir a sintaxe exata de nenhuma linguagem específica. É muito usado no aprendizado de lógica de programação porque facilita a transição para o código real.\nExemplo:O fluxograma é uma representação visual do algoritmo, usando figuras geométricas conectadas por setas para indicar o fluxo de execução. Cada forma tem um significado: o oval indica início ou fim, o retângulo representa um processo ou ação, o losango representa uma decisão (sim/não), e o paralelogramo indica entrada ou saída de dados. É ótimo para visualizar a lógica, especialmente em algoritmos com muitas condições e desvios.\n\nINÍCIO\n  LEIA numero1\n  LEIA numero2\n  soma ← numero1 + numero2\n  ESCREVA soma\nFIM",
+      "texto": "Fluxograma é uma forma de representação por feito de blocos, onde o algoritmo se iniciar, e por meio de blocos como de condição, leitura, saída e afins até o fim formam um algoritmo completo.",
       "arquivos": []
     },
     {
       "id": "1776358605796",
       "topicoId": "1776358605785",
       "titulo": "Pseudocódigo",
-      "texto": "",
+      "texto": "Pseudocódigo\nO pseudocódigo é uma representação intermediária entre a linguagem natural e uma linguagem de programação real. Ele usa uma estrutura mais rígida e padronizada, com comandos como se, enquanto, leia e escreva, mas sem seguir a sintaxe exata de nenhuma linguagem específica. É muito usado no aprendizado de lógica de programação porque facilita a transição para o código real.\nExemplo:O fluxograma é uma representação visual do algoritmo, usando figuras geométricas conectadas por setas para indicar o fluxo de execução. Cada forma tem um significado: o oval indica início ou fim, o retângulo representa um processo ou ação, o losango representa uma decisão (sim/não), e o paralelogramo indica entrada ou saída de dados. É ótimo para visualizar a lógica, especialmente em algoritmos com muitas condições e desvios.\n\nINÍCIO\n  LEIA numero1\n  LEIA numero2\n  soma ← numero1 + numero2\n  ESCREVA soma\nFIM",
       "arquivos": []
     },
     {
@@ -381,8 +381,8 @@
     }
   ],
   "streak": {
-    "lastDate": "2026-05-04",
-    "count": 3
+    "lastDate": "2026-05-09",
+    "count": 13
   },
   "conquistas": [
     "primeiro_topico",
@@ -406,6 +406,76 @@
   },
   "arquivosMateria": {},
   "_log": [
+    {
+      "msg": "Salvo pelo administrador",
+      "ts": "2026-05-10T00:25:03.822Z",
+      "color": "var(--green)"
+    },
+    {
+      "msg": "Streak ajustado para 13 dias (2026-05-09)",
+      "ts": "2026-05-10T00:23:00.001Z",
+      "color": "var(--orange)"
+    },
+    {
+      "msg": "Streak ajustado para 13 dias (2026-05-09)",
+      "ts": "2026-05-10T00:22:59.839Z",
+      "color": "var(--orange)"
+    },
+    {
+      "msg": "Streak ajustado para 13 dias (2026-05-09)",
+      "ts": "2026-05-10T00:22:59.697Z",
+      "color": "var(--orange)"
+    },
+    {
+      "msg": "Streak ajustado para 13 dias (2026-05-09)",
+      "ts": "2026-05-10T00:22:59.535Z",
+      "color": "var(--orange)"
+    },
+    {
+      "msg": "Streak ajustado para 13 dias (2026-05-10)",
+      "ts": "2026-05-10T00:22:56.811Z",
+      "color": "var(--orange)"
+    },
+    {
+      "msg": "Streak ajustado para 13 dias (2026-05-10)",
+      "ts": "2026-05-10T00:22:56.609Z",
+      "color": "var(--orange)"
+    },
+    {
+      "msg": "Streak ajustado para 13 dias (2026-05-10)",
+      "ts": "2026-05-10T00:22:56.447Z",
+      "color": "var(--orange)"
+    },
+    {
+      "msg": "Streak ajustado para 13 dias (2026-05-10)",
+      "ts": "2026-05-10T00:22:56.295Z",
+      "color": "var(--orange)"
+    },
+    {
+      "msg": "Streak ajustado para 13 dias (2026-05-10)",
+      "ts": "2026-05-10T00:22:56.163Z",
+      "color": "var(--orange)"
+    },
+    {
+      "msg": "Streak ajustado para 13 dias (2026-05-10)",
+      "ts": "2026-05-10T00:22:54.421Z",
+      "color": "var(--orange)"
+    },
+    {
+      "msg": "Streak ajustado para 13 dias (2026-05-09)",
+      "ts": "2026-05-10T00:22:52.887Z",
+      "color": "var(--orange)"
+    },
+    {
+      "msg": "Streak ajustado para 13 dias (2026-05-09)",
+      "ts": "2026-05-10T00:22:51.695Z",
+      "color": "var(--orange)"
+    },
+    {
+      "msg": "Meta & Info atualizado pelo administrador",
+      "ts": "2026-05-10T00:22:34.528Z",
+      "color": "var(--purple)"
+    },
     {
       "msg": "Salvo pelo administrador",
       "ts": "2026-05-09T23:28:00.891Z",
@@ -449,7 +519,7 @@
   ],
   "_meta": {
     "author": "@FinatoDev",
-    "description": "IFSul",
+    "description": "IFSul | Instituto Federal Sul-Rio-Grandense",
     "uploadedAt": "2026-05-04T09:44:16.102Z",
     "materias": [
       {
