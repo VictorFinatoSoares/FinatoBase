@@ -1,0 +1,1171 @@
+{
+  "id": "profile_1778381935105",
+  "nome": "IFSul | Instituto Federal Sul-Rio-Grandense",
+  "arquivo": "IFSul.json",
+  "materias": [
+    {
+      "id": "1776358374886",
+      "nome": "Algoritmos e Lógica de Programação",
+      "cor": "#5B6EF5"
+    },
+    {
+      "id": "1776358374887",
+      "nome": "Física",
+      "cor": "#D4613A"
+    },
+    {
+      "id": "1776358374888",
+      "nome": "Português",
+      "cor": "#7A6E5F"
+    },
+    {
+      "id": "1776358374889",
+      "nome": "Artes",
+      "cor": "#C0487A"
+    },
+    {
+      "id": "1776358605776",
+      "nome": "Química",
+      "cor": "#1E8FA8"
+    },
+    {
+      "id": "1776358605777",
+      "nome": "Iniciação Acadêmica",
+      "cor": "#3D8C5E"
+    },
+    {
+      "id": "1776358605778",
+      "nome": "Educação Física",
+      "cor": "#3D5A8A"
+    },
+    {
+      "id": "1776358605779",
+      "nome": "Língua Inglesa",
+      "cor": "#5B6EF5"
+    },
+    {
+      "id": "1776358605780",
+      "nome": "Matemática",
+      "cor": "#7A6E5F"
+    },
+    {
+      "id": "1776358605781",
+      "nome": "Filosofia",
+      "cor": "#C0487A"
+    },
+    {
+      "id": "1776358605782",
+      "nome": "História",
+      "cor": "#D4613A"
+    },
+    {
+      "id": "1776358605783",
+      "nome": "Espanhol",
+      "cor": "#8B4CA8"
+    }
+  ],
+  "topicos": [
+    {
+      "id": "1776358605784",
+      "materiaId": "1776358374886",
+      "nome": "Conceitos Básicos",
+      "cor": "#5B6EF5",
+      "destacado": false
+    },
+    {
+      "id": "1776358605785",
+      "materiaId": "1776358374886",
+      "nome": "Algoritmos",
+      "cor": "#5B6EF5",
+      "destacado": false
+    },
+    {
+      "id": "1776358605786",
+      "materiaId": "1776358374886",
+      "nome": "Programação Java",
+      "cor": "#5B6EF5",
+      "destacado": false
+    },
+    {
+      "id": "1776358605805",
+      "materiaId": "1776358374887",
+      "nome": "Aceleração",
+      "cor": "#D4613A",
+      "destacado": false
+    },
+    {
+      "id": "1776358605807",
+      "materiaId": "1776358374887",
+      "nome": "Distância Média",
+      "cor": "#D4613A",
+      "destacado": false
+    },
+    {
+      "id": "1776358605809",
+      "materiaId": "1776358374887",
+      "nome": "Tipos de Movimento",
+      "cor": "#D4613A",
+      "destacado": false
+    },
+    {
+      "id": "1776361386098",
+      "materiaId": "1776358374888",
+      "nome": "Crônica",
+      "cor": "#7A6E5F",
+      "destacado": false
+    },
+    {
+      "id": "1776361386100",
+      "materiaId": "1776358374888",
+      "nome": "Carta Pessoal",
+      "cor": "#7A6E5F",
+      "destacado": false
+    },
+    {
+      "id": "1776361386102",
+      "materiaId": "1776358374888",
+      "nome": "Gêneros Textuais",
+      "cor": "#7A6E5F",
+      "destacado": false
+    },
+    {
+      "id": "1776361386103",
+      "materiaId": "1776358605780",
+      "nome": "Conjuntos Numéricos",
+      "cor": "#7A6E5F",
+      "destacado": false
+    },
+    {
+      "id": "1776430992919",
+      "materiaId": "1776358374889",
+      "nome": "Cubismo",
+      "cor": "#C0487A",
+      "destacado": false
+    },
+    {
+      "id": "1776731210811",
+      "materiaId": "1776358374886",
+      "nome": "IDE",
+      "cor": "#5B6EF5",
+      "destacado": false
+    },
+    {
+      "id": "1776731210812",
+      "materiaId": "1776358374886",
+      "nome": "Exercícios",
+      "cor": "#5B6EF5",
+      "destacado": false
+    },
+    {
+      "id": "1778372431424",
+      "nome": "Coesão e Coerência",
+      "materiaId": "1776358374888",
+      "destacado": false
+    },
+    {
+      "id": "1778372431446",
+      "nome": "Mientras e En cuanto",
+      "materiaId": "1776358605783",
+      "destacado": false
+    },
+    {
+      "id": "1778372431450",
+      "nome": "Personal Pronouns",
+      "materiaId": "1776358605779",
+      "destacado": false
+    },
+    {
+      "id": "1778372431452",
+      "nome": "Verb to Be (Present)",
+      "materiaId": "1776358605779",
+      "destacado": false
+    },
+    {
+      "id": "1778372431454",
+      "nome": "Demonstratives Pronouns",
+      "materiaId": "1776358605779",
+      "destacado": false
+    },
+    {
+      "id": "1778372431456",
+      "nome": "There to Be",
+      "materiaId": "1776358605779",
+      "destacado": false
+    },
+    {
+      "id": "1778372431458",
+      "nome": "Interrogative Pronouns",
+      "materiaId": "1776358605779",
+      "destacado": false
+    },
+    {
+      "id": "1778372431460",
+      "nome": "Adjectives",
+      "materiaId": "1776358605779",
+      "destacado": false
+    },
+    {
+      "id": "1778372431462",
+      "nome": "Present of Action Verbs",
+      "materiaId": "1776358605779",
+      "destacado": false
+    },
+    {
+      "id": "1778372431464",
+      "nome": "Time and Frequency Expressions",
+      "materiaId": "1776358605779",
+      "destacado": false
+    },
+    {
+      "id": "1778372431466",
+      "nome": "Present Continuous",
+      "materiaId": "1776358605779",
+      "destacado": false
+    },
+    {
+      "id": "1778372431469",
+      "nome": "Fração Geratriz",
+      "materiaId": "1776358605780",
+      "destacado": false
+    },
+    {
+      "id": "1778372431471",
+      "nome": "Produto Cartesiano",
+      "materiaId": "1776358605780",
+      "destacado": false
+    },
+    {
+      "id": "1778372431473",
+      "nome": "Funções",
+      "materiaId": "1776358605780",
+      "destacado": false
+    }
+  ],
+  "anotacoes": [
+    {
+      "id": "1776358605787",
+      "topicoId": "1776358605784",
+      "titulo": "Arquitetura de Von Neumann",
+      "texto": "Muitos computadores ainda usam a arquitetura de Von Neumann.\n\nEla foi proposta na década de 40.\n\nComposta basicamente por 3 subsistemas: CPU, RAM e Unidades de Entrada/Saída.\n\nA arquitetura recebe a entrada  que é processada pela CPU (Unidade de Controle e Unidade Lógica/Aritmética) que troca informações com a memória (RAM) até ir para o dispositivo de saída.\n\nUnidade de Controle: Identifica e decodifica instruções acionando a unidade responsável por sua execução.\n\nUnidade Lógica e Aritmética: Executa operações lógicas  e aritméticas.\n\nMemória Principal (RAM - Random Acess Memory): Armazena o programa e seus respectivos dados. O programa e os dados devem estar na RAM durante sua execução.\n\nUnidade de Entrada:  Transfere informações externas à máquina para a RAM.  Ex: Mouse, Teclado, Webcam etc.\n\nUnidade de Saída:  Exibe informações guardadas na RAM através de um meio que seja legível por seres humanos. (Monitor de vídeo, caixa de som, impressora etc).\n\n\n\n\n\n",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605788",
+      "topicoId": "1776358605784",
+      "titulo": "Instruções",
+      "texto": "O que são instruções?\n\nInstruções  ou comandos é uma regra que indica ao computador quais dados a serem operados e qual operação será realizada. Ex: 7-5=\n\nA CPU então realiza alguns passos para que a instrução seja corretamente efetuada.\n\nEtapas de processamento:\n\nA Unidade de Controle busca a instrução na memória\n\nA Unidade de Controle decodifica a instrução, definindo as posições de memória necessárias para sua execução\n\nA Unidade de Controle transfere os dados para a Unidade Aritmética e Lógica\n\nA Unidade Aritmética e Lógica executa as operações sobre os dados e o resultado é armazenado na memória\n",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605789",
+      "topicoId": "1776358605784",
+      "titulo": "Linguagem de Alto Nível x Linguagem de Máquina",
+      "texto": "Podemos, então, passar para a máquina o conjunto de instruções que desejamos que sejam executadas\nPorém, a máquina não entende a nossa linguagem\nEntão, como passamos estas instruções para a máquina?\n\nLinguagem de Máquina (Baixo Nível): É o tipo mais primitivo de linguagem, é o que a máquina entende (0 e 1)\n\nLinguagem de Programação (Alto Nível): Tipo de linguagem criada para facilitar a comunicação com a máquina. Deve ser traduzida em linguagem de máquina.\n\n",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605790",
+      "topicoId": "1776358605784",
+      "titulo": "Processo de Tradução (Interpretação e Compilação)",
+      "texto": "Processo de Tradução: Existem diversas linguagens de programação de alto nível. Por exemplo: C, C++, Java, Pascal, Delphi, etc.\nOs programas de computador são, então, escritos utilizando uma linguagem de programação de alto nível (na qual um código ou programa fonte é criado) e são traduzidos para a linguagem de máquina\nOs 2 principais processos que traduzem programas escritos em uma linguagem de alto nível para a linguagem de máquina são interpretação e compilação\n\nInterpretação: Um interpretador é um programa que recebe como entrada um arquivo contendo um programa fonte\n\nO interpretador lê linha a linha este arquivo de entrada, e executa uma a uma as instruções que estão nele programadas\n\nUm programa pode ser executado em qualquer máquina, desde que haja o interpretador disponível para utilização\nPorém, pode-se perceber que a execução de um programa que utiliza um interpretador é relativamente lenta, pois a cada nova linha lida no programa fonte, esta deve ser decodificada antes de ser executada\nSe houver algum erro de no código (que vá contra as definições da linguagem), o programa será interrompido abruptamente com um erro\n\nCompilação: Um compilador é um programa (ou um conjunto de programas) que recebe como entrada um programa fonte e cria um novo arquivo como saída\n\nO arquivo de entrada é o código fonte escrito pelo programador\n\nO arquivo que o compilador produz, é normalmente identificado como código objeto\n\nEste código objeto contém instruções de baixo nível, traduzidas para a linguagem de máquina\n\nO código produzido não é compatível para qualquer arquitetura.\n\nDiferentes compiladores são feitos para diferentes arquiteturas de processadores (diferentes famílias de processadores possuem diferentes conjuntos de instruções)\n\nO compilador somente gera o código objeto caso não tenha encontrado erro de compilação.",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605791",
+      "topicoId": "1776358605784",
+      "titulo": "Linguagem Java",
+      "texto": "Java é uma linguagem compilada\nO compilador Java, entretanto, não gera código para um processador específico, mas sim para uma máquina virtual Java (a JVM - Java Virtual Machine)\n\nOs programas escritos em Java são, portanto, portáveis sobre todos os computadores para os quais existir uma implementação da JVM\n\nDesta forma, Java possui tanto beneficios característicos das linguagens compiladas uma vez que o programa não corre de ser abortado durante a execução por um erro de sintaxe.\n\nQuando das linguagens interpretadas: uma vez que  executa sobre uma máquina virtual (JVM) que tem comportamento semelhante a um interpretador.",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605792",
+      "topicoId": "1776358605785",
+      "titulo": "O que são?",
+      "texto": "Um algoritmo é uma sequência finita de passos lógicos e ordenados que descrevem como resolver um problema ou executar uma tarefa. Pense nele como uma receita: você segue as instruções na ordem certa e, ao final, obtém o resultado esperado. Todo algoritmo precisa ter um início e um fim definidos, e cada passo deve ser claro o suficiente para ser executado sem ambiguidade. Eles estão presentes no nosso dia a dia — desde seguir um roteiro para trocar um pneu até os sistemas que recomendam músicas no seu celular.",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605793",
+      "topicoId": "1776358605785",
+      "titulo": "Formas de Representação",
+      "texto": "Existem 3 formas principais para representar um algoritmo.",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605794",
+      "topicoId": "1776358605785",
+      "titulo": "Narração",
+      "texto": "Narração (Descrição em Linguagem Natural)\nÉ a forma mais simples: o algoritmo é escrito em linguagem cotidiana, como um texto explicativo. A vantagem é que qualquer pessoa consegue entender, sem precisar de conhecimento técnico. A desvantagem é que a linguagem natural pode gerar ambiguidades — uma mesma frase pode ser interpretada de formas diferentes. Por isso, essa forma é usada mais para esboços iniciais ou explicações informais.\nExemplo: \"Pergunte ao usuário dois números. Some os dois. Mostre o resultado.\"",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605795",
+      "topicoId": "1776358605785",
+      "titulo": "Fluxograma",
+      "texto": "Fluxograma é uma forma de representação por feito de blocos, onde o algoritmo se iniciar, e por meio de blocos como de condição, leitura, saída e afins até o fim formam um algoritmo completo.",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605796",
+      "topicoId": "1776358605785",
+      "titulo": "Pseudocódigo",
+      "texto": "Pseudocódigo\nO pseudocódigo é uma representação intermediária entre a linguagem natural e uma linguagem de programação real. Ele usa uma estrutura mais rígida e padronizada, com comandos como se, enquanto, leia e escreva, mas sem seguir a sintaxe exata de nenhuma linguagem específica. É muito usado no aprendizado de lógica de programação porque facilita a transição para o código real.\nExemplo:O fluxograma é uma representação visual do algoritmo, usando figuras geométricas conectadas por setas para indicar o fluxo de execução. Cada forma tem um significado: o oval indica início ou fim, o retângulo representa um processo ou ação, o losango representa uma decisão (sim/não), e o paralelogramo indica entrada ou saída de dados. É ótimo para visualizar a lógica, especialmente em algoritmos com muitas condições e desvios.\n\nINÍCIO\n  LEIA numero1\n  LEIA numero2\n  soma ← numero1 + numero2\n  ESCREVA soma\nFIM",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605797",
+      "topicoId": "1776358605786",
+      "titulo": "Começo",
+      "texto": "ESTRUTURA INICIAL\n\nTodo programa Java segue essa estrutura:\n\npackage meuprojeto;\n\npublic class MeuPrograma {\n    public static void main(String[] args) {\n        System.out.println(\"Olá, Mundo!\");\n    }\n}\n\n🔹 package → organiza suas classes em \"pastas\". Sempre na primeira linha. Escrito em minúsculas.\n\n🔹 public class → todo código vive dentro de uma classe. O nome da classe DEVE ser igual ao nome do arquivo .java.\n\n🔹 public static void main(String[] args) → ponto de entrada do programa.\n   • public = JVM consegue acessar\n   • static = chamado sem criar objeto\n   • void = não retorna valor\n   • main = nome obrigatório\n\n🔹 Ponto e vírgula ( ; ) → toda instrução termina com ;. Blocos (if, for, while) NÃO usam ; depois das chaves.\n\n🔹 Chaves { } → delimitam blocos. Sempre em pares. Use indentação para organizar.\n\n🔹 Comentários:\n// Uma linha\n/* Múltiplas linhas */\n/** Javadoc */\n",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605798",
+      "topicoId": "1776358605786",
+      "titulo": "Variáveis e Constantes",
+      "texto": "VARIÁVEIS E CONSTANTES\n\nSintaxe: tipo nomeDaVariavel = valor;\n\nint idade = 20;\ndouble salario = 3500.50;\nString nome = \"Maria\";\nboolean aprovado = true;\n\n🔹 TIPOS PRIMITIVOS:\n• int      → número inteiro        ex: 42\n• double   → número decimal        ex: 3.14\n• float    → decimal menor         ex: 3.14f  (precisa do f!)\n• long     → inteiro grande        ex: 9999L  (precisa do L!)\n• boolean  → true ou false\n• char     → um caractere          ex: 'A'\n• byte     → inteiro −128 a 127\n• short    → inteiro médio\n\n🔹 String → classe (não primitivo), texto entre aspas duplas.\nString cidade = \"São Paulo\";\nString frase = \"Olá, \" + cidade; // concatenação com +\n\n🔹 camelCase → padrão de nomenclatura Java:\nnomeCompleto ✅   nome_completo ❌   NomeCompleto ❌ (isso é PascalCase, pra classes)\n\nRegras:\n• Não começa com número\n• Sem espaços ou acentos\n• Não use palavras reservadas (int, class, for...)\n\n🔹 CONSTANTES → use final + MAIÚSCULAS:\nfinal double PI = 3.14159;\nfinal int MAX_TENTATIVAS = 3;\n\n🔹 SAÍDA NO CONSOLE:\nSystem.out.println() → imprime e pula linha\nSystem.out.print()   → imprime na mesma linha\nSystem.out.printf(\"Nome: %s, Idade: %d%n\", nome, idade)\n   %s=String  %d=inteiro  %f=decimal  %n=nova linha  %.2f=2 casas\n\n🔹 CASTING:\nint i = 10;\ndouble d = i;       // implícito (widening) ✅\ndouble d2 = 9.99;\nint i2 = (int) d2;  // explícito (narrowing) → vira 9, parte decimal é CORTADA\n",
+      "arquivos": []
+    },
+    {
+      "id": "1776358605799",
+      "topicoId": "1776358605786",
+      "titulo": "Leitura do Teclado",
+      "texto": "LEITURA DO TECLADO — SCANNER\n\nImport obrigatório (antes da classe):\nimport java.util.Scanner;\n\nCriar o Scanner:\nScanner sc = new Scanner(System.in);\n\nMÉTODOS:\n• sc.nextInt()      → lê inteiro\n• sc.nextDouble()   → lê decimal\n• sc.nextLong()     → lê inteiro grande\n• sc.next()         → lê uma palavra\n• sc.nextLine()     → lê linha inteira (com espaços)\n• sc.nextBoolean()  → lê true/false\n\nEXEMPLO COMPLETO:\nScanner sc = new Scanner(System.in);\nSystem.out.print(\"Seu nome: \");\nString nome = sc.nextLine();\nSystem.out.print(\"Sua idade: \");\nint idade = sc.nextInt();\nSystem.out.printf(\"Olá, %s! Você tem %d anos.%n\", nome, idade);\nsc.close(); // boa prática fechar ao final\n\n⚠ PROBLEMA CLÁSSICO: nextLine() após nextInt()\nDepois de nextInt() ou nextDouble(), o Enter fica no buffer.\nSolução: adicione sc.nextLine(); extra entre eles:\n\nint idade = sc.nextInt();\nsc.nextLine(); // limpa o buffer\nString nome = sc.nextLine(); // agora funciona!\n",
+      "arquivos": []
+    },
+    {
+      "id": "1776725697835",
+      "topicoId": "1776358605786",
+      "titulo": "Estruturas Condicionais",
+      "texto": "CONDIÇÕES\n\n🔹 if simples:\nif (nota >= 60) {\n    System.out.println(\"Aprovado!\");\n}\n\n🔹 if / else:\nif (nota >= 60) {\n    System.out.println(\"Aprovado!\");\n} else {\n    System.out.println(\"Reprovado!\");\n}\n\n🔹 if / else if / else:\nif (nota >= 90) {\n    System.out.println(\"Excelente!\");\n} else if (nota >= 70) {\n    System.out.println(\"Bom!\");\n} else if (nota >= 60) {\n    System.out.println(\"Aprovado!\");\n} else {\n    System.out.println(\"Reprovado!\");\n}\n\n🔹 OPERADORES DE COMPARAÇÃO:\n==   igual a\n!=   diferente de\n>    maior que\n<    menor que\n>=   maior ou igual\n<=   menor ou igual\n\n⚠ Para Strings, use .equals():\nif (nome.equals(\"Java\")) { ... } ✅\nif (nome == \"Java\") { ... }      ❌\n\n🔹 OPERADORES LÓGICOS:\n&&  → E (ambas verdadeiras)   ex: idade >= 18 && temCNH\n||  → OU (uma verdadeira)     ex: nota >= 60 || faltas <= 25\n!   → NÃO (inverte)          ex: !aprovado\n\n🔹 OPERADOR TERNÁRIO:\nString resultado = (nota >= 60) ? \"Aprovado\" : \"Reprovado\";\n\n🔹 SWITCH / CASE:\nswitch (dia) {\n    case 1:\n        System.out.println(\"Segunda\");\n        break; // obrigatório! sem break ocorre fall-through\n    case 2:\n        System.out.println(\"Terça\");\n        break;\n    default:\n        System.out.println(\"Outro dia\");\n}\n",
+      "arquivos": []
+    },
+    {
+      "id": "1776731210810",
+      "topicoId": "1776358605786",
+      "titulo": "Estruturas de Repetição",
+      "texto": "LOOPS\n\n🔹 FOR — quando você sabe quantas vezes repetir:\nfor (int i = 0; i < 5; i++) {\n    System.out.println(i); // 0,1,2,3,4\n}\n\nANATOMIA:\n• int i = 0   → inicialização (roda 1x)\n• i < 5       → condição (verificada antes de cada rodada)\n• i++         → incremento (roda após cada rodada)\n\nVariações:\nfor (int i = 10; i >= 1; i--)    // contagem regressiva\nfor (int i = 0; i <= 10; i += 2) // de 2 em 2\n\n🔹 FOR-EACH — percorrer arrays:\nint[] numeros = {10, 20, 30, 40};\nfor (int num : numeros) {\n    System.out.println(num);\n}\n\n🔹 WHILE — quando não sabe quantas vezes repetir:\nint i = 1;\nwhile (i <= 5) {\n    System.out.println(i);\n    i++; // ESSENCIAL: sem isso = loop infinito!\n}\n\n🔹 DO-WHILE — executa pelo menos uma vez:\nint numero;\ndo {\n    System.out.print(\"Digite número positivo: \");\n    numero = sc.nextInt();\n} while (numero <= 0); // ← ponto e vírgula aqui!\n\n🔹 BREAK e CONTINUE:\nbreak    → para o loop completamente\ncontinue → pula a iteração atual e vai para a próxima\n\nExemplo continue (só ímpares):\nfor (int i = 1; i <= 10; i++) {\n    if (i % 2 == 0) continue;\n    System.out.print(i + \" \"); // 1 3 5 7 9\n}\n\n🔹 FOR vs WHILE:\nUse FOR   → quando sabe quantas repetições / tem contador\nUse WHILE → quando depende de input ou evento externo",
+      "arquivos": []
+    },
+    {
+      "id": "1776851405005",
+      "topicoId": "1776731210811",
+      "titulo": "Eclipse",
+      "texto": "Atalhos — Busca & Navegação\n\nCtrl+Shift+R — Open Resource (qualquer arquivo do projeto)\nCtrl+Shift+T — Open Type (qualquer classe)\nCtrl+3 — Quick Access (paleta de comandos e ações)\nF3 — Vai para definição\nCtrl+Shift+G — Referências do símbolo na workspace\nCtrl+Alt+H — Abre Call Hierarchy\nCtrl+O — Quick Outline do arquivo atual\nCtrl+H — Busca em arquivos (File Search / Java Search)\n\nAtalhos — Edição & Refatoração\n\nCtrl+1 — Quick Fix (o mais importante do Eclipse)\nCtrl+Space — Autocomplete\nCtrl+Shift+O — Organiza imports\nCtrl+Shift+F — Formata código\nAlt+Shift+R — Renomeia símbolo\nAlt+Shift+M — Extrai método\nAlt+↑/↓ — Move linha\nCtrl+Alt+↓ — Duplica linha\nCtrl+D — Deleta linha\nCtrl+/ — Comenta linha\n\nAtalhos — Debug & Run\n\nCtrl+F11 — Run\nF11 — Debug\nCtrl+Shift+B — Toggle breakpoint\nF6 — Step over\nF5 — Step into\nF8 — Resume\nCtrl+Shift+I — Inspecionar variável no debug\n\nPlugins Essenciais\n\nEclEmma — Cobertura de código de testes integrada. Instale via Eclipse Marketplace\nCheckstyle — Enforça padrões de código (Google/Sun style) com marcações inline\nSonarLint — Análise estática de qualidade e segurança\nm2e (Maven Integration) — Gerencia projetos Maven. Já incluso no Eclipse for Java Developers\nEGit — Git integrado. Já incluído por padrão nas versões recentes\nSpring Tools 4 — Suporte completo a Spring Boot. Essencial se você usa Spring\nAnyEdit Tools — Converte tabs/spaces, remove trailing whitespace, converte encodings\n\nOtimizações de eclipse.ini\nEdite o arquivo eclipse.ini na pasta de instalação:\n\n-vm path/to/java — Define o JVM explicitamente (evita usar o JVM errado)\n-Xms512m — Heap mínimo\n-Xmx2048m — Heap máximo (aumente conforme necessidade)\n-XX:+UseG1GC — Garbage collector mais eficiente\n\nOtimizações gerais\n\nDesative validadores desnecessários: Window → Preferences → Validation — desmarque os que não usa. Impacto direto na velocidade.\nDesative spell checking: Preferences → Editors → Text Editors → Spelling\nFeche projetos não usados: clique direito no projeto → Close Project\nAgrupe projetos por contexto com Working Sets no Project Explorer\nSalve perspectivas customizadas: Window → Save Perspective As\n\nDica geral\nO Eclipse sofre mais com lentidão do que as outras IDEs. Configurar o eclipse.ini e desativar validadores tem impacto real e imediato. Se o foco for Spring Boot, considere usar o Spring Tool Suite (STS) — é um Eclipse pré-configurado mantido pela Broadcom, muito melhor que configurar do zero.",
+      "arquivos": []
+    },
+    {
+      "id": "1776851405006",
+      "topicoId": "1776731210811",
+      "titulo": "VSCode",
+      "texto": "Atalhos — Navegação & Busca\n\nCtrl+Shift+P — Paleta de comandos\nCtrl+P — Busca arquivo por nome\nCtrl+Shift+F — Busca em todos os arquivos\nCtrl+G — Vai para linha\nF12 — Vai para definição\nAlt+F12 — Peek definition (inline, sem sair do arquivo)\nShift+F12 — Todas as referências do símbolo\nCtrl+Tab — Navega entre abas abertas\nCtrl+B — Abre/fecha sidebar\n\nAtalhos — Edição Avançada\n\nAlt+Click — Multicursor\nCtrl+D — Seleciona próxima ocorrência da palavra\nCtrl+Shift+L — Seleciona todas as ocorrências\nAlt+↑/↓ — Move linha acima/abaixo\nShift+Alt+↓ — Duplica linha\nCtrl+Shift+K — Deleta linha\nCtrl+/ — Comenta linha ou bloco\nShift+Alt+F — Formata documento\nF2 — Renomeia símbolo\nCtrl+. — Quick Fix / lightbulb\n\nAtalhos — Terminal & Layout\n\n`Ctrl+`` — Abre/fecha terminal integrado\n`Ctrl+Shift+`` — Novo terminal\nCtrl+\\ — Divide editor verticalmente\nCtrl+1/2/3 — Foca no grupo de editor\nCtrl+K Z — Zen mode (foco total)\nCtrl+K Ctrl+I — Hover info do símbolo\n\nExtensões Essenciais\n\nGitLens — Git blame inline, histórico por linha, comparação de branches\nPrettier — Formatação automática. Configure como formatter padrão no settings\nESLint / Pylint — Linting em tempo real por linguagem\nREST Client — Requisições HTTP direto em arquivos .http, substitui Postman para testes rápidos\nDocker — Gerencia containers e docker-compose direto do VSCode\nRemote - SSH / WSL — Desenvolve em máquinas remotas ou WSL como se fosse local\nTodo Tree — Lista todos os TODO/FIXME/HACK do projeto em árvore navegável\nError Lens — Mostra erros inline na linha do problema, sem precisar de hover\nPath Intellisense — Autocomplete de caminhos de arquivo em imports\nIntelliCode — Autocomplete baseado em IA treinado em código real do GitHub\n\nOtimizações de settings.json\nAcesse com Ctrl+Shift+P → Open User Settings (JSON)\n\n\"editor.formatOnSave\": true — Salva e formata automaticamente\n\"editor.codeActionsOnSave\" — Executa fixes automáticos ao salvar (ESLint, imports, etc.)\n\"breadcrumbs.enabled\": true — Exibe o caminho do arquivo/símbolo no topo\n\"editor.stickyScroll.enabled\": true — Mantém o cabeçalho da função visível ao rolar\n\"editor.inlayHints.enabled\": true — Mostra tipos e nomes de parâmetros inline\n\nOtimizações — Snippets & Tasks\n\nCrie snippets próprios: Ctrl+Shift+P → Snippets\nUse $1, $2 como posições de cursor dentro do snippet\nAutomatize build/test com .vscode/tasks.json (rode com Ctrl+Shift+B)\nConfigurações por projeto em .vscode/settings.json (não afeta o global)\nUse arquivos .code-workspace para multi-root workspaces\n\nDica geral\nO Remote Development (SSH, WSL, Container) é o diferencial real do VSCode. Nenhuma outra IDE permite desenvolver em ambientes remotos com a mesma fluidez.",
+      "arquivos": []
+    },
+    {
+      "id": "1776851405007",
+      "topicoId": "1776731210811",
+      "titulo": "Intellj IDEA",
+      "texto": "Atalhos — Busca & Navegação\n\nShift Shift — Search Everywhere (busca classes, arquivos, ações, símbolos)\nCtrl+Shift+N — Abre qualquer arquivo\nCtrl+N — Abre qualquer classe\nCtrl+Alt+Shift+N — Abre qualquer símbolo\nCtrl+Shift+A — Find Action (equivalente ao Ctrl+Shift+P do VSCode)\nCtrl+B — Vai para definição\nCtrl+Alt+B — Vai para implementação\nAlt+F7 — Todas as usages do símbolo\nCtrl+E — Histórico de arquivos recentes\nCtrl+F12 — Estrutura do arquivo atual\n\nAtalhos — Edição & Refatoração\n\nCtrl+Alt+L — Formata código\nCtrl+Alt+O — Organiza imports\nShift+F6 — Renomeia símbolo\nCtrl+Alt+M — Extrai método\nCtrl+Alt+V — Extrai variável\nShift+Alt+↑/↓ — Move linha\nCtrl+D — Duplica linha\nAlt+Enter — Quick Fix / intentions (o mais importante da IDE)\nCtrl+Shift+Enter — Completa statement (adiciona ;, {}, etc.)\nCtrl+Alt+T — Surround with (try/catch, if, while, etc.)\n\nAtalhos — Debug & Run\n\nShift+F10 — Roda configuração atual\nShift+F9 — Debug configuração atual\nCtrl+F8 — Toggle breakpoint\nF8 — Step over\nF7 — Step into\nF9 — Resume\nAlt+F8 — Evaluate expression no debug\nCtrl+Shift+F10 — Roda testes da classe atual\n\nAtalhos — Git Nativo (sem plugin)\n\nCtrl+K — Commit window\nCtrl+Shift+K — Push\nCtrl+T — Pull\nAlt+9 — Abre Git tool window (log)\nCtrl+D sobre arquivo — Diff do arquivo\n\nPlugins Essenciais\n\nKey Promoter X — Mostra o atalho toda vez que você usa o mouse. Força o aprendizado dos atalhos\nLombok — Suporte às anotações @Data, @Builder, etc. Obrigatório em projetos Java com Lombok\nSonarLint — Análise estática de qualidade e segurança em tempo real\nRainbow Brackets — Colore pares de brackets. Elimina confusão em código aninhado\nString Manipulation — Converte entre camelCase, snake_case, SCREAMING_SNAKE, kebab-case via atalho\nGitToolBox — Git blame inline e status de branch complementar ao Git nativo\nHTTP Client — Já embutido no IntelliJ. Use arquivos .http sem plugin extra\nDatabase Tools — Client SQL integrado. Ultimate já inclui por padrão\n\nLive Templates (expansão de código)\n\npsvm + Tab — Gera o método main\nsout + Tab — Gera System.out.println\nfori + Tab — Gera for loop com índice\nCrie os seus em: Settings → Editor → Live Templates\n\nPostfix Completion\n\nexpr.var + Tab — Gera var x = expr\nexpr.nn + Tab — Gera null check\nLista completa em: Settings → Editor → General → Postfix Completion\n\nOtimizações de Performance\n\nAumente o heap: Help → Change Memory Settings (mínimo recomendado: 4096 MB)\nExclua pastas de build/target da indexação: clique com botão direito → Mark Directory as → Excluded\nDesative plugins que não usa: Settings → Plugins\nSe a IDE travar ou ficar lenta: File → Invalidate Caches → Invalidate and Restart\n\nDica geral\nAlt+Enter funciona em qualquer contexto — importar classe, corrigir erro, sugerir refatoração, gerar código. Deve ser o primeiro reflexo antes de qualquer outra ação. O IntelliJ Community é gratuito e cobre Java e Kotlin. A versão Ultimate (paga) adiciona Spring, banco de dados, frameworks web e profiler.",
+      "arquivos": []
+    },
+    {
+      "id": "1778372431410",
+      "topicoId": "1776358605786",
+      "titulo": "Vetores",
+      "texto": "Arrays em Java — do zero à masterização\n\n1. O que é um array\nUm array é uma estrutura que armazena múltiplos valores do mesmo tipo em posições contíguas de memória, acessadas por um índice numérico que começa em 0.\nEm Java, array é um objeto. Isso tem consequências importantes que você vai ver ao longo do guia.\njava// A variável 'notas' não guarda os valores — guarda uma referência ao objeto array\nint[] notas = new int[5];\n\n2. Arrays Unidimensionais\nDeclaração\njava// Forma recomendada ([] junto ao tipo)\nint[] numeros;\n\n// Forma alternativa válida, mas evite — vem do C/C++\nint numeros[];\nInicialização\njava// 1. Declara e aloca — valores são zerados automaticamente\nint[] numeros = new int[5]; // [0, 0, 0, 0, 0]\n\n// 2. Declara e inicializa com valores\nint[] numeros = {10, 20, 30, 40, 50};\n\n// 3. Forma explícita equivalente ao #2\nint[] numeros = new int[]{10, 20, 30, 40, 50};\n\n// 4. Declaração separada da inicialização\nint[] numeros;\nnumeros = new int[]{10, 20, 30};\nValores padrão por tipo ao alocar com new:\nTipoValor padrãoint, long, short, byte0double, float0.0booleanfalsechar'\\u0000'Objetos (String, etc.)null\nAcesso e modificação\njavaint[] nums = {10, 20, 30, 40, 50};\n\n// Leitura — índice começa em 0\nSystem.out.println(nums[0]); // 10\nSystem.out.println(nums[4]); // 50\n\n// Modificação\nnums[2] = 99;\nSystem.out.println(nums[2]); // 99\n\n// Índice inválido → lança ArrayIndexOutOfBoundsException em runtime\nSystem.out.println(nums[5]); // ERRO\nTamanho — .length\njavaint[] nums = {10, 20, 30};\nSystem.out.println(nums.length); // 3\n\n// length é uma propriedade, não um método — sem parênteses\n// Último índice válido sempre é length - 1\nSystem.out.println(nums[nums.length - 1]); // 30\nIteração\njavaint[] nums = {10, 20, 30, 40, 50};\n\n// for clássico — use quando precisa do índice\nfor (int i = 0; i < nums.length; i++) {\n    System.out.println(\"índice \" + i + \": \" + nums[i]);\n}\n\n// for-each — mais limpo, use quando não precisa do índice\nfor (int n : nums) {\n    System.out.println(n);\n}\n\n// while — útil em lógicas com controle de índice manual\nint i = 0;\nwhile (i < nums.length) {\n    System.out.println(nums[i]);\n    i++;\n}\n\n3. Arrays Bidimensionais (Matrizes)\nUm array bidimensional é um array de arrays. Pense como uma tabela com linhas e colunas.\nDeclaração e inicialização\njava// Declara e aloca uma matriz 3 linhas x 4 colunas\nint[][] matriz = new int[3][4]; // todos os valores = 0\n\n// Declara e inicializa com valores\nint[][] matriz = {\n    {1, 2, 3},\n    {4, 5, 6},\n    {7, 8, 9}\n};\n\n// Acesso: matriz[linha][coluna]\nSystem.out.println(matriz[0][0]); // 1\nSystem.out.println(matriz[1][2]); // 6\nSystem.out.println(matriz[2][1]); // 8\nTamanho\njavaint[][] matriz = new int[3][4];\n\nmatriz.length;       // número de linhas: 3\nmatriz[0].length;    // número de colunas da linha 0: 4\nIteração\njavaint[][] matriz = {\n    {1, 2, 3},\n    {4, 5, 6},\n    {7, 8, 9}\n};\n\n// for duplo clássico\nfor (int i = 0; i < matriz.length; i++) {\n    for (int j = 0; j < matriz[i].length; j++) {\n        System.out.print(matriz[i][j] + \" \");\n    }\n    System.out.println();\n}\n\n// for-each duplo\nfor (int[] linha : matriz) {\n    for (int valor : linha) {\n        System.out.print(valor + \" \");\n    }\n    System.out.println();\n}\nArrays irregulares (jagged arrays)\nEm Java, cada linha de uma matriz pode ter tamanho diferente — isso é possível porque um array 2D é literalmente um array de arrays.\njava// Aloca só as linhas, sem definir colunas ainda\nint[][] irregular = new int[3][];\n\n// Define cada linha com tamanho diferente\nirregular[0] = new int[]{1, 2};\nirregular[1] = new int[]{3, 4, 5, 6};\nirregular[2] = new int[]{7};\n\n// irregular[0].length = 2\n// irregular[1].length = 4\n// irregular[2].length = 1\n\n4. Arrays n-dimensionais\nJava suporta qualquer número de dimensões, embora além de 3D seja raro na prática.\njava// 3D: [profundidade][linha][coluna]\nint[][][] cubo = new int[2][3][4];\ncubo[0][1][2] = 42;\n\n5. Classe java.util.Arrays — os métodos que você precisa saber\nImporte com: import java.util.Arrays;\nArrays.toString() — imprime o conteúdo\njavaint[] nums = {5, 3, 1, 4};\nSystem.out.println(Arrays.toString(nums)); // [5, 3, 1, 4]\n\n// Sem isso, println imprime algo como [I@6d06d69c (endereço de memória)\nSystem.out.println(nums); // INÚTIL\nArrays.deepToString() — para arrays multidimensionais\njavaint[][] matriz = {{1, 2}, {3, 4}};\nSystem.out.println(Arrays.deepToString(matriz)); // [[1, 2], [3, 4]]\nArrays.sort() — ordena\njavaint[] nums = {5, 3, 1, 4, 2};\nArrays.sort(nums);\nSystem.out.println(Arrays.toString(nums)); // [1, 2, 3, 4, 5]\n\n// Ordena um intervalo: sort(array, fromIndex, toIndex) — toIndex exclusivo\nint[] nums2 = {5, 3, 1, 4, 2};\nArrays.sort(nums2, 1, 4); // ordena só índices 1, 2, 3\nSystem.out.println(Arrays.toString(nums2)); // [5, 1, 3, 4, 2]\n\n// Strings e objetos — mesma coisa\nString[] nomes = {\"Carlos\", \"Ana\", \"Bruno\"};\nArrays.sort(nomes);\nSystem.out.println(Arrays.toString(nomes)); // [Ana, Bruno, Carlos]\n\n// Ordem inversa — só funciona com objetos (não int[] primitivo)\nArrays.sort(nomes, Comparator.reverseOrder());\nArrays.binarySearch() — busca binária (array deve estar ordenado)\njavaint[] nums = {1, 2, 3, 4, 5};\nint pos = Arrays.binarySearch(nums, 3);\nSystem.out.println(pos); // 2 (índice do valor 3)\n\n// Se não encontrar, retorna valor negativo\nint pos2 = Arrays.binarySearch(nums, 7); // negativo\nArrays.fill() — preenche com um valor\njavaint[] nums = new int[5];\nArrays.fill(nums, 7);\nSystem.out.println(Arrays.toString(nums)); // [7, 7, 7, 7, 7]\n\n// Preenche intervalo: fill(array, fromIndex, toIndex, valor)\nArrays.fill(nums, 1, 4, 0); // índices 1, 2, 3 viram 0\nSystem.out.println(Arrays.toString(nums)); // [7, 0, 0, 0, 7]\nArrays.copyOf() — copia com novo tamanho\njavaint[] original = {1, 2, 3, 4, 5};\n\n// Copia os primeiros 3 elementos\nint[] menor = Arrays.copyOf(original, 3);\nSystem.out.println(Arrays.toString(menor)); // [1, 2, 3]\n\n// Se o novo tamanho for maior, completa com zeros\nint[] maior = Arrays.copyOf(original, 8);\nSystem.out.println(Arrays.toString(maior)); // [1, 2, 3, 4, 5, 0, 0, 0]\nArrays.copyOfRange() — copia um intervalo\njavaint[] original = {10, 20, 30, 40, 50};\n\n// copyOfRange(array, from, to) — from inclusivo, to exclusivo\nint[] parte = Arrays.copyOfRange(original, 1, 4);\nSystem.out.println(Arrays.toString(parte)); // [20, 30, 40]\nArrays.equals() — compara dois arrays\njavaint[] a = {1, 2, 3};\nint[] b = {1, 2, 3};\nint[] c = {1, 2, 4};\n\nSystem.out.println(Arrays.equals(a, b)); // true\nSystem.out.println(Arrays.equals(a, c)); // false\n\n// NUNCA use == para comparar arrays — compara referências, não conteúdo\nSystem.out.println(a == b); // false (objetos diferentes na memória)\n\n// Para arrays multidimensionais\nint[][] m1 = {{1, 2}, {3, 4}};\nint[][] m2 = {{1, 2}, {3, 4}};\nSystem.out.println(Arrays.deepEquals(m1, m2)); // true\n\n6. System.arraycopy() — cópia de alta performance\nMais rápido que Arrays.copyOf em situações de alto volume porque opera em nível nativo.\njava// System.arraycopy(origem, posOrigem, destino, posDestino, quantidade)\nint[] origem  = {1, 2, 3, 4, 5};\nint[] destino = new int[5];\n\nSystem.arraycopy(origem, 1, destino, 0, 3);\n// Copia 3 elementos a partir do índice 1 da origem para o índice 0 do destino\nSystem.out.println(Arrays.toString(destino)); // [2, 3, 4, 0, 0]\n\n7. Arrays como parâmetro e retorno de método\njava// Arrays são passados por referência — modificações dentro do método afetam o original\npublic static void dobrar(int[] arr) {\n    for (int i = 0; i < arr.length; i++) {\n        arr[i] *= 2;\n    }\n}\n\n// Retornando um array\npublic static int[] criarSequencia(int tamanho) {\n    int[] seq = new int[tamanho];\n    for (int i = 0; i < tamanho; i++) {\n        seq[i] = i + 1;\n    }\n    return seq;\n}\n\n// Uso\nint[] nums = {1, 2, 3};\ndobrar(nums);\nSystem.out.println(Arrays.toString(nums)); // [2, 4, 6] — original foi modificado\n\nint[] seq = criarSequencia(5);\nSystem.out.println(Arrays.toString(seq)); // [1, 2, 3, 4, 5]\n\n8. Varargs — arrays disfarçados\nVarargs (tipo... nome) é açúcar sintático para um array. O Java monta o array automaticamente.\njavapublic static int somar(int... numeros) {\n    // 'numeros' aqui é um int[] normal\n    int total = 0;\n    for (int n : numeros) total += n;\n    return total;\n}\n\nsomar(1, 2, 3);        // passa 3 args\nsomar(1, 2, 3, 4, 5); // passa 5 args\nsomar(new int[]{1, 2}); // passa array diretamente — também funciona\n\n9. Arrays de objetos\njava// Array de Strings\nString[] nomes = {\"Ana\", \"Bruno\", \"Carlos\"};\n\n// Array de objetos customizados\nPessoa[] pessoas = new Pessoa[3];\npessoas[0] = new Pessoa(\"Ana\", 25);\npessoas[1] = new Pessoa(\"Bruno\", 30);\n\n// Atenção: ao alocar com new, cada posição começa como null\n// Acessar pessoas[2].getNome() aqui lança NullPointerException\n\n10. Conversão Array ↔ List\njavaimport java.util.Arrays;\nimport java.util.ArrayList;\nimport java.util.List;\n\n// Array → List (atenção: só funciona com tipos objeto, não primitivos)\nString[] arr = {\"a\", \"b\", \"c\"};\nList<String> lista = Arrays.asList(arr);\n// Lista resultante tem tamanho fixo — não aceita add() ou remove()\n\n// Para lista mutável:\nList<String> listaMutavel = new ArrayList<>(Arrays.asList(arr));\nlistaMutavel.add(\"d\"); // funciona\n\n// List → Array\nString[] de_volta = listaMutavel.toArray(new String[0]);\n\n11. Arrays com Streams (Java 8+)\njavaimport java.util.Arrays;\nimport java.util.stream.IntStream;\n\nint[] nums = {5, 3, 8, 1, 9, 2};\n\n// Soma de todos os elementos\nint soma = Arrays.stream(nums).sum(); // 28\n\n// Maior valor\nint max = Arrays.stream(nums).max().getAsInt(); // 9\n\n// Menor valor\nint min = Arrays.stream(nums).min().getAsInt(); // 1\n\n// Média\ndouble media = Arrays.stream(nums).average().getAsDouble(); // 4.666...\n\n// Filtra e coleta\nint[] maioresQue4 = Arrays.stream(nums)\n    .filter(n -> n > 4)\n    .toArray(); // [5, 8, 9]\n\n// Mapeia (transforma)\nint[] dobrados = Arrays.stream(nums)\n    .map(n -> n * 2)\n    .toArray(); // [10, 6, 16, 2, 18, 4]\n\n// Para array de objetos\nString[] nomes = {\"Ana\", \"Bruno\", \"Carlos\"};\nArrays.stream(nomes)\n    .filter(n -> n.startsWith(\"A\"))\n    .forEach(System.out::println); // Ana\n\n12. Erros comuns e como evitar\nArrayIndexOutOfBoundsException\njavaint[] arr = new int[3];\narr[3] = 10; // ERRO — índice válido vai de 0 a 2\n// Solução: sempre use arr.length como referência\nComparar arrays com ==\njavaint[] a = {1, 2, 3};\nint[] b = {1, 2, 3};\na == b;              // false — compara referências\nArrays.equals(a, b); // true — compara conteúdo\nNullPointerException em array de objetos\njavaString[] nomes = new String[3];\nnomes[0].length(); // ERRO — nomes[0] é null\n// Solução: inicialize antes de usar\nnomes[0] = \"Ana\";\nnomes[0].length(); // ok\nEsquecer que arrays têm tamanho fixo\njavaint[] arr = new int[3];\n// Não existe arr.add() — se precisar crescer, use ArrayList\n// Ou crie um novo array maior com Arrays.copyOf\nImprimir array sem Arrays.toString()\njavaSystem.out.println(arr);           // [I@7852e922 — inútil\nSystem.out.println(Arrays.toString(arr)); // [1, 2, 3] — correto\n\n13. Quando NÃO usar array\nSituaçãoUse issoTamanho variável (add/remove)ArrayList<T>Busca por chaveHashMap<K,V>Sem duplicatasHashSet<T>Ordem de inserção + sem duplicatasLinkedHashSet<T>Fila / pilhaArrayDeque<T>\nArrays são ótimos para: tamanho fixo conhecido, performance máxima, dados primitivos em grande volume, e quando você está implementando estruturas de dados do zero.\n\nResumo mental\narray[i]          → acessa elemento\narray.length      → tamanho (propriedade, sem parênteses)\nArrays.toString() → imprime conteúdo\nArrays.sort()     → ordena\nArrays.fill()     → preenche\nArrays.copyOf()   → copia com novo tamanho\nArrays.equals()   → compara conteúdo\nArrays.stream()   → operações funcionais (soma, filtro, mapa)\nSystem.arraycopy()→ cópia rápida entre arrays\n\n2D: matriz[linha][coluna]\n    matriz.length     → nº de linhas\n    matriz[i].length  → nº de colunas da linha i",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431411",
+      "topicoId": "1776358605786",
+      "titulo": "Métodos",
+      "texto": "Métodos em Java — do zero à masterização\n\n1. O que é um método\nUm método é um bloco de código nomeado que executa uma tarefa específica. Você o define uma vez e chama quantas vezes quiser. Em Java, todo método pertence a uma classe — não existem funções soltas como em Python ou JavaScript.\nOs termos método e função descrevem a mesma coisa em contextos diferentes: em orientação a objetos chama-se método; em programação procedural, função. Em Java, o correto é método, mas você vai ouvir os dois.\n\n2. Anatomia de um método\njavamodificadorDeAcesso  modificadores  tipoDeRetorno  nome(parâmetros) {\n    // corpo\n    return valor; // obrigatório se tipoDeRetorno != void\n}\nExemplo real com tudo nomeado:\njavapublic static int somar(int a, int b) {\n    return a + b;\n}\n//  ^      ^     ^   ^        ^\n//  |      |     |   |        parâmetros\n//  |      |     |   nome do método\n//  |      |     tipo de retorno\n//  |      modificador (static)\n//  modificador de acesso (public)\n\n3. Tipos de retorno\njava// void — não retorna nada\npublic void imprimirOla() {\n    System.out.println(\"Olá!\");\n    // return; → opcional em void, mas pode ser usado para sair cedo\n}\n\n// int\npublic int dobrar(int n) {\n    return n * 2;\n}\n\n// String\npublic String cumprimentar(String nome) {\n    return \"Olá, \" + nome + \"!\";\n}\n\n// boolean\npublic boolean ehPar(int n) {\n    return n % 2 == 0;\n}\n\n// Array\npublic int[] gerarSequencia(int tamanho) {\n    int[] seq = new int[tamanho];\n    for (int i = 0; i < tamanho; i++) seq[i] = i + 1;\n    return seq;\n}\n\n// Objeto\npublic Pessoa criarPessoa(String nome, int idade) {\n    return new Pessoa(nome, idade);\n}\nRegras do return:\n\nSe o tipo não é void, todo caminho possível do método deve ter um return\nEm void, return; sem valor é opcional mas útil para sair cedo\nCódigo após return é inalcançável — o compilador avisa\n\njava// Erro de compilação — nem todo caminho retorna valor\npublic int absoluto(int n) {\n    if (n >= 0) {\n        return n;\n    }\n    // compilador reclama: falta return aqui\n}\n\n// Correto\npublic int absoluto(int n) {\n    if (n >= 0) return n;\n    return -n;\n}\n\n4. Parâmetros\njava// Sem parâmetros\npublic void dizerOla() {\n    System.out.println(\"Olá!\");\n}\n\n// Um parâmetro\npublic void dizerOla(String nome) {\n    System.out.println(\"Olá, \" + nome + \"!\");\n}\n\n// Múltiplos parâmetros — separados por vírgula\npublic double calcularMedia(double a, double b, double c) {\n    return (a + b + c) / 3;\n}\n\n// Parâmetro é uma cópia — primitivos não afetam a variável original\npublic void tentarModificar(int x) {\n    x = 999; // só modifica a cópia local\n}\n\nint n = 10;\ntentarModificar(n);\nSystem.out.println(n); // ainda 10\nPassagem por valor vs referência — o ponto mais confuso\nJava é sempre por valor. Mas o \"valor\" de um objeto é a sua referência (endereço de memória). Então:\njava// Primitivos — a variável original nunca é alterada\npublic void modificarPrimitivo(int x) {\n    x = 999;\n}\n\n// Objetos — o conteúdo PODE ser alterado, mas a referência não\npublic void modificarArray(int[] arr) {\n    arr[0] = 999;     // modifica o objeto original — funciona\n    arr = new int[5]; // reatribui a referência local — não afeta o original\n}\n\nint[] nums = {1, 2, 3};\nmodificarArray(nums);\nSystem.out.println(nums[0]); // 999 — conteúdo foi alterado\n// mas se o método apenas fizesse arr = new int[5], nums continuaria {1,2,3}\nResumo prático:\n\nPrimitivos (int, double, boolean...) → nunca são alterados pelo método\nObjetos e arrays → o conteúdo interno pode ser alterado; a referência em si não\n\n\n5. Modificadores de acesso\nControlam de onde o método pode ser chamado.\nModificadorMesma classeMesmo pacoteSubclasseQualquer lugarpublic✅✅✅✅protected✅✅✅❌(sem nada)✅✅❌❌private✅❌❌❌\njavapublic class Conta {\n\n    public double getSaldo() { ... }       // qualquer um acessa\n    protected void registrarLog() { ... }  // só subclasses e mesmo pacote\n    void calcularTaxa() { ... }            // só mesmo pacote (package-private)\n    private void validarSenha() { ... }    // só dentro desta classe\n}\nRegra prática: comece sempre com private. Abra o acesso só quando necessário. Nunca deixe public por preguiça.\n\n6. static vs método de instância\njavapublic class Calculadora {\n\n    // Método de instância — precisa de um objeto para chamar\n    public int somar(int a, int b) {\n        return a + b;\n    }\n\n    // Método estático — pertence à classe, não ao objeto\n    public static int multiplicar(int a, int b) {\n        return a * b;\n    }\n}\n\n// Chamada de instância — precisa criar o objeto primeiro\nCalculadora calc = new Calculadora();\ncalc.somar(2, 3); // 5\n\n// Chamada estática — usa o nome da classe diretamente\nCalculadora.multiplicar(2, 3); // 6\nQuando usar static:\n\nO método não depende de nenhum atributo do objeto\nMétodos utilitários (Math.abs(), Arrays.sort())\nO método main é sempre static porque a JVM chama antes de qualquer objeto existir\n\nRestrição importante: método static não pode acessar atributos ou métodos de instância diretamente.\njavapublic class Exemplo {\n    private int valor = 10;\n\n    public static void metodoEstatico() {\n        System.out.println(valor); // ERRO de compilação\n        // 'valor' é de instância, não existe sem um objeto\n    }\n}\n\n7. Sobrecarga (Overloading)\nMesma classe, mesmo nome de método, parâmetros diferentes. O compilador decide qual chamar com base nos argumentos.\njavapublic class Impressora {\n\n    public void imprimir(int n) {\n        System.out.println(\"Inteiro: \" + n);\n    }\n\n    public void imprimir(double n) {\n        System.out.println(\"Double: \" + n);\n    }\n\n    public void imprimir(String s) {\n        System.out.println(\"String: \" + s);\n    }\n\n    public void imprimir(int a, int b) {\n        System.out.println(\"Dois inteiros: \" + a + \", \" + b);\n    }\n}\n\nImpressora p = new Impressora();\np.imprimir(10);        // Inteiro: 10\np.imprimir(3.14);      // Double: 3.14\np.imprimir(\"Olá\");     // String: Olá\np.imprimir(1, 2);      // Dois inteiros: 1, 2\nO que diferencia uma sobrecarga:\n\nNúmero de parâmetros\nTipos dos parâmetros\nOrdem dos tipos\n\nO que NÃO diferencia:\n\nTipo de retorno (não compila se só o retorno mudar)\nNome dos parâmetros\n\njava// ERRO — não é sobrecarga válida, só muda o retorno\npublic int calcular(int a) { return a; }\npublic double calcular(int a) { return a; } // compilação falha\n\n8. Varargs\nPermite passar qualquer número de argumentos do mesmo tipo. Internamente é um array.\njavapublic int somar(int... numeros) {\n    int total = 0;\n    for (int n : numeros) total += n;\n    return total;\n}\n\nsomar();           // 0\nsomar(1);          // 1\nsomar(1, 2, 3);    // 6\nsomar(1, 2, 3, 4, 5); // 15\n\n// Pode passar array também\nint[] arr = {10, 20, 30};\nsomar(arr); // 60\nRegras:\n\nVarargs deve ser o último parâmetro\nSó pode ter um varargs por método\nSe combinado com outros parâmetros, vem no final\n\njava// Correto\npublic void log(String prefixo, String... mensagens) { ... }\n\n// ERRO — varargs não é o último\npublic void log(String... mensagens, String sufixo) { ... }\n\n9. Recursão\nUm método que chama a si mesmo. Toda recursão precisa de uma condição de parada (caso base), senão estoura a pilha (StackOverflowError).\njava// Fatorial — caso clássico\npublic int fatorial(int n) {\n    if (n <= 1) return 1;      // caso base — para a recursão\n    return n * fatorial(n - 1); // chamada recursiva\n}\n\nfatorial(5); // 5 * 4 * 3 * 2 * 1 = 120\njava// Fibonacci\npublic int fibonacci(int n) {\n    if (n <= 1) return n;\n    return fibonacci(n - 1) + fibonacci(n - 2);\n}\njava// Busca binária recursiva\npublic int buscaBinaria(int[] arr, int alvo, int inicio, int fim) {\n    if (inicio > fim) return -1; // não encontrou\n\n    int meio = (inicio + fim) / 2;\n\n    if (arr[meio] == alvo) return meio;\n    if (arr[meio] > alvo) return buscaBinaria(arr, alvo, inicio, meio - 1);\n    return buscaBinaria(arr, alvo, meio + 1, fim);\n}\nQuando usar recursão:\n\nEstruturas naturalmente recursivas: árvores, grafos, diretórios\nAlgoritmos de divisão e conquista: merge sort, quick sort, busca binária\nQuando o código fica muito mais legível que a versão iterativa\n\nQuando evitar:\n\nQuando a profundidade pode ser muito grande (risco de StackOverflowError)\nQuando a versão iterativa é igualmente clara e mais performática\n\n\n10. Modificadores adicionais\nfinal\nMétodo não pode ser sobrescrito por subclasses.\njavapublic final void metodoImutavel() { ... }\nabstract\nMétodo sem corpo — a subclasse é obrigada a implementar. Só pode existir em classe abstract.\njavapublic abstract class Animal {\n    public abstract void fazerSom(); // sem corpo\n}\n\npublic class Cachorro extends Animal {\n    @Override\n    public void fazerSom() {\n        System.out.println(\"Au!\");\n    }\n}\nsynchronized\nGarante que só uma thread executa o método por vez. Essencial em programação concorrente.\njavapublic synchronized void incrementar() {\n    contador++;\n}\n\n11. Métodos especiais de toda classe\nConstrutor\nChamado automaticamente com new. Mesmo nome da classe, sem tipo de retorno.\njavapublic class Pessoa {\n    private String nome;\n    private int idade;\n\n    // Construtor padrão (sem parâmetros)\n    public Pessoa() {\n        this.nome = \"Sem nome\";\n        this.idade = 0;\n    }\n\n    // Construtor com parâmetros\n    public Pessoa(String nome, int idade) {\n        this.nome = nome;\n        this.idade = idade;\n    }\n\n    // Construtores podem ser sobrecarregados\n    public Pessoa(String nome) {\n        this(nome, 0); // chama outro construtor com this()\n    }\n}\n\nPessoa p1 = new Pessoa();\nPessoa p2 = new Pessoa(\"Ana\", 25);\nPessoa p3 = new Pessoa(\"Bruno\");\nGetters e Setters\nConvenção padrão para expor atributos private.\njavapublic class Pessoa {\n    private String nome;\n    private int idade;\n\n    // Getter — retorna o valor\n    public String getNome() {\n        return nome;\n    }\n\n    // Setter — define o valor (com validação opcional)\n    public void setIdade(int idade) {\n        if (idade < 0) throw new IllegalArgumentException(\"Idade inválida\");\n        this.idade = idade;\n    }\n\n    // Para boolean — convenção é \"is\" no lugar de \"get\"\n    private boolean ativo;\n    public boolean isAtivo() { return ativo; }\n}\ntoString()\nChamado automaticamente quando você imprime o objeto ou concatena com String.\njavapublic class Pessoa {\n    private String nome;\n    private int idade;\n\n    @Override\n    public String toString() {\n        return \"Pessoa{nome='\" + nome + \"', idade=\" + idade + \"}\";\n    }\n}\n\nPessoa p = new Pessoa(\"Ana\", 25);\nSystem.out.println(p); // Pessoa{nome='Ana', idade=25}\nequals() e hashCode()\n== compara referências. equals() compara conteúdo — mas você precisa sobrescrever.\njavapublic class Pessoa {\n    private String nome;\n    private int idade;\n\n    @Override\n    public boolean equals(Object obj) {\n        if (this == obj) return true;               // mesmo objeto\n        if (obj == null) return false;              // null nunca é igual\n        if (getClass() != obj.getClass()) return false; // tipos diferentes\n        Pessoa outra = (Pessoa) obj;\n        return idade == outra.idade && Objects.equals(nome, outra.nome);\n    }\n\n    @Override\n    public int hashCode() {\n        return Objects.hash(nome, idade);\n        // hashCode deve ser sobrescrito sempre que equals for sobrescrito\n    }\n}\nRegra: se dois objetos são equals, devem ter o mesmo hashCode. Isso é fundamental para que HashMap e HashSet funcionem corretamente com seus objetos.\n\n12. Métodos em interfaces (Java 8+)\njavapublic interface Forma {\n\n    // Abstrato — toda classe que implementar deve definir\n    double calcularArea();\n\n    // Default — tem implementação padrão, subclasse pode sobrescrever ou não\n    default void descrever() {\n        System.out.println(\"Área: \" + calcularArea());\n    }\n\n    // Estático — chamado pela interface, não pelo objeto\n    static Forma criarCirculo(double raio) {\n        return () -> Math.PI * raio * raio;\n    }\n}\n\n13. Method Reference e Lambda (Java 8+)\nQuando um lambda só chama um método existente, você pode substituir por method reference com ::.\njava// Lambda\nList<String> nomes = Arrays.asList(\"Carlos\", \"Ana\", \"Bruno\");\nnomes.forEach(nome -> System.out.println(nome));\n\n// Equivalente com method reference\nnomes.forEach(System.out::println);\n\n// Referência a método estático\n// lambda: x -> Math.abs(x)\n// method ref: Math::abs\n\n// Referência a método de instância de objeto específico\nString prefixo = \"Olá, \";\n// lambda: s -> prefixo.concat(s)\n// method ref: prefixo::concat\n\n// Referência a construtor\n// lambda: () -> new ArrayList<>()\n// method ref: ArrayList::new\n\n14. Anotação @Override\nInforma ao compilador que você está sobrescrevendo um método da superclasse ou interface. Não é obrigatória, mas é uma boa prática porque o compilador te avisa se você errar o nome.\njava@Override\npublic String toString() { ... } // compilador verifica se toString existe na superclasse\n\n@Override\npublic String toStirng() { ... } // ERRO de compilação — compilador detecta o typo\n\n15. Erros comuns\nEsquecer o return\njavapublic int calcular(int n) {\n    if (n > 0) return n * 2;\n    // compilador reclama: nem todo caminho tem return\n}\nChamar método de instância em contexto estático\njavapublic class Exemplo {\n    public void metodoInstancia() { ... }\n\n    public static void main(String[] args) {\n        metodoInstancia(); // ERRO — precisa de um objeto\n        new Exemplo().metodoInstancia(); // correto\n    }\n}\nConfundir sobrecarga com sobrescrita\njava// Sobrecarga (overload) — mesma classe, parâmetros diferentes → polimorfismo estático\npublic void metodo(int a) { ... }\npublic void metodo(String a) { ... }\n\n// Sobrescrita (override) — subclasse redefine método da superclasse → polimorfismo dinâmico\n@Override\npublic void metodo() { ... }\nRecursão sem caso base\njavapublic int contar(int n) {\n    return n + contar(n - 1); // nunca para → StackOverflowError\n}\nModificar parâmetro primitivo esperando efeito externo\njavapublic void resetar(int valor) {\n    valor = 0; // não afeta a variável de quem chamou\n}\n// Use retorno de valor, ou encapsule em objeto/array\n\nResumo mental\ntipoRetorno nome(params) { return ...; }  → estrutura base\n\nvoid        → não retorna nada\nreturn      → encerra o método e devolve valor\nstatic      → pertence à classe, não ao objeto\nprivate     → só acessível dentro da própria classe\npublic      → acessível de qualquer lugar\nfinal       → não pode ser sobrescrito\nabstract    → sem corpo, subclasse obrigatória\n@Override   → garante que está sobrescrevendo corretamente\n\nOverload    → mesmo nome, parâmetros diferentes (mesma classe)\nOverride    → mesmo nome e parâmetros, classe diferente (herança)\nVarargs     → int... → array automático, deve ser o último parâmetro\nRecursão    → método chama a si mesmo, sempre precisa de caso base\n\nPrimitivos  → passados por valor (cópia), nunca alterados externamente\nObjetos     → referência é copiada, mas o conteúdo interno pode ser alterado",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431412",
+      "topicoId": "1776358605786",
+      "titulo": "POO (Programação Orientada a Objetos)",
+      "texto": "Programação Orientada a Objetos em Java — do zero à masterização\n\n1. O que é POO e por que existe\nPOO é um paradigma de programação que organiza o código em torno de objetos — entidades que combinam dados (atributos) e comportamentos (métodos) em uma única unidade.\nAntes da POO, código crescia como um bloco gigante de funções e variáveis soltas, difícil de manter e reutilizar. POO surgiu para modelar o software de forma parecida com o mundo real: um Carro tem características e sabe fazer coisas; uma ContaBancária guarda saldo e sabe sacar e depositar.\nJava é 100% orientado a objetos — tudo que você escreve está dentro de uma classe.\n\n2. Classe vs Objeto\nClasse é o molde, a definição, o projeto.\nObjeto é a instância concreta criada a partir do molde.\njava// Classe — define o que é uma Pessoa\npublic class Pessoa {\n    String nome;\n    int idade;\n\n    public void apresentar() {\n        System.out.println(\"Sou \" + nome + \", tenho \" + idade + \" anos.\");\n    }\n}\n\n// Objetos — instâncias concretas da classe Pessoa\nPessoa p1 = new Pessoa();\np1.nome = \"Ana\";\np1.idade = 25;\n\nPessoa p2 = new Pessoa();\np2.nome = \"Bruno\";\np2.idade = 30;\n\np1.apresentar(); // Sou Ana, tenho 25 anos.\np2.apresentar(); // Sou Bruno, tenho 30 anos.\nCada objeto tem seus próprios valores de atributos, mas compartilha os métodos definidos na classe.\n\n3. Os quatro pilares da POO\n\nPilar 1 — Encapsulamento\nEsconder os detalhes internos de um objeto e expor apenas o que é necessário. Protege o estado interno de modificações indevidas.\njavapublic class ContaBancaria {\n    private double saldo;      // privado — ninguém acessa diretamente\n    private String titular;\n\n    public ContaBancaria(String titular, double saldoInicial) {\n        this.titular = titular;\n        this.saldo = saldoInicial;\n    }\n\n    // Exposição controlada — só leitura\n    public double getSaldo() {\n        return saldo;\n    }\n\n    // Comportamento com validação — não deixa saldo ficar negativo\n    public void depositar(double valor) {\n        if (valor <= 0) throw new IllegalArgumentException(\"Valor inválido\");\n        saldo += valor;\n    }\n\n    public void sacar(double valor) {\n        if (valor <= 0) throw new IllegalArgumentException(\"Valor inválido\");\n        if (valor > saldo) throw new IllegalStateException(\"Saldo insuficiente\");\n        saldo -= valor;\n    }\n}\n\nContaBancaria conta = new ContaBancaria(\"Ana\", 1000);\nconta.depositar(500);\nconta.sacar(200);\nSystem.out.println(conta.getSaldo()); // 1300.0\n\n// conta.saldo = -9999; → ERRO de compilação — acesso negado\nPor que encapsular:\n\nVocê controla o que pode ser modificado e como\nPode mudar a implementação interna sem quebrar quem usa a classe\nEvita estados inválidos (saldo negativo, idade -5, etc.)\n\n\nPilar 2 — Herança\nUma classe filha herda atributos e métodos de uma classe pai, podendo estendê-los ou modificá-los. Usa a palavra extends.\njava// Classe pai (superclasse)\npublic class Animal {\n    protected String nome;\n    protected int idade;\n\n    public Animal(String nome, int idade) {\n        this.nome = nome;\n        this.idade = idade;\n    }\n\n    public void comer() {\n        System.out.println(nome + \" está comendo.\");\n    }\n\n    public void dormir() {\n        System.out.println(nome + \" está dormindo.\");\n    }\n\n    public String toString() {\n        return nome + \" (\" + idade + \" anos)\";\n    }\n}\n\n// Classe filha (subclasse) — herda tudo de Animal\npublic class Cachorro extends Animal {\n    private String raca;\n\n    public Cachorro(String nome, int idade, String raca) {\n        super(nome, idade); // chama o construtor do pai — obrigatório ser a primeira linha\n        this.raca = raca;\n    }\n\n    // Método próprio — não existe em Animal\n    public void latir() {\n        System.out.println(nome + \" diz: Au!\");\n    }\n\n    @Override\n    public String toString() {\n        return super.toString() + \" - Raça: \" + raca;\n    }\n}\n\npublic class Gato extends Animal {\n    public Gato(String nome, int idade) {\n        super(nome, idade);\n    }\n\n    public void miar() {\n        System.out.println(nome + \" diz: Miau!\");\n    }\n}\n\nCachorro dog = new Cachorro(\"Rex\", 3, \"Labrador\");\ndog.comer();   // herdado de Animal\ndog.dormir();  // herdado de Animal\ndog.latir();   // próprio de Cachorro\nSystem.out.println(dog); // Rex (3 anos) - Raça: Labrador\nsuper — acessando o pai\njavasuper()           // chama o construtor do pai\nsuper.metodo()    // chama o método do pai (útil ao sobrescrever)\nsuper.atributo    // acessa atributo do pai (se acessível)\nCadeia de herança\njava// Java suporta herança simples — uma classe só tem um pai\n// Mas a cadeia pode ter vários níveis\nObject → Animal → Mamifero → Cachorro\n\n// Toda classe em Java herda de Object implicitamente\n// Por isso todo objeto tem: toString(), equals(), hashCode(), getClass()...\nO que é herdado e o que não é\nHerdado?Atributos public e protected✅Métodos public e protected✅Atributos e métodos private❌ (existem, mas não são acessíveis diretamente)Construtores❌ (não são herdados, mas podem ser chamados com super())\n\nPilar 3 — Polimorfismo\nO mesmo método se comporta de formas diferentes dependendo do objeto. Vem do grego: \"muitas formas\".\nHá dois tipos:\nPolimorfismo de sobrecarga (estático) — mesmo nome, parâmetros diferentes, decidido em tempo de compilação. Já visto no guia de métodos.\nPolimorfismo de sobrescrita (dinâmico) — subclasse redefine o método do pai, decidido em tempo de execução.\njavapublic class Animal {\n    public void fazerSom() {\n        System.out.println(\"...\");\n    }\n}\n\npublic class Cachorro extends Animal {\n    @Override\n    public void fazerSom() {\n        System.out.println(\"Au!\");\n    }\n}\n\npublic class Gato extends Animal {\n    @Override\n    public void fazerSom() {\n        System.out.println(\"Miau!\");\n    }\n}\n\npublic class Vaca extends Animal {\n    @Override\n    public void fazerSom() {\n        System.out.println(\"Muu!\");\n    }\n}\n\n// O poder do polimorfismo — referência do tipo pai, objeto de qualquer filho\nAnimal[] animais = {\n    new Cachorro(),\n    new Gato(),\n    new Vaca(),\n    new Cachorro()\n};\n\nfor (Animal a : animais) {\n    a.fazerSom(); // cada um executa o SEU método — decidido em runtime\n}\n// Au!\n// Miau!\n// Muu!\n// Au!\nIsso permite escrever código genérico que funciona com qualquer subclasse, presente ou futura — sem precisar de if/else para cada tipo.\nCasting entre tipos\njavaAnimal a = new Cachorro(); // upcasting — implícito, sempre seguro\n\n// Downcasting — explícito, pode falhar\nCachorro c = (Cachorro) a; // seguro aqui, pois 'a' é realmente um Cachorro\nc.latir();\n\n// Para verificar o tipo antes de fazer downcasting\nif (a instanceof Cachorro) {\n    Cachorro dog = (Cachorro) a;\n    dog.latir();\n}\n\n// Java 16+ — pattern matching, mais limpo\nif (a instanceof Cachorro dog) {\n    dog.latir(); // 'dog' já é Cachorro, sem cast manual\n}\n\nPilar 4 — Abstração\nExpor apenas o que é essencial, escondendo a complexidade interna. Você define o quê deve ser feito, sem obrigar como deve ser feito.\nImplementada em Java por classes abstratas e interfaces.\n\n4. Classes abstratas\nUma classe abstrata não pode ser instanciada diretamente. Serve como base para outras classes. Pode ter métodos concretos (com corpo) e abstratos (sem corpo).\njavapublic abstract class Forma {\n    protected String cor;\n\n    public Forma(String cor) {\n        this.cor = cor;\n    }\n\n    // Abstrato — subclasse é OBRIGADA a implementar\n    public abstract double calcularArea();\n    public abstract double calcularPerimetro();\n\n    // Concreto — subclasse herda (pode sobrescrever se quiser)\n    public void descrever() {\n        System.out.printf(\"Forma %s | Área: %.2f | Perímetro: %.2f%n\",\n            cor, calcularArea(), calcularPerimetro());\n    }\n}\n\npublic class Circulo extends Forma {\n    private double raio;\n\n    public Circulo(String cor, double raio) {\n        super(cor);\n        this.raio = raio;\n    }\n\n    @Override\n    public double calcularArea() {\n        return Math.PI * raio * raio;\n    }\n\n    @Override\n    public double calcularPerimetro() {\n        return 2 * Math.PI * raio;\n    }\n}\n\npublic class Retangulo extends Forma {\n    private double largura, altura;\n\n    public Retangulo(String cor, double largura, double altura) {\n        super(cor);\n        this.largura = largura;\n        this.altura = altura;\n    }\n\n    @Override\n    public double calcularArea() { return largura * altura; }\n\n    @Override\n    public double calcularPerimetro() { return 2 * (largura + altura); }\n}\n\n// Forma f = new Forma(\"azul\"); → ERRO — classe abstrata não instancia\n\nForma[] formas = { new Circulo(\"vermelho\", 5), new Retangulo(\"azul\", 4, 6) };\nfor (Forma f : formas) {\n    f.descrever(); // polimorfismo — cada um calcula do seu jeito\n}\n\n5. Interfaces\nUma interface define um contrato: quem implementar deve fornecer todos os métodos. É mais rígida que classe abstrata — não tem estado (atributos de instância), define apenas comportamento.\njavapublic interface Pagavel {\n    void pagar(double valor); // implicitamente public e abstract\n    double getSaldo();\n}\n\npublic interface Notificavel {\n    void notificar(String mensagem);\n}\n\n// Uma classe pode implementar MÚLTIPLAS interfaces (diferente de herança)\npublic class ContaCorrente implements Pagavel, Notificavel {\n    private double saldo;\n\n    public ContaCorrente(double saldo) {\n        this.saldo = saldo;\n    }\n\n    @Override\n    public void pagar(double valor) {\n        saldo -= valor;\n        notificar(\"Pagamento de R$\" + valor + \" realizado.\");\n    }\n\n    @Override\n    public double getSaldo() { return saldo; }\n\n    @Override\n    public void notificar(String mensagem) {\n        System.out.println(\"[NOTIF] \" + mensagem);\n    }\n}\nMétodos especiais em interfaces (Java 8+)\njavapublic interface Imprimivel {\n\n    // Abstrato — obrigatório implementar\n    String conteudo();\n\n    // Default — implementação padrão, pode sobrescrever\n    default void imprimir() {\n        System.out.println(conteudo());\n    }\n\n    // Estático — chamado pela interface diretamente\n    static void imprimirVersao() {\n        System.out.println(\"Interface v1.0\");\n    }\n}\n\n// Uso\nImprimivel.imprimirVersao(); // estático — via interface\nminhaClasse.imprimir();      // default — via objeto\nConstantes em interfaces\njavapublic interface Configuracao {\n    // implicitamente public static final\n    int TIMEOUT = 30;\n    String VERSAO = \"1.0\";\n}\n\n6. Classe abstrata vs Interface — quando usar cada uma\nClasse abstrataInterfaceInstancia diretamente❌❌Herança múltipla❌ (só uma)✅ (várias)Atributos de instância✅❌Construtores✅❌Métodos com corpo✅✅ (default/static)Modificadores de acesso nos métodosQualquerSó public\nUse classe abstrata quando:\n\nAs classes filhas compartilham código real (atributos, construtores, métodos concretos)\nExiste uma hierarquia clara de \"é um tipo de\" (Cachorro é um Animal)\n\nUse interface quando:\n\nDefine capacidade independente de hierarquia (Pagavel, Serializavel, Comparavel)\nPrecisa que uma classe assuma múltiplos contratos\nQuer desacoplar completamente a definição da implementação\n\n\n7. this — referência ao objeto atual\njavapublic class Pessoa {\n    private String nome;\n    private int idade;\n\n    public Pessoa(String nome, int idade) {\n        this.nome = nome;   // this.nome = atributo | nome = parâmetro\n        this.idade = idade;\n    }\n\n    // Chama outro construtor da mesma classe — deve ser a primeira linha\n    public Pessoa(String nome) {\n        this(nome, 0); // chama o construtor acima\n    }\n\n    // Retorna o próprio objeto — útil para method chaining\n    public Pessoa comNome(String nome) {\n        this.nome = nome;\n        return this;\n    }\n}\n\n8. Modificadores de classe\nfinal\njava// Classe final não pode ser estendida\npublic final class String { ... } // por isso ninguém estende String\n\npublic final class Cpf {\n    private final String numero; // atributo final — imutável após construção\n    public Cpf(String numero) { this.numero = numero; }\n}\nstatic em classes internas\njavapublic class Pedido {\n    private int id;\n\n    // Classe interna não-estática — tem referência ao Pedido externo\n    public class Item {\n        private String produto;\n    }\n\n    // Classe interna estática — independente, sem referência ao Pedido externo\n    public static class Status {\n        public static final String PENDENTE = \"PENDENTE\";\n        public static final String PAGO = \"PAGO\";\n    }\n}\n\n// Uso\nPedido.Status.PENDENTE; // acessa a classe estática diretamente\n\n9. Relações entre classes\nAssociação\nUm objeto conhece o outro, mas ambos existem independentemente.\njavapublic class Aluno {\n    private String nome;\n    private Professor professor; // associação — professor existe fora do aluno\n\n    public Aluno(String nome, Professor professor) {\n        this.nome = nome;\n        this.professor = professor;\n    }\n}\nAgregação\n\"Tem um\" fraco — o todo referencia as partes, mas as partes sobrevivem sem o todo.\njavapublic class Time {\n    private List<Jogador> jogadores; // jogadores existem sem o time\n\n    public void adicionarJogador(Jogador j) {\n        jogadores.add(j);\n    }\n}\nComposição\n\"Tem um\" forte — as partes pertencem exclusivamente ao todo e são criadas/destruídas com ele.\njavapublic class Carro {\n    private Motor motor; // motor não existe sem o carro\n\n    public Carro() {\n        this.motor = new Motor(); // criado dentro, pertence exclusivamente ao Carro\n    }\n}\nDependência (uso pontual)\nUm objeto usa outro apenas localmente, sem guardar referência.\njavapublic class Relatorio {\n    public void gerar(Formatador formatador) { // usa Formatador, mas não guarda\n        formatador.formatar(dados);\n    }\n}\n\n10. Princípios SOLID\nSão cinco princípios que guiam design orientado a objetos de qualidade. Entender isso separa quem escreve código de quem projeta software.\nS — Single Responsibility (Responsabilidade Única)\nUma classe deve ter apenas um motivo para mudar.\njava// RUIM — classe faz tudo\npublic class Pedido {\n    public void calcularTotal() { ... }\n    public void salvarNoBanco() { ... }  // responsabilidade de persistência\n    public void enviarEmail() { ... }    // responsabilidade de notificação\n}\n\n// BOM — cada classe tem uma responsabilidade\npublic class Pedido { public void calcularTotal() { ... } }\npublic class PedidoRepository { public void salvar(Pedido p) { ... } }\npublic class NotificacaoService { public void enviarEmail(Pedido p) { ... } }\nO — Open/Closed (Aberto para extensão, fechado para modificação)\nAdicione comportamentos novos estendendo, não modificando código existente.\njava// RUIM — precisa modificar a classe para cada novo desconto\npublic class Desconto {\n    public double calcular(String tipo, double valor) {\n        if (tipo.equals(\"NATAL\")) return valor * 0.1;\n        if (tipo.equals(\"BLACK\")) return valor * 0.2;\n        // para adicionar novo desconto, modifica aqui — viola O\n    }\n}\n\n// BOM — cada desconto é uma extensão\npublic interface Desconto {\n    double calcular(double valor);\n}\n\npublic class DescontoNatal implements Desconto {\n    public double calcular(double valor) { return valor * 0.1; }\n}\n\npublic class DescontoBlackFriday implements Desconto {\n    public double calcular(double valor) { return valor * 0.2; }\n}\n// Novo desconto = nova classe, sem tocar nas existentes\nL — Liskov Substitution (Substituição de Liskov)\nObjetos da subclasse devem poder substituir objetos da superclasse sem quebrar o programa.\njava// VIOLAÇÃO — Quadrado estende Retangulo mas quebra a lógica\npublic class Retangulo {\n    protected double largura, altura;\n    public void setLargura(double l) { largura = l; }\n    public void setAltura(double a) { altura = a; }\n    public double area() { return largura * altura; }\n}\n\npublic class Quadrado extends Retangulo {\n    @Override\n    public void setLargura(double l) { largura = altura = l; } // quebra o contrato\n    @Override\n    public void setAltura(double a) { largura = altura = a; }\n}\n\n// Quem usa Retangulo esperando setLargura e setAltura independentes\n// vai ter comportamento errado com Quadrado — viola LSP\n// Solução: não usar herança aqui; usar composição ou classe separada\nI — Interface Segregation (Segregação de interfaces)\nUma classe não deve ser forçada a implementar métodos que não usa. Prefira interfaces menores e específicas.\njava// RUIM — interface gorda\npublic interface Animal {\n    void comer();\n    void voar();   // nem todo animal voa\n    void nadar();  // nem todo animal nada\n}\n\n// Cachorro seria forçado a implementar voar() e nadar() sem sentido\n\n// BOM — interfaces segregadas\npublic interface Comivel { void comer(); }\npublic interface Voador  { void voar(); }\npublic interface Nadador { void nadar(); }\n\npublic class Pato implements Comivel, Voador, Nadador { ... }\npublic class Cachorro implements Comivel, Nadador { ... }\npublic class Aguia implements Comivel, Voador { ... }\nD — Dependency Inversion (Inversão de dependência)\nDependa de abstrações, não de implementações concretas.\njava// RUIM — depende diretamente da implementação\npublic class PedidoService {\n    private MySQLRepository repo = new MySQLRepository(); // acoplado ao MySQL\n    public void salvar(Pedido p) { repo.salvar(p); }\n}\n\n// BOM — depende da abstração\npublic interface PedidoRepository {\n    void salvar(Pedido p);\n}\n\npublic class PedidoService {\n    private PedidoRepository repo; // depende da interface\n\n    public PedidoService(PedidoRepository repo) { // injeção de dependência\n        this.repo = repo;\n    }\n\n    public void salvar(Pedido p) { repo.salvar(p); }\n}\n\n// Agora pode usar qualquer implementação sem mudar PedidoService\nnew PedidoService(new MySQLRepository());\nnew PedidoService(new PostgresRepository());\nnew PedidoService(new FakeRepository()); // para testes\n\n11. Padrões de projeto fundamentais\nSingleton — garante uma única instância\njavapublic class Configuracao {\n    private static Configuracao instancia; // a única instância\n    private String ambiente;\n\n    private Configuracao() {          // construtor privado — impede new externo\n        ambiente = \"producao\";\n    }\n\n    public static Configuracao getInstance() {\n        if (instancia == null) {\n            instancia = new Configuracao();\n        }\n        return instancia;\n    }\n\n    public String getAmbiente() { return ambiente; }\n}\n\n// Uso\nConfiguracao.getInstance().getAmbiente();\nFactory Method — delega a criação a subclasses\njavapublic abstract class CriadorDeConexao {\n    public abstract Conexao criar(); // subclasses decidem qual conexão criar\n\n    public void conectar() {\n        Conexao c = criar();\n        c.abrir();\n    }\n}\n\npublic class CriadorMySQL extends CriadorDeConexao {\n    @Override\n    public Conexao criar() { return new ConexaoMySQL(); }\n}\n\npublic class CriadorPostgres extends CriadorDeConexao {\n    @Override\n    public Conexao criar() { return new ConexaoPostgres(); }\n}\nBuilder — constrói objetos complexos passo a passo\njavapublic class Pessoa {\n    private final String nome;\n    private final int idade;\n    private final String email;\n    private final String telefone; // opcional\n\n    private Pessoa(Builder builder) {\n        this.nome = builder.nome;\n        this.idade = builder.idade;\n        this.email = builder.email;\n        this.telefone = builder.telefone;\n    }\n\n    public static class Builder {\n        private String nome;\n        private int idade;\n        private String email;\n        private String telefone;\n\n        public Builder nome(String nome) { this.nome = nome; return this; }\n        public Builder idade(int idade) { this.idade = idade; return this; }\n        public Builder email(String email) { this.email = email; return this; }\n        public Builder telefone(String tel) { this.telefone = tel; return this; }\n        public Pessoa build() { return new Pessoa(this); }\n    }\n}\n\n// Uso — fluente e legível\nPessoa p = new Pessoa.Builder()\n    .nome(\"Ana\")\n    .idade(25)\n    .email(\"ana@email.com\")\n    .build();\nStrategy — encapsula algoritmos intercambiáveis\njavapublic interface EstrategiaOrdenacao {\n    void ordenar(int[] arr);\n}\n\npublic class BubbleSort implements EstrategiaOrdenacao {\n    @Override\n    public void ordenar(int[] arr) { /* implementação */ }\n}\n\npublic class QuickSort implements EstrategiaOrdenacao {\n    @Override\n    public void ordenar(int[] arr) { /* implementação */ }\n}\n\npublic class Ordenador {\n    private EstrategiaOrdenacao estrategia;\n\n    public Ordenador(EstrategiaOrdenacao estrategia) {\n        this.estrategia = estrategia;\n    }\n\n    public void setEstrategia(EstrategiaOrdenacao e) { this.estrategia = e; }\n    public void ordenar(int[] arr) { estrategia.ordenar(arr); }\n}\n\n// Uso — troca o algoritmo em runtime sem mudar o Ordenador\nOrdenador ord = new Ordenador(new BubbleSort());\nord.ordenar(nums);\n\nord.setEstrategia(new QuickSort()); // troca a estratégia\nord.ordenar(outrosNums);\n\n12. Erros comuns\nHerança por conveniência — não por \"é um tipo de\"\njava// RUIM — Stack estende Vector só para reaproveitar código\n// Stack não \"é um\" Vector no sentido semântico\n// Essa decisão histórica do Java é considerada um erro de design\n// Prefira composição quando a relação não for genuinamente \"é um tipo de\"\nViolar encapsulamento com atributos públicos\njava// RUIM — qualquer um modifica diretamente\npublic class Pessoa {\n    public String nome;\n    public int idade; // sem controle, sem validação\n}\n\n// BOM — acesso controlado\npublic class Pessoa {\n    private String nome;\n    private int idade;\n    public void setIdade(int idade) {\n        if (idade < 0) throw new IllegalArgumentException();\n        this.idade = idade;\n    }\n}\nUsar instanceof excessivamente\njava// RUIM — código que precisa verificar tipo tem design ruim\nfor (Animal a : animais) {\n    if (a instanceof Cachorro) { ((Cachorro)a).latir(); }\n    else if (a instanceof Gato) { ((Gato)a).miar(); }\n}\n\n// BOM — polimorfismo resolve sem instanceof\nfor (Animal a : animais) {\n    a.fazerSom(); // cada um executa o seu\n}\nEsquecer @Override\njava// Sem @Override, um typo cria um método novo em vez de sobrescrever\npublic class Cachorro extends Animal {\n    public void fazersom() { ... } // typo — não sobrescreveu, criou método novo\n    // Animal.fazerSom() ainda é chamado em polimorfismo — bug silencioso\n\n    @Override\n    public void fazersom() { ... } // ERRO de compilação — compilador detecta\n}\nConstrutores sem super() quando necessário\njavapublic class Animal {\n    private String nome;\n    public Animal(String nome) { this.nome = nome; } // não há construtor padrão\n}\n\npublic class Cachorro extends Animal {\n    public Cachorro() {\n        // compilador tentaria chamar super() implicitamente\n        // mas Animal não tem construtor sem parâmetros → ERRO de compilação\n        super(\"Rex\"); // obrigatório chamar explicitamente\n    }\n}\n\nResumo mental\nClasse       → molde / definição\nObjeto       → instância concreta da classe\n\nEncapsulamento  → private + getters/setters + validação\nHerança         → extends, super(), @Override, cadeia de tipos\nPolimorfismo    → mesmo método, comportamentos diferentes por tipo\nAbstração       → abstract class / interface — define o \"o quê\", não o \"como\"\n\nabstract class  → pode ter estado + código concreto, uma herança só\ninterface       → só contrato (+ default/static Java 8), herança múltipla\n\nthis  → referência ao objeto atual\nsuper → referência ao pai (construtor ou método)\n\nfinal class  → ninguém estende\nfinal método → ninguém sobrescreve\nfinal atrib  → imutável após construção\n\nAssociação  → conhece o outro, ambos independentes\nAgregação   → \"tem um\" fraco — parte sobrevive sem o todo\nComposição  → \"tem um\" forte — parte pertence exclusivamente ao todo\n\nSOLID:\n  S — uma razão para mudar\n  O — estenda, não modifique\n  L — subclasse substituível sem quebrar\n  I — interfaces pequenas e específicas\n  D — dependa de abstrações, não concreto\n\nPadrões:\n  Singleton  → uma única instância global\n  Factory    → delega criação a subclasses\n  Builder    → constrói objeto complexo em etapas\n  Strategy   → algoritmos intercambiáveis em runtime",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431413",
+      "topicoId": "1776358605805",
+      "titulo": "Aceleração Média",
+      "texto": "Aceleração Média\nIndica o quanto a velocidade varia por unidade de tempo. É a taxa de mudança da velocidade.\nAm = ∆V / ∆t = (Vf - Vi) / (tf - ti)\n\nUnidade: m/s²\nPositiva → velocidade aumentando (aceleração)\nNegativa → velocidade diminuindo (desaceleração / retardamento)\nZero → velocidade constante\n\nExemplo:\nCarro vai de 20 m/s para 60 m/s em 8 segundos.\n∆V = 60 - 20 = 40 m/s\n∆t = 8s\nAm = 40 / 8 = 5 m/s²",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431414",
+      "topicoId": "1776358605807",
+      "titulo": "Distância",
+      "texto": "Distância é o quanto um objeto percorreu no total, sem considerar direção. É sempre positiva e depende do caminho tomado.Deslocamento (∆S) é diferente — é a variação de posição do ponto inicial ao final, considerando direção. Pode ser negativo.Saiu de 0, foi até 10m, voltou até 4m:\n  Distância percorrida = 10 + 6 = 16m\n  Deslocamento         = 4 - 0  = 4mFórmula do deslocamento:\n∆S = S(final) - S(inicial)",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431415",
+      "topicoId": "1776358605807",
+      "titulo": "Velocidade Média",
+      "texto": "Velocidade Média\nIndica o quanto de deslocamento ocorre por unidade de tempo.\nVm = ∆S / ∆t = (Sf - Si) / (tf - ti)\n\nUnidade comum: m/s ou km/h\nConversão: km/h ÷ 3,6 = m/s\nPode ser negativa se o deslocamento for negativo (objeto voltou)\n\nExemplo:\nCarro sai do km 20 e chega ao km 200 em 2 horas.\n∆S = 200 - 20 = 180 km\n∆t = 2h\nVm = 180 / 2 = 90 km/h",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431416",
+      "topicoId": "1776358605809",
+      "titulo": "MRU (Movimento Retilineo Uniforme)",
+      "texto": "Movimento em linha reta com velocidade constante. A aceleração é zero — o objeto não acelera nem desacelera, anda igual o tempo todo.Condições:\n\nTrajetória reta\nVelocidade constante (módulo, direção e sentido)\nAceleração = 0\nFórmula:\nS = S₀ + v · tGráficos característicos:\n\nPosição × tempo → reta inclinada (quanto mais inclinada, maior a velocidade)\nVelocidade × tempo → reta horizontal (velocidade não muda)\nAceleração × tempo → reta em zero\nExemplo:\nCarro a 20 m/s constantes. Posição inicial = 10m.\nOnde está após 6s?\n\nS = 10 + 20 · 6 = 130mPonto de atenção: velocidade constante não significa parado — significa que não muda. Um objeto parado também é MRU com v = 0.",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431417",
+      "topicoId": "1776358605809",
+      "titulo": "MRUV (Movimento Retilineo Uniforme Variado)",
+      "texto": "Movimento em linha reta com aceleração constante. A velocidade muda de forma uniforme — aumenta ou diminui sempre pelo mesmo valor por segundo.Condições:\n\nTrajetória reta\nAceleração constante e diferente de zero\nVelocidade varia linearmente com o tempo\nFórmulas:\nV = V₀ + a · t                   → velocidade em qualquer instante\n\nS = S₀ + V₀·t + ½·a·t²          → posição em qualquer instante\n\nV² = V₀² + 2·a·∆S               → Torricelli (quando não tem o tempo)\n\nVm = (V₀ + V) / 2               → velocidade média no MRUVGráficos característicos:\n\nPosição × tempo → parábola\nVelocidade × tempo → reta inclinada\nAceleração × tempo → reta horizontal (constante)\nAcelerado vs Retardado:\n\nAcelerado → a e v têm o mesmo sinal (velocidade aumenta)\nRetardado → a e v têm sinais opostos (velocidade diminui)\nExemplo:\nCarro parte de 10 m/s com aceleração de 2 m/s².\n\nVelocidade após 5s:\n  V = 10 + 2 · 5 = 20 m/s\n\nPosição após 5s (saindo de S₀ = 0):\n  S = 0 + 10·5 + ½·2·25 = 50 + 25 = 75m\n\nVelocidade após percorrer 60m (sem saber o tempo):\n  V² = 10² + 2·2·60 = 100 + 240 = 340\n  V  = √340 ≈ 18,4 m/s",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431418",
+      "topicoId": "1776358605809",
+      "titulo": "QL (Queda Livre)",
+      "texto": "Queda LivreCaso especial do MRUV — o objeto cai verticalmente sob ação exclusiva da gravidade, sem resistência do ar.\n\nCondições:\n\nMovimento vertical para baixo\nVelocidade inicial = 0 (largado, não arremessado)\nAceleração = g ≈ 9,8 m/s² (costuma-se usar 10 m/s² em exercícios)\nFórmulas (as mesmas do MRUV, com a = g e V₀ = 0):\nV = g · t\n\nH = ½ · g · t²          → H é a altura percorrida\n\nV² = 2 · g · H           → Torricelli na queda livreExemplo:\nObjeto largado do repouso de uma altura de 80m. (g = 10 m/s²)\n\nTempo para chegar ao chão:\n  80 = ½ · 10 · t²\n  80 = 5t²\n  t² = 16\n  t  = 4s\n\nVelocidade ao chegar ao chão:\n  V = 10 · 4 = 40 m/s\n  (ou pela Torricelli: V² = 2·10·80 = 1600 → V = 40 m/s)Ponto de atenção: o peso do objeto não influencia o tempo de queda — uma pedra e uma pena (sem ar) caem juntas. Galileu demonstrou isso.",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431419",
+      "topicoId": "1776358605809",
+      "titulo": "Lançamento Vertical",
+      "texto": "Objeto lançado para cima ou para baixo com velocidade inicial. Ainda é MRUV com a = g, mas V₀ ≠ 0.\nPara cima:\nV = V₀ - g · t           → sobe desacelerando, para, desce acelerando\n\nH = V₀·t - ½·g·t²        → altura em relação ao ponto de lançamento\n\nV² = V₀² - 2·g·H\nAltura máxima (quando V = 0):\nV₀ = g · t(subida)   →   t(subida) = V₀ / g\n\nH(máx) = V₀² / (2·g)\nSimetria da trajetória:\n\nTempo de subida = tempo de descida\nVelocidade ao voltar ao ponto de lançamento = V₀ (mesmo módulo, sentido oposto)\n\nExemplo:\nBola lançada para cima com V₀ = 30 m/s. (g = 10 m/s²)\n\nTempo de subida:\n  t = 30 / 10 = 3s\n\nAltura máxima:\n  H = 30² / (2·10) = 900/20 = 45m\n\nTempo total no ar (sobe + desce):\n  t(total) = 2 · 3 = 6s\n",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431420",
+      "topicoId": "1776358605809",
+      "titulo": "Lançamento Horizontal",
+      "texto": "Objeto lançado horizontalmente de uma altura, sem velocidade vertical inicial. Combina MRU na horizontal com queda livre na vertical — os dois acontecem ao mesmo tempo, independentemente.\nDecomposição:\nHorizontal (MRU):     x = V₀ · t          → velocidade horizontal constante\n\nVertical (queda livre): y = ½ · g · t²    → cai como se tivesse sido largado\n                        Vy = g · t\nVelocidade resultante em qualquer instante:\nV = √(V₀² + Vy²)\nExemplo:\nBola lançada horizontalmente a 15 m/s de uma altura de 20m. (g = 10 m/s²)\n\nTempo de queda (só depende da altura):\n  20 = ½ · 10 · t²  →  t = 2s\n\nAlcance horizontal:\n  x = 15 · 2 = 30m\n\nVelocidade vertical ao chegar:\n  Vy = 10 · 2 = 20 m/s\n\nVelocidade resultante:\n  V = √(15² + 20²) = √(225 + 400) = √625 = 25 m/s\n\nLançamento Oblíquo\nObjeto lançado com velocidade inicial em um ângulo θ em relação ao solo. É a generalização do lançamento horizontal — também decompõe em MRU (horizontal) e MRUV (vertical).\nDecomposição da velocidade inicial:\nV₀x = V₀ · cos(θ)    → componente horizontal (constante)\nV₀y = V₀ · sen(θ)    → componente vertical (varia com g)\nEquações:\nHorizontal (MRU):\n  x = V₀ · cos(θ) · t\n\nVertical (MRUV):\n  y = V₀·sen(θ)·t - ½·g·t²\n  Vy = V₀·sen(θ) - g·t\nGrandezas importantes:\nTempo de subida:    t(sub) = V₀·sen(θ) / g\n\nTempo total:        t(total) = 2 · t(sub)\n\nAltura máxima:      H = (V₀·sen(θ))² / (2·g)\n\nAlcance máximo:     R = V₀² · sen(2θ) / g\nÂngulo de maior alcance: 45° — é o ângulo que maximiza sen(2θ), pois sen(90°) = 1.\nÂngulos complementares têm o mesmo alcance: 30° e 60°, 20° e 70°, etc.\nExemplo:\nProjétil lançado a 40 m/s com θ = 30°. (g = 10 m/s²)\n\nV₀x = 40 · cos(30°) = 40 · 0,866 ≈ 34,6 m/s\nV₀y = 40 · sen(30°) = 40 · 0,5   = 20 m/s\n\nTempo total:\n  t = 2 · (20/10) = 4s\n\nAlcance:\n  R = 34,6 · 4 ≈ 138,4m\n  (ou R = 40² · sen(60°) / 10 = 1600 · 0,866 / 10 ≈ 138,6m)\n\nAltura máxima:\n  H = 20² / (2·10) = 400/20 = 20m",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431421",
+      "topicoId": "1776358605809",
+      "titulo": "MCU (Movimento Circular Uniforme)",
+      "texto": "Movimento em trajetória circular com velocidade escalar (módulo) constante. A velocidade vetorial muda de direção o tempo todo — por isso existe aceleração mesmo com módulo constante.\nGrandezas:\nT  → período (tempo de uma volta completa) — em segundos\nf  → frequência (voltas por segundo) — em Hz\nω  → velocidade angular (rad/s)\nv  → velocidade linear (m/s)\nr  → raio da trajetória\nRelações:\nf = 1 / T                    → frequência e período são inversos\n\nω = 2π / T = 2π · f          → velocidade angular\n\nv = ω · r                    → velocidade linear a partir da angular\n\nac = v² / r = ω² · r         → aceleração centrípeta (aponta pro centro)\nAceleração centrípeta: sempre aponta para o centro da circunferência. Não muda o módulo da velocidade, só a direção.\nExemplo:\nObjeto em círculo de raio 2m, completando uma volta a cada 4s.\n\nT = 4s\nf = 1/4 = 0,25 Hz\nω = 2π/4 = π/2 ≈ 1,57 rad/s\nv = 1,57 · 2 ≈ 3,14 m/s\nac = 3,14² / 2 ≈ 4,93 m/s²",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431422",
+      "topicoId": "1776358605809",
+      "titulo": "MCUV (Movimento Circular Uniforme Variado)",
+      "texto": "Movimento circular com aceleração angular constante — a velocidade angular aumenta ou diminui uniformemente. É o análogo rotacional do MRUV.\nFórmulas (espelho exato do MRUV, mas com grandezas angulares):\nMRUV linear    →    MCUV angular\n\nv = v₀ + a·t        ω = ω₀ + α·t\ns = s₀+v₀t+½at²     θ = θ₀ + ω₀·t + ½·α·t²\nv² = v₀²+2a∆s       ω² = ω₀² + 2·α·∆θ\n\nα (alfa) → aceleração angular (rad/s²)\nθ (theta) → posição angular (rad)\n∆θ → deslocamento angular\n\nRelação com grandezas lineares:\na(tangencial) = α · r    → aceleração que muda o módulo da velocidade\na(centrípeta) = v² / r   → aceleração que muda a direção\n\na(resultante) = √(a²tang + a²cent)   → aceleração total no MCUV\nExemplo:\nRoda parte do repouso com α = 2 rad/s².\nVelocidade angular após 5s:\n  ω = 0 + 2 · 5 = 10 rad/s\n\nÂngulo percorrido:\n  θ = 0 + 0·5 + ½·2·25 = 25 rad\n\nSe o raio for 0,5m:\n  v = 10 · 0,5 = 5 m/s\n  a(tang) = 2 · 0,5 = 1 m/s²",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431425",
+      "topicoId": "1776361386098",
+      "titulo": "O que é",
+      "texto": "Crônica é um texto literário curto, publicado geralmente em jornais e revistas, que parte de um fato cotidiano, corriqueiro, para fazer uma reflexão — às vezes lírica, às vezes humorística, às vezes crítica. É o gênero que transforma o banal em literatura.\nA palavra vem do grego chronos (tempo) — originalmente era um relato de fatos em ordem cronológica. Com o tempo, evoluiu para o que é hoje: um texto subjetivo, de linguagem leve, sobre o dia a dia.",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431426",
+      "topicoId": "1776361386098",
+      "titulo": "Características Principais",
+      "texto": "Texto curto — feito para caber em uma página de jornal\nTema cotidiano — um engarrafamento, uma cena na padaria, um pensamento no ônibus\nSubjetividade — o cronista coloca sua visão, opinião, sentimento\nLinguagem acessível — próxima da fala, sem rebuscamento excessivo\nHibridismo — mistura jornalismo com literatura, podendo ter narração, descrição, diálogo, poesia, humor\nEfemeridade — nasce atrelada ao momento, mas as boas crônicas transcendem o tempo",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431427",
+      "topicoId": "1776361386098",
+      "titulo": "Tipos de Crônicas",
+      "texto": "Crônica narrativa — conta uma história com personagens, enredo e desfecho. É a mais próxima do conto.\nCrônica lírica — tom poético, sentimental. Reflete sobre sentimentos, memórias, beleza do cotidiano.\nCrônica argumentativa — defende um ponto de vista, comenta um fato social ou político. Mais próxima do artigo de opinião.\nCrônica humorística — usa ironia, sarcasmo e humor para tratar de temas sérios ou absurdos do dia a dia.\nCrônica poema em prosa — texto escrito em prosa mas com estrutura e musicalidade poética.\nNa prática, uma crônica pode misturar dois ou mais tipos.",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431428",
+      "topicoId": "1776361386098",
+      "titulo": "Estrutura",
+      "texto": "Estrutura\nNão tem estrutura rígida, mas geralmente segue:\n\nAbertura — apresenta o fato ou situação cotidiana que motivou o texto\nDesenvolvimento — reflexão, narrativa ou argumentação a partir desse fato\nDesfecho — pode ser uma conclusão, uma virada, uma frase de efeito ou simplesmente um corte abrupto\n\nO desfecho costuma ser o ponto mais forte da crônica — é onde o cronista revela o que quer dizer de verdade.",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431429",
+      "topicoId": "1776361386098",
+      "titulo": "Linguagem",
+      "texto": "Informal ou semiformal — depende do autor e do veículo\nUso frequente de ironia e humor\nFrases curtas e diretas\nPrimeira pessoa é muito comum (o cronista fala de si, do que viu, do que sentiu)\nPode usar gírias, expressões populares, diálogos naturais\nInterlocução com o leitor — o cronista frequentemente \"conversa\" com quem lê",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431430",
+      "topicoId": "1776361386098",
+      "titulo": "Cronistas",
+      "texto": "Machado de Assis — um dos pioneiros no Brasil, publicou centenas de crônicas no século XIX com ironia refinada.\nCarlos Drummond de Andrade — transitava entre poesia e prônica (prosa + crônica) com maestria lírica.\nRubem Braga — considerado o maior cronista brasileiro. Linguagem poética, contemplativa, sensível ao detalhe mínimo.\nLuís Fernando Veríssimo — humor inteligente, ironia social, personagens recorrentes (o analista de Bagé). O mais popular hoje.\nClarice Lispector — crônicas introspectivas, filosóficas, existenciais. Diferente de tudo.\nFernando Sabino — narrativas do cotidiano carioca, leveza e humor.\nRachel de Queiroz — visão nordestina, social e política.",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431431",
+      "topicoId": "1776361386098",
+      "titulo": "Como analisar",
+      "texto": "Como analisar uma crônica\nAo ler ou escrever uma análise, observe:\n\nTema — qual fato cotidiano motivou o texto?\nTipo — narrativa, lírica, humorística, argumentativa?\nNarrador — primeira ou terceira pessoa? Participa da história ou observa?\nLinguagem — formal, informal, irônica, poética?\nIntenção do autor — criticar, emocionar, fazer rir, refletir?\nRecursos estilísticos — ironia, metáfora, hipérbole, personificação?\nDesfecho — qual a mensagem ou virada final?",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431432",
+      "topicoId": "1776361386098",
+      "titulo": "Como escrever",
+      "texto": "Parta de algo real e simples — uma observação, uma situação, uma lembrança\nEscolha um ponto de vista (geralmente a primeira pessoa funciona bem)\nNão tente explicar tudo — deixe o leitor completar\nCuide do desfecho — é o que fica\nReleia em voz alta — crônica tem ritmo, precisa soar bem\nSeja direto — não há espaço para enrolação",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431433",
+      "topicoId": "1776361386098",
+      "titulo": "Resumo mental",
+      "texto": "Crônica = fato cotidiano + olhar literário + linguagem acessível\n\nTipos: narrativa / lírica / argumentativa / humorística / poema em prosa\n\nCaracterísticas: curta, subjetiva, híbrida, linguagem leve, publicada em jornal\nGrandes nomes: Rubem Braga, Luís Fernando Veríssimo,\n               Drummond, Clarice, Machado de Assis\n\nAnalisar: tema, tipo, narrador, linguagem, intenção, desfecho",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431434",
+      "topicoId": "1776361386100",
+      "titulo": "O que é",
+      "texto": "Carta pessoal é um texto escrito dirigido a uma pessoa específica — amigo, familiar, conhecido — com quem o remetente tem relação próxima. É um gênero da esfera privada, íntima, sem compromisso com formalidade rígida.\nCom o surgimento do e-mail, WhatsApp e redes sociais, a carta pessoal perdeu espaço no cotidiano, mas continua sendo cobrada em provas como modelo de comunicação escrita e como gênero textual com estrutura própria.",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431435",
+      "topicoId": "1776361386100",
+      "titulo": "Estrutura",
+      "texto": "1. Local e data\nIndicam onde e quando foi escrita.\nSão Paulo, 10 de maio de 2026.\n2. Vocativo\nSaudação inicial dirigida ao destinatário.\nQuerida Ana,\nOi, João!\nCaro amigo,\n3. Corpo da carta\nO conteúdo em si — notícias, sentimentos, pedidos, relatos. Linguagem livre, conforme a relação entre os dois.\n4. Despedida\nEncerramento afetuoso.\nCom carinho,\nUm abraço,\nSaudades,\nAté logo,\n5. Assinatura\nNome de quem escreve — não precisa ser nome completo em cartas pessoais.",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431436",
+      "topicoId": "1776361386100",
+      "titulo": "Característica",
+      "texto": "Linguagem informal ou semiformal — depende da relação\nSubjetiva — fala de sentimentos, experiências pessoais\nInterlocução direta — escrita para uma pessoa específica (\"você\", \"tu\")\nUso de primeira pessoa\nPode ter gírias, expressões coloquiais, humor\nSem obrigação de imparcialidade — o remetente expressa sua opinião livremente",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431437",
+      "topicoId": "1776361386100",
+      "titulo": "O que observar em provas",
+      "texto": "Identificar os elementos estruturais (vocativo, despedida, data)\nReconhecer a linguagem informal como adequada ao gênero — não é erro, é característica\nPerceber a relação entre remetente e destinatário pelo tom do texto\nDistinguir de carta argumentativa, carta aberta e carta formal",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431438",
+      "topicoId": "1776361386102",
+      "titulo": "O que é",
+      "texto": "Gênero textual é uma categoria de texto que se repete socialmente com características reconhecíveis — estrutura, linguagem, objetivo e contexto de circulação relativamente estáveis. Não é uma regra rígida, mas uma convenção social: todo mundo sabe como é uma receita, uma bula, uma notícia.\nGênero textual ≠ tipologia textual. Essa distinção é importante.\n",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431440",
+      "topicoId": "1776361386102",
+      "titulo": "Tipos",
+      "texto": "Principais gêneros textuais por esfera\nEsfera jornalística\n\nNotícia — relato objetivo de um fato recente. Responde: quem, o quê, quando, onde, como, por quê\nReportagem — aprofunda a notícia com contexto, entrevistas, análise\nEditorial — opinião do veículo sobre um fato. Sem assinatura\nArtigo de opinião — opinião assinada de um colaborador\nCrônica — literária, cotidiana, subjetiva\nEntrevista — perguntas e respostas com uma fonte\n\nEsfera literária\n\nConto — narrativa curta com poucos personagens e um único conflito central\nCrônica — curta, cotidiana, literária\nRomance — narrativa longa, múltiplos personagens e conflitos\nPoema — texto com recursos sonoros e imagéticos, geralmente em versos\nFábula — narrativa curta com animais e moral explícita\nCordel — poesia popular nordestina em estrofes rimadas\n\nEsfera do cotidiano\n\nCarta pessoal — comunicação íntima entre conhecidos\nBilhete — recado rápido e informal\nDiário — registro pessoal e íntimo de experiências e sentimentos\nLista — enumeração de itens com objetivo prático\n\nEsfera publicitária\n\nAnúncio — promove produto ou serviço\nPropaganda — promove ideia, causa ou candidato\nSlogan — frase curta e memorável de uma marca ou campanha\n\nEsfera científica e acadêmica\n\nArtigo científico — apresenta pesquisa com metodologia e resultados\nResumo / abstract — síntese de um trabalho acadêmico\nResenha — análise crítica de uma obra (livro, filme, artigo)\nMonografia / TCC — trabalho acadêmico extenso sobre um tema específico\nVerbete — definição de um termo (dicionário, enciclopédia)\n\nEsfera instrucional\n\nReceita — ingredientes + modo de preparo. Usa verbos no imperativo\nBula — informações sobre medicamento: indicação, posologia, contraindicações\nManual — instruções de uso de produto ou equipamento\nRegulamento / edital — regras de um processo (concurso, concurso público)\n\nEsfera digital\n\nE-mail — pode ser formal ou informal dependendo do contexto\nPost em rede social — curto, informal, visual\nBlog — artigos pessoais ou temáticos publicados online\nMeme — imagem com texto, humor, referência cultural\n\nEsfera jurídica e oficial\n\nRequerimento — solicitação formal a uma instituição\nOfício — comunicação entre órgãos públicos ou de órgão para pessoa\nAta — registro de reunião com o que foi discutido e decidido\nContrato — acordo formal entre partes com obrigações e direitos\n\n\nComo identificar o gênero de um texto\nObserve:\n\nQuem escreve — indivíduo, empresa, instituição, anônimo?\nPara quem — leitor específico, público amplo, especialista?\nOnde circula — jornal, livro, rótulo, internet, cartório?\nQual o objetivo — informar, convencer, entreter, instruir, registrar?\nComo é a linguagem — formal, informal, técnica, poética?\nQual a estrutura — tem vocativo? Título? Assinatura? Estrofes?",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431441",
+      "topicoId": "1776361386102",
+      "titulo": "Suporte vs Gênero",
+      "texto": "Suporte é onde o gênero circula — não é o mesmo que o gênero.\nJornal (suporte) → pode conter notícia, editorial, crônica, anúncio (gêneros)\nLivro (suporte)  → pode conter romance, conto, poema, ensaio (gêneros)\nInternet         → pode conter blog, post, e-mail, notícia (gêneros)\n\nResumo mental\n\nGênero textual = texto com estrutura, linguagem e objetivo reconhecíveis\n                 definido pelo contexto social de uso\n\nTipologia = modo de organizar o texto\n  narração / descrição / dissertação / argumentação / injunção\n\nUm gênero usa vários tipos ao mesmo tempo.\n\nEsferas principais:\n  Jornalística  → notícia, reportagem, editorial, artigo, crônica\n  Literária     → conto, romance, poema, fábula, crônica\n  Cotidiana     → carta, bilhete, diário\n  Publicitária  → anúncio, propaganda, slogan\n  Acadêmica     → artigo, resenha, resumo, verbete\n  Instrucional  → receita, bula, manual\n  Jurídica      → ofício, ata, contrato, requerimento\n  Digital       → e-mail, post, blog, meme\n\nPara identificar: quem escreve, para quem, onde circula,\n                  qual o objetivo, linguagem, estrutura",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431442",
+      "topicoId": "1778372431424",
+      "titulo": "Coesão",
+      "texto": "A coesão é a ligação gramatical e lexical entre os elementos do texto. Ela garante que as frases não fiquem soltas.\n\nA. Coesão Referencial\nServe para evitar repetições desnecessárias, usando termos que remetem a algo já dito (anáfora) ou que ainda será dito (catáfora).\n\nPronomes: \"Vi o livro e o comprei.\"\n\nSinônimos: \"A cidade sofre com a chuva. O município declarou alerta.\"\n\nEpítetos: \"Machado de Assis foi genial. O Bruxo do Cosme Velho mudou a literatura.\"\n\nB. Coesão Sequencial\nÉ a que faz o texto progredir no tempo e na argumentação, estabelecendo relações lógicas.\n\nConectivos (Conjunções): Uso de \"porém\" (oposição), \"portanto\" (conclusão), \"além disso\" (adição).\n\nTempos Verbais: A manutenção de uma linha temporal lógica (passado, presente e futuro).\n\nC. Coesão por Substituição ou Elipse\nSubstituição: Trocar um verbo ou nome por uma expressão equivalente.\n\nElipse (Omissão): Omitir um termo que é facilmente subentendido.\n\nExemplo: \"João gosta de maçã; Maria, de pera.\" (O verbo \"gosta\" foi omitido na segunda oração).\n\nD. Coesão Lexical\nOcorre por meio da seleção de palavras do mesmo campo semântico (hiperônimos e hipônimos).\n\nExemplo: Falar de \"pétalas\", \"caule\" e \"perfume\" para reforçar a ideia de \"flor\".",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431443",
+      "topicoId": "1778372431424",
+      "titulo": "Coerência",
+      "texto": "A coerência é a relação lógica entre as ideias. Um texto pode ter conectivos (ser coeso), mas se as ideias se contradizem ou não fazem sentido no mundo real, ele é incoerente.\n\nA. Princípio da Não Contradição\nUm texto não pode afirmar algo e, logo em seguida, negar essa mesma coisa sem uma justificativa lógica.\n\nIncoerência: \"O dia está ensolarado, por isso vou levar meu guarda-chuva para me proteger da tempestade.\"\n\nB. Princípio da Relevância\nAs ideias devem estar relacionadas entre si e com o tema central. Introduzir um assunto aleatório no meio de um argumento quebra a unidade do texto.\n\nExemplo: Você está escrevendo sobre economia e, do nada, começa a descrever a cor das paredes do escritório sem qualquer propósito narrativo.\n\nC. Princípio da Progressão Semântica\nO texto precisa sempre trazer informações novas. Se você ficar repetindo a mesma ideia com palavras diferentes (redundância/pleonasmo vicioso), o texto perde a coerência por falta de progresso.\n\nD. Coerência Externa (Contextual)\nO texto precisa fazer sentido em relação ao mundo real ou ao universo criado.\n\nExemplo: Em um livro de história realista, um personagem não pode atender um iPhone em 1800.",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431444",
+      "topicoId": "1778372431424",
+      "titulo": "Comparação em Resumo",
+      "texto": "A coesão garante que o texto seja bonito de ler e bem estruturado, enquanto a coerência garante que o texto seja inteligente e compreensível.",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431445",
+      "topicoId": "1776430992919",
+      "titulo": "Resumo",
+      "texto": "O Cubismo foi a primeira vanguarda europeia a romper totalmente com a estética tradicional do Renascimento, que buscava imitar a realidade (mimese) através da perspectiva e do volume natural.\n\nAqui está tudo o que você precisa saber, dividido por tópicos fundamentais:\n\n1. O Que Foi o Cubismo?\nSurgido em Paris por volta de 1907, o Cubismo propôs uma nova linguagem visual onde os objetos não são retratados de um único ponto de vista, mas sim \"descompostos\" e apresentados de vários ângulos simultaneamente na mesma tela.\n\nGeometrização: A realidade é simplificada em cubos, esferas, cones e cilindros.\n\nAbandono da Perspectiva: Não há mais a ilusão de profundidade ou \"janela para o mundo\". O plano da tela é assumido como bidimensional.\n\nCores Austeras: No início, predominavam tons de marrom, cinza, ocre e preto, para que o foco fosse a forma, e não a emoção das cores.\n\n2. As Duas Fases Principais\nO Cubismo não foi um movimento estático; ele evoluiu drasticamente em poucos anos:\n\nCubismo Analítico (1909 – 1912)\nÉ a fase mais radical. O artista \"analisa\" o objeto, separando-o em tantas partes que a imagem se torna quase abstrata.\n\nFragmentação total: É difícil identificar o que está sendo pintado à primeira vista.\n\nCores Monocromáticas: Pouquíssima variação de cor para priorizar a estrutura.\n\nExemplo: O Aficionado, de Pablo Picasso.\n\nCubismo Sintético (1912 – 1914)\nSurge como uma reação à fragmentação excessiva da fase anterior. Os artistas queriam tornar as formas reconhecíveis novamente.\n\nColagem (Papiers Collés): Foi a grande inovação. Passaram a colar pedaços de jornal, partituras, pedaços de madeira ou tecido na tela.\n\nCores Fortes: O retorno de cores mais vivas e formas mais amplas e simples.\n\nExemplo: Natureza-morta com Cadeira de Palhinha, de Pablo Picasso.\n\n3. Principais Artistas\nTrês nomes definiram os rumos do movimento:\n\nPablo Picasso: O líder e cofundador. Sua obra Les Demoiselles d'Avignon (1907) é considerada o marco inicial do Cubismo, influenciada por máscaras africanas e pela obra de Cézanne.\n\nGeorges Braque: Trabalhou tão próximo de Picasso que, em certo período, suas obras eram quase indistinguíveis. Ele focava muito na estrutura e no equilíbrio das formas.\n\nJuan Gris: Um mestre do Cubismo Sintético, trouxe um rigor matemático e cores mais vibrantes para o movimento.\n\n4. O Cubismo no Brasil\nO movimento chegou ao Brasil com força durante a Semana de Arte Moderna de 1922 e influenciou profundamente nossos artistas, embora eles tenham misturado o cubismo com temas nacionais e cores tropicais.\n\nTarsila do Amaral: Embora não fosse puramente cubista, utilizou a geometrização aprendida em Paris (com mestres cubistas como Fernand Léger) para criar obras como A Gare e Estrada de Ferro Central do Brasil.\n\nVicente do Rego Monteiro: Suas figuras têm um aspecto escultural e geométrico muito próximo do Cubismo.\n\n5. Legado e Influência\nO Cubismo foi a \"porta de entrada\" para quase todas as outras vanguardas do século XX (Futurismo, Construtivismo, Abstracionismo). Ele ensinou que a arte não precisa ser um espelho da realidade, mas uma construção mental sobre ela.\n\nCuriosidade: O nome \"Cubismo\" surgiu de uma crítica maldosa. Ao ver quadros de Braque, o crítico Louis Vauxcelles disse que as obras pareciam feitas de \"pequenos cubos\". O nome pegou.",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431447",
+      "topicoId": "1778372431446",
+      "titulo": "Mientras",
+      "texto": "Mientras (Duração e Simultaneidade)\nA palavra mientras equivale ao nosso \"enquanto\". Ela é usada para falar de duas ações que acontecem ao mesmo tempo.\n\nUso principal: Indica que a ação A e a ação B são paralelas.\n\nExemplo: \"Yo estudio mientras escuto música.\" (Eu estudo enquanto escuto música.)\n\nMientras que: Quando você adiciona o \"que\", a função muda um pouco para contraste ou comparação.\n\nExemplo: \"A mí me gusta el frío, mientras que a meu irmão le gusta el calor.\" (Eu gosto do frio, ao passo que meu irmão gosta do calor.)\n\nDica Gramatical: Se a frase se refere ao futuro, usamos o Subjuntivo depois de mientras.\n\nExemplo: \"Mientras vivas nesta casa, seguirás as regras.\" (Enquanto você viver nesta casa...)",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431448",
+      "topicoId": "1778372431446",
+      "titulo": "En cuanto",
+      "texto": "En cuanto (Imediatismo e Sucessão)\nA expressão en cuanto equivale ao nosso \"assim que\" ou \"logo que\". Ela indica que uma ação acontece imediatamente após a outra terminar.\n\nUso principal: Indica pressa ou sucessão imediata. Não há intervalo entre as ações.\n\nExemplo: \"En cuanto llegue a casa, te llamo.\" (Assim que eu chegar em casa, te ligo.)\n\nContexto: É muito comum em promessas, avisos ou narrações de eventos rápidos.\n\nExemplo: \"Cenamos en cuanto terminó a película.\" (Jantamos logo que o filme acabou.)",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431451",
+      "topicoId": "1778372431450",
+      "titulo": "Quais são",
+      "texto": "São as palavras que substituem os nomes e indicam quem executa a ação na frase.\n\nI (Eu)\n\nYou (Você/Vocês)\n\nHe (Ele) / She (Ela) / It (Ele/Ela para objetos, animais ou situações)\n\nWe (Nós)\n\nThey (Eles/Elas)\n\nPonto-chave: Lembre-se que o \"It\" é obrigatório em inglês para frases que não têm um sujeito humano (ex: It is raining - Está chovendo).",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431453",
+      "topicoId": "1778372431452",
+      "titulo": "Verbs",
+      "texto": "É o verbo mais básico e importante, usado para descrever estados, características ou localizações.\n\nFormas: Am, Is, Are.\n\nI am\n\nHe/She/It is\n\nYou/We/They are\n\nNegativa: Basta adicionar o \"not\" (is not/isn't, are not/aren't).\n\nInterrogativa: O verbo vem para a frente da frase (Are you happy?).",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431455",
+      "topicoId": "1778372431454",
+      "titulo": "Pronouns",
+      "texto": "Usados para indicar a posição de algo em relação a quem fala.\n\nSingular:\n\nThis: \"Este/Esta/Isto\" (Perto de quem fala).\n\nThat: \"Aquele/Aquela/Isso\" (Longe de quem fala).\n\nPlural:\n\nThese: \"Estes/Estas\" (Perto).\n\nThose: \"Aqueles/Aquelas\" (Longe).",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431457",
+      "topicoId": "1778372431456",
+      "titulo": "There",
+      "texto": "Usado para dizer que algo existe em algum lugar. Cuidado: Não use o verbo \"have\" (ter) com sentido de existir em inglês.\n\nThere is: Existe (Singular). Ex: There is a book on the table.\n\nThere are: Existem (Plural). Ex: There are students in the class.",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431459",
+      "topicoId": "1778372431458",
+      "titulo": "Pronouns",
+      "texto": "Palavras usadas no início de perguntas para obter informações específicas.\n\nWho: Quem?\n\nWhat: O quê? / Qual?\n\nWhere: Onde?\n\nWhen: Quando?\n\nWhy: Por quê? (Resposta: Because...)\n\nHow: Como?",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431461",
+      "topicoId": "1778372431460",
+      "titulo": "Comparatives and Superlatives",
+      "texto": "Usados para comparar coisas ou destacar algo dentro de um grupo.\nComparativo (A vs B):\nAdjetivos curtos: Terminam em -er + than (taller than).\nAdjetivos longos: Usa-se more + adjetivo + than (more beautiful than).\n\nSuperlativo (O melhor/maior de todos):\nAdjetivos curtos: The + adjetivo com -est (the tallest).\nAdjetivos longos: The most + adjetivo (the most difficult).Irregulares: Good -> Better (comp) -> The Best (sup).",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431463",
+      "topicoId": "1778372431462",
+      "titulo": "Verbs",
+      "texto": "Usado para rotinas, hábitos e fatos permanentes.\n\nRegra Geral: O verbo fica normal para I, You, We, They.\n\nRegra do He/She/It: No presente afirmativo, adiciona-se -s, -es ou -ies ao final do verbo (He works, She goes).\n\nAuxiliares: Usa-se Do e Does para perguntas e negativas.",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431465",
+      "topicoId": "1778372431464",
+      "titulo": "Expressions",
+      "texto": "Palavras que dizem com que frequência você faz algo.\n\nAlways (Sempre), Usually (Geralmente), Often (Frequentemente), Sometimes (Às vezes), Never (Nunca).\n\nPosição: Geralmente vêm antes do verbo principal, mas depois do verbo BE.",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431467",
+      "topicoId": "1778372431466",
+      "titulo": "What is and how it works?",
+      "texto": "Usado para ações que estão acontecendo agora, no momento da fala.\n\nEstrutura: Sujeito + Verbo BE + Verbo com -ING.\n\nEx: We are running (Nós estamos correndo).\n\nEx: He is pulling (Ele está puxando).\n\nUso: Muito comum em letras de músicas para descrever cenas atuais.",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431468",
+      "topicoId": "1776361386103",
+      "titulo": "Re",
+      "texto": "",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431470",
+      "topicoId": "1778372431469",
+      "titulo": "O que é, e como realizar:",
+      "texto": "A fração geratriz é a fração que dá origem a uma dízima periódica.\nDízima Periódica Simples (ex: 0,444...) Identifique o período (o número que repete): é o 4.\nO numerador será o período: 4. O denominador terá tantos 9 quantos forem os algarismos do período.\nComo o período é só \"4\" (um algarismo), fica 9.\nResultado: 4/9. \nDízima Periódica Composta (ex: $0,1222...)\nAqui temos o \"intruso\" (parte não periódica) que é o 1, e o período que é o 2.\nNo numerador, pegue a parte não periódica seguida do período (12) e subtraia a parte não periódica (1).12 - 1 = 11.\nNo denominador, coloque um 9 para cada algarismo do período e um 0 para cada algarismo da parte não periódica.\nUm período -> um 9 .Um intruso -> um 0.\nResultado: 11/90.",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431472",
+      "topicoId": "1778372431471",
+      "titulo": "O que é, como realizar:",
+      "texto": "O produto cartesiano A x B é o conjunto de todos os pares ordenados (x, y) onde o primeiro elemento pertence a A e o segundo a B. \nSe A = {1, 2} e B = {a, b} A x B = {(1, a), (1, b), (2, a), (2, b)} \nDica de Ouro: A ordem importa! (1, a) é diferente de (a, 1).",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431474",
+      "topicoId": "1778372431473",
+      "titulo": "O conceito e a estrutura",
+      "texto": "Uma função é uma regra que conecta cada elemento de um conjunto A a exatamente um elemento de um conjunto B.\n\nDomínio, Contradomínio e Imagem\n\nDomínio (D): Conjunto de partida (os valores de $x$). Todos os elementos daqui precisam ter uma seta saindo.\n\nContradomínio (CD): Conjunto de chegada (onde as setas podem chegar).\n\nImagem (Img): Subconjunto do contradomínio formado apenas pelos elementos que realmente receberam uma seta.\n\nFunção de A em B (f: A -> B) Significa que a função pega valores em A e devolve resultados em B.",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431475",
+      "topicoId": "1778372431473",
+      "titulo": "",
+      "texto": "",
+      "arquivos": [],
+      "data": "2026-05-10"
+    }
+  ],
+  "tarefas": [
+    {
+      "id": "1776430992917",
+      "texto": "Prova OBA",
+      "prazoCompleto": "2026-05-15T15:00:00",
+      "materiaId": "1776358374887",
+      "prioridade": "media",
+      "feita": false
+    },
+    {
+      "id": "1776430992918",
+      "texto": "Prova",
+      "prazoCompleto": "2026-05-26T10:45:00",
+      "materiaId": "1776358605776",
+      "prioridade": "alta",
+      "feita": false
+    },
+    {
+      "id": "1777562209099",
+      "texto": "Avaliação",
+      "prazoCompleto": "2026-05-14T07:30:00",
+      "materiaId": "1776358605779",
+      "prioridade": "alta",
+      "feita": false
+    },
+    {
+      "id": "1778341457092",
+      "texto": "Projeto no Scratch (HAHAHAH)",
+      "feita": false,
+      "prazoCompleto": "2026-05-18T10:45:00",
+      "prioridade": "alta",
+      "materiaId": "1776358374887"
+    },
+    {
+      "id": "1778341457093",
+      "texto": "Apresentar Desenvolvimento do Portfólio",
+      "feita": false,
+      "prazoCompleto": "2026-05-12T08:15:00",
+      "prioridade": "alta",
+      "materiaId": "1776358605777"
+    },
+    {
+      "id": "1778341457094",
+      "texto": "Tarefa Avaliativa (Entregar)",
+      "feita": false,
+      "prazoCompleto": "2026-05-15T10:45:00",
+      "prioridade": "alta",
+      "materiaId": "1776358605783"
+    }
+  ],
+  "notasRapidas": [
+    {
+      "id": "1778341457098",
+      "texto": "Reforçar Inglês e Português",
+      "data": "2026-05-09"
+    },
+    {
+      "id": "1778341457097",
+      "texto": "Estudar conteúdos de química",
+      "data": "2026-05-09"
+    },
+    {
+      "id": "1778341457095",
+      "texto": "Estudar conteúdos de matemática",
+      "data": "2026-05-09"
+    }
+  ],
+  "streak": {
+    "lastDate": "2026-05-10",
+    "count": 14
+  },
+  "conquistas": [
+    "primeiro_topico",
+    "cinco_topicos",
+    "streak_3"
+  ],
+  "nextId": 1,
+  "anotacoesMinimizadas": {
+    "1776358605802": true,
+    "1776358605787": true,
+    "1776358605789": false,
+    "1776358605788": true,
+    "1776358605790": true,
+    "1776358605791": false,
+    "1776358605800": false,
+    "1776725697835": true,
+    "1776358605799": true,
+    "1776358605797": true,
+    "1776358605798": true,
+    "1776731210810": true,
+    "1778372431411": true,
+    "1778372431412": true,
+    "1778372431410": true,
+    "1776851405005": true,
+    "1776851405006": true,
+    "1776851405007": true
+  },
+  "arquivosMateria": {},
+  "_log": [
+    {
+      "msg": "Salvo pelo administrador",
+      "ts": "2026-05-10T01:57:52.322Z",
+      "color": "var(--green)"
+    },
+    {
+      "msg": "Tópico \"Funções\" criado",
+      "ts": "2026-05-10T01:47:30.691Z",
+      "color": "var(--accent)"
+    },
+    {
+      "msg": "Tópico \"Produto Cartesiano\" criado",
+      "ts": "2026-05-10T01:45:34.805Z",
+      "color": "var(--accent)"
+    },
+    {
+      "msg": "Tópico \"Fração Geratriz\" criado",
+      "ts": "2026-05-10T01:37:54.378Z",
+      "color": "var(--accent)"
+    },
+    {
+      "msg": "Tópico \"Funções\" removido",
+      "ts": "2026-05-10T01:37:43.696Z",
+      "color": "var(--red)"
+    },
+    {
+      "msg": "Tópico \"Produto Cartesiano\" removido",
+      "ts": "2026-05-10T01:37:42.432Z",
+      "color": "var(--red)"
+    },
+    {
+      "msg": "Tópico \"Lógica\" removido",
+      "ts": "2026-05-10T01:37:41.178Z",
+      "color": "var(--red)"
+    },
+    {
+      "msg": "Tópico \"Present Continuous\" criado",
+      "ts": "2026-05-10T01:28:29.135Z",
+      "color": "var(--accent)"
+    },
+    {
+      "msg": "Tópico \"Time and Frequency Expressions\" criado",
+      "ts": "2026-05-10T01:27:46.944Z",
+      "color": "var(--accent)"
+    },
+    {
+      "msg": "Tópico \"Present of Action Verbs\" criado",
+      "ts": "2026-05-10T01:27:18.146Z",
+      "color": "var(--accent)"
+    },
+    {
+      "msg": "Tópico \"Adjectives\" criado",
+      "ts": "2026-05-10T01:25:50.846Z",
+      "color": "var(--accent)"
+    },
+    {
+      "msg": "Tópico \"Interrogative Pronouns\" criado",
+      "ts": "2026-05-10T01:25:31.874Z",
+      "color": "var(--accent)"
+    },
+    {
+      "msg": "Tópico \"There to Be\" criado",
+      "ts": "2026-05-10T01:24:44.724Z",
+      "color": "var(--accent)"
+    },
+    {
+      "msg": "Tópico \"Demonstratives Pronouns\" criado",
+      "ts": "2026-05-10T01:24:15.652Z",
+      "color": "var(--accent)"
+    },
+    {
+      "msg": "Tópico \"Verb to Be (Present)\" criado",
+      "ts": "2026-05-10T01:23:42.620Z",
+      "color": "var(--accent)"
+    },
+    {
+      "msg": "Tópico \"Personal Pronouns\" criado",
+      "ts": "2026-05-10T01:22:51.758Z",
+      "color": "var(--accent)"
+    },
+    {
+      "msg": "Tópico \"Mientras e En cuanto\" criado",
+      "ts": "2026-05-10T01:15:45.045Z",
+      "color": "var(--accent)"
+    },
+    {
+      "msg": "Salvo pelo administrador",
+      "ts": "2026-05-10T01:10:22.598Z",
+      "color": "var(--green)"
+    },
+    {
+      "msg": "Salvo pelo administrador",
+      "ts": "2026-05-10T01:00:04.899Z",
+      "color": "var(--green)"
+    },
+    {
+      "msg": "Tópico \"Coesão e Coerência\" criado",
+      "ts": "2026-05-10T00:57:08.226Z",
+      "color": "var(--accent)"
+    },
+    {
+      "msg": "Salvo pelo administrador",
+      "ts": "2026-05-10T00:56:22.647Z",
+      "color": "var(--green)"
+    },
+    {
+      "msg": "Salvo pelo administrador",
+      "ts": "2026-05-10T00:55:09.477Z",
+      "color": "var(--green)"
+    },
+    {
+      "msg": "Salvo pelo administrador",
+      "ts": "2026-05-10T00:49:36.077Z",
+      "color": "var(--green)"
+    },
+    {
+      "msg": "Salvo pelo administrador",
+      "ts": "2026-05-10T00:45:17.961Z",
+      "color": "var(--green)"
+    },
+    {
+      "msg": "Salvo pelo administrador",
+      "ts": "2026-05-10T00:41:59.276Z",
+      "color": "var(--green)"
+    },
+    {
+      "msg": "Salvo pelo administrador",
+      "ts": "2026-05-10T00:36:37.608Z",
+      "color": "var(--green)"
+    },
+    {
+      "msg": "Salvo pelo administrador",
+      "ts": "2026-05-10T00:25:03.822Z",
+      "color": "var(--green)"
+    },
+    {
+      "msg": "Streak ajustado para 13 dias (2026-05-09)",
+      "ts": "2026-05-10T00:23:00.001Z",
+      "color": "var(--orange)"
+    },
+    {
+      "msg": "Streak ajustado para 13 dias (2026-05-09)",
+      "ts": "2026-05-10T00:22:59.839Z",
+      "color": "var(--orange)"
+    },
+    {
+      "msg": "Streak ajustado para 13 dias (2026-05-09)",
+      "ts": "2026-05-10T00:22:59.697Z",
+      "color": "var(--orange)"
+    },
+    {
+      "msg": "Streak ajustado para 13 dias (2026-05-09)",
+      "ts": "2026-05-10T00:22:59.535Z",
+      "color": "var(--orange)"
+    },
+    {
+      "msg": "Streak ajustado para 13 dias (2026-05-10)",
+      "ts": "2026-05-10T00:22:56.811Z",
+      "color": "var(--orange)"
+    },
+    {
+      "msg": "Streak ajustado para 13 dias (2026-05-10)",
+      "ts": "2026-05-10T00:22:56.609Z",
+      "color": "var(--orange)"
+    },
+    {
+      "msg": "Streak ajustado para 13 dias (2026-05-10)",
+      "ts": "2026-05-10T00:22:56.447Z",
+      "color": "var(--orange)"
+    },
+    {
+      "msg": "Streak ajustado para 13 dias (2026-05-10)",
+      "ts": "2026-05-10T00:22:56.295Z",
+      "color": "var(--orange)"
+    },
+    {
+      "msg": "Streak ajustado para 13 dias (2026-05-10)",
+      "ts": "2026-05-10T00:22:56.163Z",
+      "color": "var(--orange)"
+    },
+    {
+      "msg": "Streak ajustado para 13 dias (2026-05-10)",
+      "ts": "2026-05-10T00:22:54.421Z",
+      "color": "var(--orange)"
+    },
+    {
+      "msg": "Streak ajustado para 13 dias (2026-05-09)",
+      "ts": "2026-05-10T00:22:52.887Z",
+      "color": "var(--orange)"
+    },
+    {
+      "msg": "Streak ajustado para 13 dias (2026-05-09)",
+      "ts": "2026-05-10T00:22:51.695Z",
+      "color": "var(--orange)"
+    },
+    {
+      "msg": "Meta & Info atualizado pelo administrador",
+      "ts": "2026-05-10T00:22:34.528Z",
+      "color": "var(--purple)"
+    },
+    {
+      "msg": "Salvo pelo administrador",
+      "ts": "2026-05-09T23:28:00.891Z",
+      "color": "var(--green)"
+    },
+    {
+      "msg": "Nota rápida adicionada",
+      "ts": "2026-05-09T23:27:57.698Z",
+      "color": "var(--text2)"
+    },
+    {
+      "msg": "Nota rápida adicionada",
+      "ts": "2026-05-09T23:27:48.435Z",
+      "color": "var(--text2)"
+    },
+    {
+      "msg": "Nota rápida adicionada",
+      "ts": "2026-05-09T23:27:34.344Z",
+      "color": "var(--text2)"
+    },
+    {
+      "msg": "Nota rápida adicionada",
+      "ts": "2026-05-09T23:27:28.109Z",
+      "color": "var(--text2)"
+    },
+    {
+      "msg": "Tarefa \"Tarefa Avaliativa (Entregar)\" adicionada",
+      "ts": "2026-05-09T23:25:48.198Z",
+      "color": "var(--green)"
+    },
+    {
+      "msg": "Tarefa \"Apresentar Desenvolvimento do Portfólio\" adicionada",
+      "ts": "2026-05-09T23:12:17.300Z",
+      "color": "var(--green)"
+    },
+    {
+      "msg": "Tarefa \"Projeto no Scratch (HAHAHAH)\" adicionada",
+      "ts": "2026-05-09T23:09:14.891Z",
+      "color": "var(--green)"
+    }
+  ],
+  "_meta": {
+    "author": "@FinatoDev",
+    "description": "IFSul",
+    "uploadedAt": "2026-05-10T03:01:40.355Z",
+    "materias": [
+      {
+        "id": "1776358374886",
+        "nome": "Algoritmos e Lógica de Programação",
+        "cor": "#5B6EF5"
+      },
+      {
+        "id": "1776358374887",
+        "nome": "Física",
+        "cor": "#D4613A"
+      },
+      {
+        "id": "1776358374888",
+        "nome": "Português",
+        "cor": "#7A6E5F"
+      },
+      {
+        "id": "1776358374889",
+        "nome": "Artes",
+        "cor": "#C0487A"
+      },
+      {
+        "id": "1776358605776",
+        "nome": "Química",
+        "cor": "#1E8FA8"
+      },
+      {
+        "id": "1776358605777",
+        "nome": "Iniciação Acadêmica",
+        "cor": "#3D8C5E"
+      },
+      {
+        "id": "1776358605778",
+        "nome": "Educação Física",
+        "cor": "#3D5A8A"
+      },
+      {
+        "id": "1776358605779",
+        "nome": "Língua Inglesa",
+        "cor": "#5B6EF5"
+      },
+      {
+        "id": "1776358605780",
+        "nome": "Matemática",
+        "cor": "#7A6E5F"
+      },
+      {
+        "id": "1776358605781",
+        "nome": "Filosofia",
+        "cor": "#C0487A"
+      },
+      {
+        "id": "1776358605782",
+        "nome": "História",
+        "cor": "#D4613A"
+      },
+      {
+        "id": "1776358605783",
+        "nome": "Espanhol",
+        "cor": "#8B4CA8"
+      }
+    ]
+  }
+}
