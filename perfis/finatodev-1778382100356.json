@@ -747,15 +747,39 @@
     {
       "id": "1778372431474",
       "topicoId": "1778372431473",
-      "titulo": "O conceito e a estrutura",
-      "texto": "Uma função é uma regra que conecta cada elemento de um conjunto A a exatamente um elemento de um conjunto B.\n\nDomínio, Contradomínio e Imagem\n\nDomínio (D): Conjunto de partida (os valores de $x$). Todos os elementos daqui precisam ter uma seta saindo.\n\nContradomínio (CD): Conjunto de chegada (onde as setas podem chegar).\n\nImagem (Img): Subconjunto do contradomínio formado apenas pelos elementos que realmente receberam uma seta.\n\nFunção de A em B (f: A -> B) Significa que a função pega valores em A e devolve resultados em B.",
+      "titulo": "O que é uma função?",
+      "texto": "Uma função f de A em B é uma relação em que cada elemento de A está associado a B.\n\nf: A -> B | f(x) = y\n\nAVISO: Se um X tiver dois y's, NÃO é função.\nSe um y aparecer em dois x's, tudo bem!\n\n\n",
       "arquivos": [],
       "data": "2026-05-10"
     },
     {
       "id": "1778372431475",
       "topicoId": "1778372431473",
-      "titulo": "",
+      "titulo": "D, CD e IM.",
+      "texto": "D (Domínio): Conjunto de todos os valores de entrada (x) que a função aceita: Conjunto A.\nx ∈ D\n\n\n\nCD (Contradomínio): Conjunto de todos os valores possíveis de saída declarados nem todos precisam ser atingidos: Conjunto B.\nCD ∈ B\n\nIm (Imagem): Conjunto dos valores de y que a função realmente assume. Sempre Im ⊆ CD: Subconjunto de B\nIm =  f(D)\n",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778382339268",
+      "topicoId": "1778372431473",
+      "titulo": "Como achar D?",
+      "texto": "1 Comece com ℝ (todos os reais).\n\n2 Denominador ≠ 0: se tiver fração, iguale o denominador a 0 e exclua esses valores.\n\n3 Raiz de índice par ≥ 0: o que está dentro da raiz deve ser ≥ 0. Resolva a inequação.\n\n4 Log: argumento > 0: o argumento do logaritmo deve ser estritamente positivo.\n\n5 Combine todas as restrições com interseção (∩).\n\n💡 Exemplo: f(x) = √(x−2) / (x−5) → raiz exige x≥2, denominador exige x≠5. Dom = [2,5) ∪ (5,+∞)",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778382339269",
+      "topicoId": "1778372431473",
+      "titulo": "Função Injetiva, Sobrejetiva e Bijetiva",
+      "texto": "Injetiva: Elementos distintos do domínio tem imagens distintas -> f(a) = f(b) -> a=b\nTeste: linha horizontal corta o gráfico no máx. 1 vez\n\nSobrejetiva: Im = Contradomínio, nenhum elemento de B fica \"sobrando\".\nIm(f) = B\nTodo elemento do CD aparece como destino de alguma seta.\n\nBijetiva: É sobrejetiva e injetiva. (Tem inversa)\n\nComo identificar na prova:\nInjetiva? Suponha f(a) = f(b) e tente provar que a = b, se conseguir é injetiva.\n\nSobrejetiva? Pegue qualquer y no CD e resolva f(x) = y e veja se existe solução em D. Se sempre tiver -> sobrejetiva. Ou: Im = CD.\n\nBijetiva? Se for as duas ao mesmo tempo.\n\n⚠️ f(x) = x² de ℝ em ℝ: NÃO é injetiva (f(2)=f(−2)=4) e NÃO é sobrejetiva (y=−1 não tem solução real).\n\n💡 f(x) = x² de ℝ₊ em ℝ₊: aí já é bijetiva! O domínio e contradomínio mudam tudo.\n",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778382339270",
+      "topicoId": "1778372431473",
+      "titulo": "Função Par",
       "texto": "",
       "arquivos": [],
       "data": "2026-05-10"
@@ -860,6 +884,11 @@
   },
   "arquivosMateria": {},
   "_log": [
+    {
+      "msg": "Salvo pelo administrador",
+      "ts": "2026-05-10T03:27:58.973Z",
+      "color": "var(--green)"
+    },
     {
       "msg": "Salvo pelo administrador",
       "ts": "2026-05-10T01:57:52.322Z",
