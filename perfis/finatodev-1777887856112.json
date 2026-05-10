@@ -392,6 +392,22 @@
       "texto": "Objeto lançado horizontalmente de uma altura, sem velocidade vertical inicial. Combina MRU na horizontal com queda livre na vertical — os dois acontecem ao mesmo tempo, independentemente.\nDecomposição:\nHorizontal (MRU):     x = V₀ · t          → velocidade horizontal constante\n\nVertical (queda livre): y = ½ · g · t²    → cai como se tivesse sido largado\n                        Vy = g · t\nVelocidade resultante em qualquer instante:\nV = √(V₀² + Vy²)\nExemplo:\nBola lançada horizontalmente a 15 m/s de uma altura de 20m. (g = 10 m/s²)\n\nTempo de queda (só depende da altura):\n  20 = ½ · 10 · t²  →  t = 2s\n\nAlcance horizontal:\n  x = 15 · 2 = 30m\n\nVelocidade vertical ao chegar:\n  Vy = 10 · 2 = 20 m/s\n\nVelocidade resultante:\n  V = √(15² + 20²) = √(225 + 400) = √625 = 25 m/s\n\nLançamento Oblíquo\nObjeto lançado com velocidade inicial em um ângulo θ em relação ao solo. É a generalização do lançamento horizontal — também decompõe em MRU (horizontal) e MRUV (vertical).\nDecomposição da velocidade inicial:\nV₀x = V₀ · cos(θ)    → componente horizontal (constante)\nV₀y = V₀ · sen(θ)    → componente vertical (varia com g)\nEquações:\nHorizontal (MRU):\n  x = V₀ · cos(θ) · t\n\nVertical (MRUV):\n  y = V₀·sen(θ)·t - ½·g·t²\n  Vy = V₀·sen(θ) - g·t\nGrandezas importantes:\nTempo de subida:    t(sub) = V₀·sen(θ) / g\n\nTempo total:        t(total) = 2 · t(sub)\n\nAltura máxima:      H = (V₀·sen(θ))² / (2·g)\n\nAlcance máximo:     R = V₀² · sen(2θ) / g\nÂngulo de maior alcance: 45° — é o ângulo que maximiza sen(2θ), pois sen(90°) = 1.\nÂngulos complementares têm o mesmo alcance: 30° e 60°, 20° e 70°, etc.\nExemplo:\nProjétil lançado a 40 m/s com θ = 30°. (g = 10 m/s²)\n\nV₀x = 40 · cos(30°) = 40 · 0,866 ≈ 34,6 m/s\nV₀y = 40 · sen(30°) = 40 · 0,5   = 20 m/s\n\nTempo total:\n  t = 2 · (20/10) = 4s\n\nAlcance:\n  R = 34,6 · 4 ≈ 138,4m\n  (ou R = 40² · sen(60°) / 10 = 1600 · 0,866 / 10 ≈ 138,6m)\n\nAltura máxima:\n  H = 20² / (2·10) = 400/20 = 20m",
       "arquivos": [],
       "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431421",
+      "topicoId": "1776358605809",
+      "titulo": "MCU (Movimento Circular Uniforme)",
+      "texto": "Movimento em trajetória circular com velocidade escalar (módulo) constante. A velocidade vetorial muda de direção o tempo todo — por isso existe aceleração mesmo com módulo constante.\nGrandezas:\nT  → período (tempo de uma volta completa) — em segundos\nf  → frequência (voltas por segundo) — em Hz\nω  → velocidade angular (rad/s)\nv  → velocidade linear (m/s)\nr  → raio da trajetória\nRelações:\nf = 1 / T                    → frequência e período são inversos\n\nω = 2π / T = 2π · f          → velocidade angular\n\nv = ω · r                    → velocidade linear a partir da angular\n\nac = v² / r = ω² · r         → aceleração centrípeta (aponta pro centro)\nAceleração centrípeta: sempre aponta para o centro da circunferência. Não muda o módulo da velocidade, só a direção.\nExemplo:\nObjeto em círculo de raio 2m, completando uma volta a cada 4s.\n\nT = 4s\nf = 1/4 = 0,25 Hz\nω = 2π/4 = π/2 ≈ 1,57 rad/s\nv = 1,57 · 2 ≈ 3,14 m/s\nac = 3,14² / 2 ≈ 4,93 m/s²",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778372431422",
+      "topicoId": "1776358605809",
+      "titulo": "MCUV (Movimento Circular Uniforme Variado)",
+      "texto": "Movimento circular com aceleração angular constante — a velocidade angular aumenta ou diminui uniformemente. É o análogo rotacional do MRUV.\nFórmulas (espelho exato do MRUV, mas com grandezas angulares):\nMRUV linear    →    MCUV angular\n\nv = v₀ + a·t        ω = ω₀ + α·t\ns = s₀+v₀t+½at²     θ = θ₀ + ω₀·t + ½·α·t²\nv² = v₀²+2a∆s       ω² = ω₀² + 2·α·∆θ\n\nα (alfa) → aceleração angular (rad/s²)\nθ (theta) → posição angular (rad)\n∆θ → deslocamento angular\n\nRelação com grandezas lineares:\na(tangencial) = α · r    → aceleração que muda o módulo da velocidade\na(centrípeta) = v² / r   → aceleração que muda a direção\n\na(resultante) = √(a²tang + a²cent)   → aceleração total no MCUV\nExemplo:\nRoda parte do repouso com α = 2 rad/s².\nVelocidade angular após 5s:\n  ω = 0 + 2 · 5 = 10 rad/s\n\nÂngulo percorrido:\n  θ = 0 + 0·5 + ½·2·25 = 25 rad\n\nSe o raio for 0,5m:\n  v = 10 · 0,5 = 5 m/s\n  a(tang) = 2 · 0,5 = 1 m/s²",
+      "arquivos": [],
+      "data": "2026-05-10"
     }
   ],
   "tarefas": [
@@ -487,6 +503,11 @@
   },
   "arquivosMateria": {},
   "_log": [
+    {
+      "msg": "Salvo pelo administrador",
+      "ts": "2026-05-10T00:56:22.647Z",
+      "color": "var(--green)"
+    },
     {
       "msg": "Salvo pelo administrador",
       "ts": "2026-05-10T00:55:09.477Z",
