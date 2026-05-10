@@ -304,13 +304,6 @@
       "titulo": "Intellj IDEA",
       "texto": "",
       "arquivos": []
-    },
-    {
-      "id": "1776851405008",
-      "topicoId": "1776731210811",
-      "titulo": "Pycharm",
-      "texto": "",
-      "arquivos": []
     }
   ],
   "tarefas": [
@@ -406,6 +399,11 @@
   },
   "arquivosMateria": {},
   "_log": [
+    {
+      "msg": "Salvo pelo administrador",
+      "ts": "2026-05-10T00:36:37.608Z",
+      "color": "var(--green)"
+    },
     {
       "msg": "Salvo pelo administrador",
       "ts": "2026-05-10T00:25:03.822Z",
