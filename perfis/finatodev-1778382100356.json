@@ -791,6 +791,38 @@
       "texto": "f(-x) = -f(x) para todo x\n\nO gráfico é simétrico em relação à origem (0,0).\n\nExemplos: f(x) = x³, f(x)=sen(x), f(x)=x\n\nPasso a passo para determinar paridade:\n\n1 Verifique se o domínio é simétrico em relação à origem (ex.: ℝ ou [−a, a]). Se não for, a função não é par nem ímpar.\n\n2 Calcule f(−x) substituindo cada x por (−x) na fórmula.\n\n3 Compare: f(−x) = f(x)? → par. f(−x) = −f(x)? → ímpar. Nenhum dos dois? → nem par, nem ímpar.\n\n⚠️ f(x) = x² + x não é par nem ímpar: f(−x) = x²−x, que é diferente de f(x) e de −f(x).\n💡 Dica de prova: funções com apenas potências pares são par. Apenas potências ímpares são ímpar. Mistura → nem par nem ímpar (salvo exceções).",
       "arquivos": [],
       "data": "2026-05-10"
+    },
+    {
+      "id": "1778382339272",
+      "topicoId": "1778372431473",
+      "titulo": "Crescente",
+      "texto": "a < b -> f(a) < f(b)\nSobe da esq. p dir.",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778382339273",
+      "topicoId": "1778372431473",
+      "titulo": "Decrescente",
+      "texto": "a < b -> f(a) > f(b)\nDesce da esq. p/dir.",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778382339274",
+      "topicoId": "1778372431473",
+      "titulo": "Constante",
+      "texto": "a < b -> f(a) = f(b)\nReta horizontal\n\nComo identificar monotonia na prova\n1\nPela derivada (cálculo): f'(x) > 0 → crescente; f'(x) < 0 → decrescente; f'(x) = 0 → constante.\n2\nSem derivada (ensino médio): pegue dois pontos a < b no intervalo e compare f(a) e f(b). Se f(a) < f(b) → crescente.\n3\nPelo gráfico: da esquerda pra direita, o gráfico sobe (↗), desce (↘) ou fica na mesma (→)?",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778382339275",
+      "topicoId": "1778372431473",
+      "titulo": "Função Inversa",
+      "texto": "Função Inversa — f⁻¹\nA inversa \"desfaz\" o que f faz. Se f(a) = b, então f⁻¹(b) = a.\n\n⚠️ Só existe inversa se f for bijetiva! Se não for, é preciso restringir o domínio.\nComo calcular a inversa — passo a passo\n\n1 Escreva y = f(x).\n\n2 Troque x e y de lugar: x = f(y).\n\n3 Isole y — esse y isolado é f⁻¹(x).\n\n4 O domínio de f⁻¹ é a imagem de f, e vice-versa.\n\nExemplo: f(x) = 2x + 3\ny = 2x+3 → x = 2y+3 → y = (x−3)/2\n∴ f⁻¹(x) = (x−3)/2\n\nPropriedades-chave da inversa\n• f⁻¹(f(x)) = x para todo x ∈ Dom(f)\n\n• f(f⁻¹(x)) = x para todo x ∈ Dom(f⁻¹)\n\n• O gráfico de f⁻¹ é o reflexo de f na reta y = x\n\n💡 Para verificar: se calcular f⁻¹ e depois aplicar f no resultado, deve voltar ao x original.\n",
+      "arquivos": [],
+      "data": "2026-05-10"
     }
   ],
   "tarefas": [
@@ -892,6 +924,11 @@
   },
   "arquivosMateria": {},
   "_log": [
+    {
+      "msg": "Salvo pelo administrador",
+      "ts": "2026-05-10T03:36:59.206Z",
+      "color": "var(--green)"
+    },
     {
       "msg": "Salvo pelo administrador",
       "ts": "2026-05-10T03:31:13.303Z",
@@ -1135,11 +1172,6 @@
     {
       "msg": "Tarefa \"Apresentar Desenvolvimento do Portfólio\" adicionada",
       "ts": "2026-05-09T23:12:17.300Z",
-      "color": "var(--green)"
-    },
-    {
-      "msg": "Tarefa \"Projeto no Scratch (HAHAHAH)\" adicionada",
-      "ts": "2026-05-09T23:09:14.891Z",
       "color": "var(--green)"
     }
   ],
