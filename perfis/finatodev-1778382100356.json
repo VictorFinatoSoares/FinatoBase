@@ -723,8 +723,8 @@
     {
       "id": "1778372431468",
       "topicoId": "1776361386103",
-      "titulo": "Re",
-      "texto": "",
+      "titulo": "Principais conjuntos numéricos",
+      "texto": "Naturais (N): números usados para contar.\nExemplo: 0,1,2,3,4...\n\nInteiros (Z): incluem os negativos.\nExemplo: −3,−2,−1,0,1,2...\n\nRacionais (Q): números que podem ser escritos como fração.\nExemplo: 2/1 , 3.25...\n\nIrracionais (I): não podem ser escritos como fração exata.\nExemplo: π\n\t​\nReais (R): união dos racionais e irracionais.",
       "arquivos": [],
       "data": "2026-05-10"
     },
@@ -839,6 +839,70 @@
       "texto": "A função afim é uma reta. Dois parâmetros controlam tudo:\n\nf(x) = ax + b\n\nParâmetro a (coeficiente angular):\n\na>0 -> crescente (sobe) | a<0 -> decrescente (desce) | a=0 -> constante\n\nParâmetro b (coeficiente linear):\nOnde a reta corta o eixo Y.  f(0) = b.\n\nCasos especiais:\nb = 0: função linear f(x) = ax, passa pela origem.\n\na=0, b diferente de 0: função constante (fx) = b\n\nPasso a passo: Resolver problemas com função afim:\n\n1. Encontrar f(x) = ax + b com 2 pontos: substitua cada ponto e monte um sistema de equação\n\n2. Zero da função (raiz): iguale f(x) = 0 -> x = -b/a . É onde a reta corta o eixo x.\n\n3. Sinal da função: se a>0, f(x)>0 quando x > -b/a; f(x) < 0 quando x < -b/a\nInverta se a <0\n\n4. Valor de x para um dado y: substitua y e resolva para x: x = (y - b)/a\n\n💡 Exemplo: f(x) = 2x − 4. Zero: 2x−4=0 → x=2. Crescente (a=2>0). f(3)=2. f(−1)=−6.\n\nDado dois pontos (x₁,y₁) e (x₂,y₂): a = (y₂−y₁)/(x₂−x₁) , b = y₁ − a·x₁\n",
       "arquivos": [],
       "data": "2026-05-10"
+    },
+    {
+      "id": "1778382339278",
+      "topicoId": "1776361386103",
+      "titulo": "Operações entre Conjuntos",
+      "texto": "União (∪)\n\nA união junta todos os elementos de dois conjuntos, sem repetir.\n\nSe:\n\nA={1,2,3}\nB={3,4,5}\n\nEntão:\n\nA∪B={1,2,3,4,5}\n\nA união pega tudo que está em A ou em B.\n\nInterseção (∩)\n\nA interseção pega apenas os elementos que aparecem nos dois conjuntos ao mesmo tempo.\n\nUsando os mesmos conjuntos:\n\nA∩B={3}\n\nA∩B={3}\n\nOu seja, o número 3 é comum aos dois conjuntos.\n\nDiferença de conjuntos\n\nA diferença mostra os elementos que estão em um conjunto e não estão no outro.\n\nA−B={1,2}\n\nPorque 1 e 2 estão em A, mas não em B.\n\nJá:\n\nB−A={4,5}\n\nImportante:\ndiferença não é comutativa.\nA - B é diferente de B-A\n\n\n\n",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778382339279",
+      "topicoId": "1776361386103",
+      "titulo": "Complementar",
+      "texto": "O complementar de um conjunto são os elementos que pertencem ao conjunto universo, mas não pertencem ao conjunto analisado.\n\nExemplo:\n\nU={1,2,3,4,5,6}\nA={1,2,3}\n\nO complementar de A é:\n\nAc ={4,5,6}",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778382339280",
+      "topicoId": "1776361386103",
+      "titulo": "Unitário (ou uniforme)",
+      "texto": "É um conjunto que possui apenas um único elemento.\n\nExemplo:\n\nA={7}\n\nEsse conjunto é unitário porque só tem o número 7.",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778382339281",
+      "topicoId": "1776361386103",
+      "titulo": "Comparação ",
+      "texto": "Dois conjuntos podem ser comparados de várias formas.\n\nIgualdade\n\nDois conjuntos são iguais quando possuem exatamente os mesmos elementos.\n\nA={1,2,3}\nB={3,2,1}\n\nMesmo em ordens diferentes, eles são iguais.\n\nA=B\n\nPorque em conjuntos a ordem não importa.",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778382339282",
+      "topicoId": "1776361386103",
+      "titulo": "Subconjunto",
+      "texto": "Um conjunto é subconjunto de outro quando todos os seus elementos pertencem ao outro conjunto.\n\nA={1,2}\nB={1,2,3,4}\n\nEntão:\n\nA⊂B\n\nA⊂B",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778382339283",
+      "topicoId": "1776361386103",
+      "titulo": "Intervalos",
+      "texto": "Intervalos representam conjuntos de números reais entre determinados valores.\n\nIntervalo fechado\n\nInclui os extremos.\n\n[1,5]\n\nSignifica:\n\n1≤x≤5\n\nInclui 1 e 5.\n\nIntervalo aberto\n\nNão inclui os extremos.\n\n]1,5[\n\nou\n\n(1,5)\n\nSignifica:\n\n1<x<5\nIntervalo semiaberto\n\nInclui apenas um extremo.\n\n[1,5[\n\nSignifica:\n\n1≤x<5",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778382339284",
+      "topicoId": "1776361386103",
+      "titulo": "Relação entre Intervalos e Conjuntos",
+      "texto": "Os intervalos são uma forma especial de representar conjuntos numéricos infinitos.\n\nPor exemplo:\n\nA={x∈R∣0≤x≤10}\n\nPode ser escrito como:\n\nA=[0,10]\n\nOu seja, todos os números reais entre 0 e 10.",
+      "arquivos": [],
+      "data": "2026-05-10"
+    },
+    {
+      "id": "1778382339285",
+      "topicoId": "1776361386103",
+      "titulo": "Ideia principal",
+      "texto": "Conjuntos servem para:\n\norganizar elementos;\ncomparar grupos;\nrepresentar relações matemáticas;\ndefinir domínios e intervalos;\nresolver problemas lógicos e algébricos.\n\nEssas operações aparecem bastante em:\n\nálgebra;\nprobabilidade;\nlógica;\nprogramação;\nbancos de dados;\nanálise de gráficos e funções.",
+      "arquivos": [],
+      "data": "2026-05-10"
     }
   ],
   "tarefas": [
@@ -940,6 +1004,11 @@
   },
   "arquivosMateria": {},
   "_log": [
+    {
+      "msg": "Salvo pelo administrador",
+      "ts": "2026-05-10T03:50:52.336Z",
+      "color": "var(--green)"
+    },
     {
       "msg": "Salvo pelo administrador",
       "ts": "2026-05-10T03:42:48.192Z",
@@ -1184,11 +1253,6 @@
       "msg": "Nota rápida adicionada",
       "ts": "2026-05-09T23:27:28.109Z",
       "color": "var(--text2)"
-    },
-    {
-      "msg": "Tarefa \"Tarefa Avaliativa (Entregar)\" adicionada",
-      "ts": "2026-05-09T23:25:48.198Z",
-      "color": "var(--green)"
     }
   ],
   "_meta": {
