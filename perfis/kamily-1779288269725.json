@@ -1,0 +1,111 @@
+{
+  "id": "profile_1779288256551",
+  "nome": "Meu Perfil",
+  "arquivo": "perfil.json",
+  "materias": [
+    {
+      "id": "1776102803627",
+      "nome": "Educação física",
+      "cor": "#5B6EF5"
+    },
+    {
+      "id": "1776252785520",
+      "nome": "Iniciação acadêmica",
+      "cor": "#5B6EF5"
+    }
+  ],
+  "topicos": [
+    {
+      "id": "1776252785518",
+      "materiaId": "1776102803627",
+      "nome": "Ed Física Militar",
+      "cor": "#5B6EF5",
+      "destacado": false
+    },
+    {
+      "id": "1776252785521",
+      "materiaId": "1776252785520",
+      "nome": "Professores.  Roberto Sobrinho. Roberto Klering.  Camila. Matheus  Paulo Otto. Carla Amaral. João Antônio. Antônio. Inessa. Nilton. Débora. Melissa.",
+      "cor": "#5B6EF5",
+      "destacado": false
+    }
+  ],
+  "anotacoes": [
+    {
+      "id": "1776252785519",
+      "topicoId": "1776252785518",
+      "titulo": "Militarismo",
+      "texto": "Criado para treinar os corpos pra guerra \n",
+      "arquivos": []
+    },
+    {
+      "id": "1778539946484",
+      "topicoId": "1776252785521",
+      "titulo": "devorathais@if.edu.gov.br.",
+      "texto": "Paulotavares@if.edu.gov.br\nCarlaamaral@if.edu.gov.br\nRobertosobrinho@if.edu.gov.br\nMelissarosa@if.edu.gov.br\nRobertoklering@if.edu.gov.br",
+      "arquivos": []
+    }
+  ],
+  "tarefas": [
+    {
+      "id": "1776102803628",
+      "texto": "Prova sem consulta em dupla",
+      "prazoCompleto": "2026-04-14T9 horas da manhã :00",
+      "materiaId": null,
+      "prioridade": "media",
+      "feita": true
+    },
+    {
+      "id": "1776102803629",
+      "texto": "Portifólio de iniciação acadêmica",
+      "prazoCompleto": "2026-04-15 de abril T08:08 e 15 da manhã.:00",
+      "materiaId": "1776102803627",
+      "prioridade": "alta",
+      "feita": false
+    },
+    {
+      "id": "1776102803630",
+      "texto": "Foguete",
+      "prazoCompleto": "2026-04-1405 de maioT08:00:00",
+      "materiaId": "1776102803627",
+      "prioridade": "alta",
+      "feita": false
+    }
+  ],
+  "notasRapidas": [
+    {
+      "id": "1776099727754",
+      "texto": "Eu tenho prova.",
+      "data": "2026-04-13"
+    }
+  ],
+  "streak": {
+    "lastDate": "2026-05-20",
+    "count": 1
+  },
+  "conquistas": [
+    "primeiro_topico",
+    "streak_3"
+  ],
+  "nextId": 1,
+  "anotacoesMinimizadas": {},
+  "arquivosMateria": {},
+  "chats": [],
+  "_meta": {
+    "author": "@Kamily",
+    "description": "IFSul",
+    "uploadedAt": "2026-05-20T14:44:29.721Z",
+    "materias": [
+      {
+        "id": "1776102803627",
+        "nome": "Educação física",
+        "cor": "#5B6EF5"
+      },
+      {
+        "id": "1776252785520",
+        "nome": "Iniciação acadêmica",
+        "cor": "#5B6EF5"
+      }
+    ]
+  }
+}
